@@ -3,7 +3,7 @@
   <title></title>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
-    <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" mutually-exclusive="1" name="Materials" mutually-exclusive-child="2">
+    <layer-tree-group expanded="0" checked="Qt::Unchecked" mutually-exclusive="1" name="Materials" mutually-exclusive-child="2">
       <customproperties/>
       <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="buildings20151127143605864" name="Building Status">
         <customproperties>
@@ -15,7 +15,7 @@
           <property key="showFeatureCount" value="1"/>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::PartiallyChecked" id="buildings20151127113743520" name="Building Material">
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="buildings20151127113743520" name="Building Material">
         <customproperties>
           <property key="showFeatureCount" value="1"/>
         </customproperties>
@@ -26,7 +26,7 @@
         </customproperties>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="Buildings">
+    <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Buildings">
       <customproperties/>
       <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="buildings20151122102420057" name="Period">
         <customproperties/>
@@ -47,7 +47,7 @@
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
-      <layer-tree-layer expanded="0" checked="Qt::Checked" id="buildings20151119152444499" name="Architectural Typology">
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="buildings20151119152444499" name="Architectural Typology">
         <customproperties>
           <property key="showFeatureCount" value="1"/>
         </customproperties>
@@ -63,13 +63,16 @@
         <property key="showFeatureCount" value="1"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-group expanded="1" checked="Qt::Checked" name="Historic">
+    <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Historic">
       <customproperties/>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="Baumann_1897_modified20160105131027383" name="Baumann 1897">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="Baumann_1897_Online20160105173841113" name="Baumann 1897 Online">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Baumann_1897_modified20160105131027383" name="Baumann 1897">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="1" checked="Qt::Checked" name="Baselayer">
+    <layer-tree-group expanded="0" checked="Qt::Checked" name="Baselayer">
       <customproperties/>
       <layer-tree-layer expanded="1" checked="Qt::Checked" id="shops20151122112206587" name="shops">
         <customproperties/>
@@ -96,10 +99,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>4361810.10366309992969036</xmin>
-      <ymin>-688141.81851575989276171</ymin>
-      <xmax>4365292.57463540136814117</xmax>
-      <ymax>-686116.70559312636032701</ymax>
+      <xmin>4361773.6645849384367466</xmin>
+      <ymin>-688825.64312492299359292</ymin>
+      <xmax>4365256.13555723987519741</xmax>
+      <ymax>-686145.71690344077069312</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -135,6 +138,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads20151120105828916"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="BuildingWithShops20151121204811737"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="buildings20151122103415906"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Baumann_1897_Online20160105173841113"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20151119145629093"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="buildings20151119145857462"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Building_Function_copy20151120160803456"/>
@@ -165,10 +169,11 @@
       <item>buildings20151127143605864</item>
       <item>buildings20151128114749041</item>
       <item>Baumann_1897_modified20160105131027383</item>
+      <item>Baumann_1897_Online20160105173841113</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
-    <legendgroup open="false" checked="Qt::PartiallyChecked" name="Materials">
+    <legendgroup open="false" checked="Qt::Unchecked" name="Materials">
       <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Building Status" showFeatureCount="1">
         <filegroup open="false" hidden="false">
           <legendlayerfile isInOverview="0" layerid="buildings20151127143605864" visible="0"/>
@@ -179,7 +184,7 @@
           <legendlayerfile isInOverview="0" layerid="buildings20151128114749041" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::PartiallyChecked" name="Building Material" showFeatureCount="1">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Building Material" showFeatureCount="1">
         <filegroup open="false" hidden="false">
           <legendlayerfile isInOverview="0" layerid="buildings20151127113743520" visible="0"/>
         </filegroup>
@@ -190,7 +195,7 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="false" checked="Qt::PartiallyChecked" name="Buildings">
+    <legendgroup open="false" checked="Qt::Unchecked" name="Buildings">
       <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Period" showFeatureCount="0">
         <filegroup open="false" hidden="false">
           <legendlayerfile isInOverview="0" layerid="buildings20151122102420057" visible="0"/>
@@ -213,9 +218,9 @@
           </filegroup>
         </legendlayer>
       </legendgroup>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Architectural Typology" showFeatureCount="1">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Architectural Typology" showFeatureCount="1">
         <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="buildings20151119152444499" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="buildings20151119152444499" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Architectural Style" showFeatureCount="1">
@@ -229,14 +234,19 @@
         <legendlayerfile isInOverview="0" layerid="UrbanTypologies20151119144142295" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendgroup open="true" checked="Qt::Checked" name="Historic">
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Baumann 1897" showFeatureCount="0">
+    <legendgroup open="true" checked="Qt::PartiallyChecked" name="Historic">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Baumann 1897 Online" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="Baumann_1897_modified20160105131027383" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="Baumann_1897_Online20160105173841113" visible="1"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Baumann 1897" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="Baumann_1897_modified20160105131027383" visible="0"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="true" checked="Qt::Checked" name="Baselayer">
+    <legendgroup open="false" checked="Qt::Checked" name="Baselayer">
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="shops" showFeatureCount="0">
         <filegroup open="true" hidden="false">
           <legendlayerfile isInOverview="0" layerid="shops20151122112206587" visible="1"/>
@@ -299,7 +309,7 @@
             <styleFont description="Ubuntu,12,-1,5,50,0,0,0,0,0" style=""/>
           </style>
         </styles>
-        <ComposerItem pagey="1049.3" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="66.5717" y="1049.3" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="120.8" outlineWidth="0.3" excludeFromExports="0" uuid="{d98c76d0-6312-4129-92ce-6d2ae066368d}" height="772.3" itemRotation="0" frame="false" pagex="66.5717">
+        <ComposerItem pagey="1049.3" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="66.5717" y="1049.3" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="120.8" outlineWidth="0.3" excludeFromExports="0" uuid="{d98c76d0-6312-4129-92ce-6d2ae066368d}" height="779.8" itemRotation="0" frame="false" pagex="66.5717">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -1362,7 +1372,7 @@
       <customproperties/>
     </Composition>
   </Composer>
-  <projectlayers layercount="17">
+  <projectlayers layercount="18">
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>Architectural_Style_copy20151120073152017</id>
       <datasource>dbname='./Ngambo.osm.db' table="buildings" (geometry) sql="building:architecture" NOT NULL  </datasource>
@@ -2012,6 +2022,47 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
+    </maplayer>
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>Baumann_1897_Online20160105173841113</id>
+      <datasource>contextualWMSLegend=0&amp;crs=EPSG:4326&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=geonode:baumann_1897_modified&amp;styles=&amp;url=http://demo.geonode.org/geoserver/wms</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Baumann 1897 Online</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Html"/>
+      </customproperties>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="0.705882" alphaBand="0" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>Baumann_1897_modified20160105131027383</id>
