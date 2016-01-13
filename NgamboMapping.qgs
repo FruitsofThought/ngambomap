@@ -26,7 +26,7 @@
         </customproperties>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Buildings">
+    <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Buildings">
       <customproperties/>
       <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="buildings20151122102420057" name="Period">
         <customproperties>
@@ -49,7 +49,7 @@
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
-      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="buildings20151119152444499" name="Architectural Typology">
+      <layer-tree-layer expanded="0" checked="Qt::Checked" id="buildings20151119152444499" name="Architectural Typology">
         <customproperties>
           <property key="showFeatureCount" value="1"/>
         </customproperties>
@@ -65,15 +65,18 @@
         <property key="showFeatureCount" value="1"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-group expanded="0" checked="Qt::Unchecked" mutually-exclusive="1" name="Historic" mutually-exclusive-child="1">
+    <layer-tree-group expanded="0" checked="Qt::Unchecked" mutually-exclusive="1" name="Historic" mutually-exclusive-child="3">
       <customproperties/>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="ZNA_Post_Revolution_developments_1973_modified20160113142504650" name="1973 ZNA Post Revolution developments">
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="ZNA_Post_Revolution_developments_1973_modified20160113142504650" name="1973 Post Revolution Developments">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="1960_bnw_modified20160112131901836" name="1960 Land Surveys Zanzibar">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Baumann_1897_modified20160105131027383" name="1897 Baumann">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="ZNZ_1846_Guillain_modified20160113173059465" name="1846 Guillain">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
@@ -104,10 +107,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>4361245.28931775130331516</xmin>
-      <ymin>-689230.55069670709781349</ymin>
-      <xmax>4366271.0035001989454031</xmax>
-      <ymax>-686550.48828572523780167</ymax>
+      <xmin>4361431.60381691064685583</xmin>
+      <ymin>-689249.65987610805314034</ymin>
+      <xmax>4366457.31799935828894377</xmax>
+      <ymax>-686569.59746512619312853</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -138,6 +141,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="1960_bnw_modified_compressed20160112125723058"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="BuildingWithShops220151121070733352"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="BuildingWithShops20151120161305435"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ZNZ_1846_Guillain_modified20160113173059465"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20151119135524818"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Unsureveyed_Buildings_copy20151120074023101"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="buildings2201511191356030001290805310"/>
@@ -155,6 +159,7 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Building_Function_copy20151120065529422"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="BuildingWithShops20151120161454646"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="UrbanTypologies20151119144142295"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ZNA_Post_Revolution_developments_1973_modified20160113142504650"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="shops20151122111721733"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
@@ -179,6 +184,7 @@
       <item>Baumann_1897_modified20160105131027383</item>
       <item>1960_bnw_modified20160112131901836</item>
       <item>ZNA_Post_Revolution_developments_1973_modified20160113142504650</item>
+      <item>ZNZ_1846_Guillain_modified20160113173059465</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
@@ -204,7 +210,7 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="true" checked="Qt::Unchecked" name="Buildings">
+    <legendgroup open="true" checked="Qt::PartiallyChecked" name="Buildings">
       <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Period" showFeatureCount="1">
         <filegroup open="false" hidden="false">
           <legendlayerfile isInOverview="0" layerid="buildings20151122102420057" visible="0"/>
@@ -227,9 +233,9 @@
           </filegroup>
         </legendlayer>
       </legendgroup>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Architectural Typology" showFeatureCount="1">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Architectural Typology" showFeatureCount="1">
         <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="buildings20151119152444499" visible="0"/>
+          <legendlayerfile isInOverview="0" layerid="buildings20151119152444499" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Architectural Style" showFeatureCount="1">
@@ -244,7 +250,7 @@
       </filegroup>
     </legendlayer>
     <legendgroup open="false" checked="Qt::Unchecked" name="Historic">
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="1973 ZNA Post Revolution developments" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="1973 Post Revolution Developments" showFeatureCount="0">
         <filegroup open="true" hidden="false">
           <legendlayerfile isInOverview="0" layerid="ZNA_Post_Revolution_developments_1973_modified20160113142504650" visible="0"/>
         </filegroup>
@@ -257,6 +263,11 @@
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="1897 Baumann" showFeatureCount="0">
         <filegroup open="true" hidden="false">
           <legendlayerfile isInOverview="0" layerid="Baumann_1897_modified20160105131027383" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="1846 Guillain" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="ZNZ_1846_Guillain_modified20160113173059465" visible="0"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
@@ -323,7 +334,7 @@
             <styleFont description="Ubuntu,12,-1,5,50,0,0,0,0,0" style=""/>
           </style>
         </styles>
-        <ComposerItem pagey="1049.3" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="66.5717" y="1049.3" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="91.5" outlineWidth="0.3" excludeFromExports="0" uuid="{d98c76d0-6312-4129-92ce-6d2ae066368d}" height="2324.8" itemRotation="0" frame="false" pagex="66.5717">
+        <ComposerItem pagey="1049.3" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="66.5717" y="1049.3" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="91.5" outlineWidth="0.3" excludeFromExports="0" uuid="{d98c76d0-6312-4129-92ce-6d2ae066368d}" height="2344.3" itemRotation="0" frame="false" pagex="66.5717">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -1386,7 +1397,7 @@
       <customproperties/>
     </Composition>
   </Composer>
-  <Composer title="UrbanTypologiesA1BlackAndWhite" visible="1">
+  <Composer title="UrbanTypologiesA1BlackAndWhite" visible="0">
     <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" alignmentSnap="1" printResolution="700" paperWidth="594" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="1" generateWorldFile="0" paperHeight="841" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
       <symbol alpha="1" clip_to_extent="1" type="fill" name="">
         <layer pass="0" class="SimpleFill" locked="0">
@@ -3760,7 +3771,7 @@
       <customproperties/>
     </Composition>
   </Composer>
-  <projectlayers layercount="19">
+  <projectlayers layercount="20">
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>1960_bnw_modified20160112131901836</id>
       <datasource>./Tiffs/1960 bnw_modified.tif</datasource>
@@ -6860,7 +6871,7 @@
         </edittype>
       </edittypes>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>ZNA_Post_Revolution_developments_1973_modified20160113142504650</id>
       <datasource>./Tiffs/ZNA Post Revolution developments 1973_modified.tif</datasource>
       <title></title>
@@ -6868,7 +6879,7 @@
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>1973 ZNA Post Revolution developments</layername>
+      <layername>1973 Post Revolution Developments</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -6894,12 +6905,58 @@
         <map-layer-style name=""/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+        <rasterrenderer opacity="1" alphaBand="0" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
           <rasterTransparency/>
         </rasterrenderer>
         <brightnesscontrast brightness="0" contrast="0"/>
         <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-        <rasterresampler maxOversampling="2"/>
+        <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear" zoomedInResampler="cubic"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>ZNZ_1846_Guillain_modified20160113173059465</id>
+      <datasource>./Tiffs/ZNZ 1846 Guillain_modified.tif</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>1846 Guillain</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="-1" type="singlebandgray" grayBand="1">
+          <rasterTransparency/>
+          <contrastEnhancement>
+            <minValue>24</minValue>
+            <maxValue>232</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear" zoomedInResampler="cubic"/>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
