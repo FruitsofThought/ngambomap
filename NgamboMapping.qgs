@@ -26,7 +26,7 @@
         </customproperties>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Buildings">
+    <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Buildings">
       <customproperties/>
       <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="buildings20151122102420057" name="Period">
         <customproperties>
@@ -49,12 +49,12 @@
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
-      <layer-tree-layer expanded="0" checked="Qt::Checked" id="buildings20151119152444499" name="Architectural Typology">
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="buildings20151119152444499" name="Architectural Typology">
         <customproperties>
           <property key="showFeatureCount" value="1"/>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Checked" id="Architectural_Style_copy20151120073152017" name="Architectural Style">
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Architectural_Style_copy20151120073152017" name="Architectural Style">
         <customproperties>
           <property key="showFeatureCount" value="1"/>
         </customproperties>
@@ -65,24 +65,27 @@
         <property key="showFeatureCount" value="1"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-group expanded="1" checked="Qt::Unchecked" mutually-exclusive="1" name="Historic" mutually-exclusive-child="0">
+    <layer-tree-group expanded="0" checked="Qt::Unchecked" mutually-exclusive="1" name="Historic" mutually-exclusive-child="1">
       <customproperties/>
-      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="1960_bnw_modified20160112131901836" name="1960 bnw_modified">
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="ZNA_Post_Revolution_developments_1973_modified20160113142504650" name="1973 ZNA Post Revolution developments">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Baumann_1897_modified20160105131027383" name="Baumann 1897">
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="1960_bnw_modified20160112131901836" name="1960 Land Surveys Zanzibar">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Baumann_1897_modified20160105131027383" name="1897 Baumann">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" name="Baselayer">
+    <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Baselayer">
       <customproperties/>
       <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="shops20151122112206587" name="shops">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="roads20151120105828916" name="Roads">
+      <layer-tree-layer expanded="0" checked="Qt::Checked" id="roads20151120105828916" name="Roads">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="roads_copy20151120110959869" name="Other Line Things">
+      <layer-tree-layer expanded="0" checked="Qt::Checked" id="roads_copy20151120110959869" name="Other Line Things">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="1" checked="Qt::Checked" id="Building_Function_copy20151120065529422" name="Unsurveyed Buildings">
@@ -101,10 +104,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>4362394.9031548798084259</xmin>
-      <ymin>-688281.56251168588642031</ymin>
-      <xmax>4364907.49338244274258614</xmax>
-      <ymax>-686941.67361656913999468</ymax>
+      <xmin>4361245.28931775130331516</xmin>
+      <ymin>-689230.55069670709781349</ymin>
+      <xmax>4366271.0035001989454031</xmax>
+      <ymax>-686550.48828572523780167</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -175,6 +178,7 @@
       <item>buildings20151128114749041</item>
       <item>Baumann_1897_modified20160105131027383</item>
       <item>1960_bnw_modified20160112131901836</item>
+      <item>ZNA_Post_Revolution_developments_1973_modified20160113142504650</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
@@ -200,7 +204,7 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="true" checked="Qt::PartiallyChecked" name="Buildings">
+    <legendgroup open="true" checked="Qt::Unchecked" name="Buildings">
       <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Period" showFeatureCount="1">
         <filegroup open="false" hidden="false">
           <legendlayerfile isInOverview="0" layerid="buildings20151122102420057" visible="0"/>
@@ -223,14 +227,14 @@
           </filegroup>
         </legendlayer>
       </legendgroup>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Architectural Typology" showFeatureCount="1">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Architectural Typology" showFeatureCount="1">
         <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="buildings20151119152444499" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="buildings20151119152444499" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Architectural Style" showFeatureCount="1">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Architectural Style" showFeatureCount="1">
         <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="Architectural_Style_copy20151120073152017" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="Architectural_Style_copy20151120073152017" visible="0"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
@@ -239,32 +243,37 @@
         <legendlayerfile isInOverview="0" layerid="UrbanTypologies20151119144142295" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendgroup open="true" checked="Qt::Unchecked" name="Historic">
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="1960 bnw_modified" showFeatureCount="0">
+    <legendgroup open="false" checked="Qt::Unchecked" name="Historic">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="1973 ZNA Post Revolution developments" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="ZNA_Post_Revolution_developments_1973_modified20160113142504650" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="1960 Land Surveys Zanzibar" showFeatureCount="0">
         <filegroup open="false" hidden="false">
           <legendlayerfile isInOverview="0" layerid="1960_bnw_modified20160112131901836" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Baumann 1897" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="1897 Baumann" showFeatureCount="0">
         <filegroup open="true" hidden="false">
           <legendlayerfile isInOverview="0" layerid="Baumann_1897_modified20160105131027383" visible="0"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="false" checked="Qt::PartiallyChecked" name="Baselayer">
+    <legendgroup open="true" checked="Qt::PartiallyChecked" name="Baselayer">
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="shops" showFeatureCount="0">
         <filegroup open="true" hidden="false">
           <legendlayerfile isInOverview="0" layerid="shops20151122112206587" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Roads" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Roads" showFeatureCount="0">
         <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="roads20151120105828916" visible="0"/>
+          <legendlayerfile isInOverview="0" layerid="roads20151120105828916" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Other Line Things" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Other Line Things" showFeatureCount="0">
         <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="roads_copy20151120110959869" visible="0"/>
+          <legendlayerfile isInOverview="0" layerid="roads_copy20151120110959869" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Unsurveyed Buildings" showFeatureCount="1">
@@ -279,62 +288,6 @@
       </legendlayer>
     </legendgroup>
   </legend>
-  <mapcanvas>
-    <units>meters</units>
-    <extent>
-      <xmin>4361886.05549469497054815</xmin>
-      <ymin>-689228.03331994265317917</ymin>
-      <xmax>4364806.13461700174957514</xmax>
-      <ymax>-686548.10709845926612616</ymax>
-    </extent>
-    <rotation>0</rotation>
-    <projections>1</projections>
-    <destinationsrs>
-      <spatialrefsys>
-        <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
-        <srsid>3857</srsid>
-        <srid>3857</srid>
-        <authid>EPSG:3857</authid>
-        <description>WGS 84 / Pseudo Mercator</description>
-        <projectionacronym>merc</projectionacronym>
-        <ellipsoidacronym>WGS84</ellipsoidacronym>
-        <geographicflag>false</geographicflag>
-      </spatialrefsys>
-    </destinationsrs>
-    <layer_coordinate_transform_info>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="1960_bnw_modified20160112130437945"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Baumann_1897_modified20160105131027383"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="shops20151122112206587"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="buildings20151120152010885"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="buildings20151127143605864"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads20151122111638345"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="BuildingWithShops320151121070932993"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="buildings20151128114749041"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="buildings20151119152444499"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="shops20151120154534806"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="1960_bnw_modified_compressed20160112125723058"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="BuildingWithShops220151121070733352"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="BuildingWithShops20151120161305435"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20151119135524818"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Unsureveyed_Buildings_copy20151120074023101"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="buildings2201511191356030001290805310"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Architectural_Style_copy20151120073152017"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="buildings20151127113743520"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads20151120105828916"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="BuildingWithShops20151121204811737"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="buildings20151122103415906"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Baumann_1897_Online20160105173841113"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20151119145629093"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="buildings20151119145857462"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Building_Function_copy20151120160803456"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads_copy20151120110959869"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="buildings20151122102420057"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Building_Function_copy20151120065529422"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="BuildingWithShops20151120161454646"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="UrbanTypologies20151119144142295"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="shops20151122111721733"/>
-    </layer_coordinate_transform_info>
-  </mapcanvas>
   <Composer title="Architectural Style" visible="0">
     <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" alignmentSnap="1" printResolution="600" paperWidth="841" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="1" generateWorldFile="0" paperHeight="1189" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
       <symbol alpha="1" clip_to_extent="1" type="fill" name="">
@@ -370,7 +323,7 @@
             <styleFont description="Ubuntu,12,-1,5,50,0,0,0,0,0" style=""/>
           </style>
         </styles>
-        <ComposerItem pagey="1049.3" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="66.5717" y="1049.3" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="91.5" outlineWidth="0.3" excludeFromExports="0" uuid="{d98c76d0-6312-4129-92ce-6d2ae066368d}" height="2317.3" itemRotation="0" frame="false" pagex="66.5717">
+        <ComposerItem pagey="1049.3" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="66.5717" y="1049.3" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="91.5" outlineWidth="0.3" excludeFromExports="0" uuid="{d98c76d0-6312-4129-92ce-6d2ae066368d}" height="2324.8" itemRotation="0" frame="false" pagex="66.5717">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -1450,6 +1403,50 @@
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
+      <ComposerScaleBar lineCapStyle="square" style="Single Box" numMapUnitsPerScaleBarUnit="1000" segmentSizeMode="0" alignment="0" numSegments="4" segmentMillimeters="30.0348" lineJoinStyle="miter" minBarWidth="50" numUnitsPerSegment="100" units="1" labelBarSpace="3" outlineWidth="1" numSegmentsLeft="2" maxBarWidth="150" height="3" boxContentSpace="1" mapId="0" unitLabel="km">
+        <scaleBarFont description="Ubuntu,12,-1,5,50,0,0,0,0,0" style=""/>
+        <fillColor alpha="255" red="0" blue="0" green="0"/>
+        <fillColor2 alpha="255" red="255" blue="255" green="255"/>
+        <strokeColor alpha="255" red="0" blue="0" green="0"/>
+        <textColor alpha="255" red="0" blue="0" green="0"/>
+        <ComposerItem pagey="788.874" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="21.4547" y="788.874" visibility="1" zValue="4" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="166.774" outlineWidth="0.3" excludeFromExports="0" uuid="{cd8ddb98-c442-455b-9b8e-c7cb3ffff3d2}" height="20" itemRotation="0" frame="false" pagex="21.4547">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerScaleBar>
+      <ComposerLegend symbolWidth="7" title="Legend" rasterBorderWidth="0" titleAlignment="1" map="0" wmsLegendWidth="50" rasterBorderColor="0,0,0,255" wrapChar="" fontColor="#000000" columnCount="1" legendFilterByMap="1" wmsLegendHeight="25" columnSpace="2" symbolHeight="4" equalColumnWidth="0" splitLayer="0" boxSpace="2" rasterBorder="1">
+        <styles>
+          <style marginBottom="2" name="title">
+            <styleFont description="Ubuntu,16,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+          <style marginTop="2" name="group">
+            <styleFont description="Ubuntu,14,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+          <style marginTop="2" name="subgroup">
+            <styleFont description="Ubuntu,12,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+          <style marginTop="2" name="symbol">
+            <styleFont description="Ubuntu,9,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+          <style marginTop="2" marginLeft="2" name="symbolLabel">
+            <styleFont description="Ubuntu,12,-1,5,50,0,0,0,0,0" style=""/>
+          </style>
+        </styles>
+        <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+          <customproperties/>
+          <layer-tree-layer expanded="0" checked="Qt::Checked" id="UrbanTypologies20151119144142295" name="Urban Typology">
+            <customproperties>
+              <property key="showFeatureCount" value="1"/>
+            </customproperties>
+          </layer-tree-layer>
+        </layer-tree-group>
+        <ComposerItem pagey="759.168" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="473.542" y="759.168" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="63.4" outlineWidth="0.3" excludeFromExports="0" uuid="{c304b06d-077b-4400-b8f2-19e5b2b57b21}" height="73.3" itemRotation="0" frame="false" pagex="473.542">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerLegend>
       <ComposerMap mapRotation="0" keepLayerSet="true" id="0" previewMode="Render" drawCanvasItems="false">
         <Extent ymin="-688486.62681615212932229" xmin="4362649.76608196925371885" ymax="-686305.02238292875699699" xmax="4364307.40315657574683428"/>
         <LayerSet>
@@ -3745,7 +3742,7 @@
           <annotationFontProperties description="Ubuntu,9,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
-        <ComposerItem pagey="94.767" page="1" id="" lastValidViewScaleFactor="0.605927" positionMode="0" positionLock="false" x="70.042" y="94.767" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="495" outlineWidth="0.3" excludeFromExports="0" uuid="{1455193a-2ece-45cb-a8d3-8b0f9172dd55}" height="651.466" itemRotation="0" frame="false" pagex="70.042">
+        <ComposerItem pagey="94.767" page="1" id="" lastValidViewScaleFactor="1.21185" positionMode="0" positionLock="false" x="70.042" y="94.767" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="495" outlineWidth="0.3" excludeFromExports="0" uuid="{1455193a-2ece-45cb-a8d3-8b0f9172dd55}" height="651.466" itemRotation="0" frame="false" pagex="70.042">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -3763,7 +3760,7 @@
       <customproperties/>
     </Composition>
   </Composer>
-  <projectlayers layercount="18">
+  <projectlayers layercount="19">
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>1960_bnw_modified20160112131901836</id>
       <datasource>./Tiffs/1960 bnw_modified.tif</datasource>
@@ -3772,7 +3769,7 @@
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>1960 bnw_modified</layername>
+      <layername>1960 Land Surveys Zanzibar</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -4699,7 +4696,7 @@
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Baumann 1897</layername>
+      <layername>1897 Baumann</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -6862,6 +6859,49 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>ZNA_Post_Revolution_developments_1973_modified20160113142504650</id>
+      <datasource>./Tiffs/ZNA Post Revolution developments 1973_modified.tif</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>1973 ZNA Post Revolution developments</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>buildings20151119152444499</id>
