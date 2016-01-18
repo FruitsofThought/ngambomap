@@ -1,22 +1,22 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="Ng'ambo Mapping" version="2.12.2-Lyon">
+<qgis projectname="Ng'ambo Mapping" version="2.12.3-Lyon">
   <title>Ng'ambo Mapping</title>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
-    <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Future">
+    <layer-tree-group expanded="0" checked="Qt::Checked" name="Future">
       <customproperties/>
-      <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Green">
+      <layer-tree-group expanded="0" checked="Qt::Checked" name="Green">
         <customproperties/>
-        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="WaterCatchments20160113203307455" name="Water Catchments">
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="WaterCatchments20160113203307455" name="Water Catchments">
           <customproperties/>
         </layer-tree-layer>
       </layer-tree-group>
     </layer-tree-group>
-    <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Buildings">
+    <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Buildings">
       <customproperties/>
-      <layer-tree-group expanded="1" checked="Qt::Unchecked" mutually-exclusive="1" name="Materials" mutually-exclusive-child="2">
+      <layer-tree-group expanded="1" checked="Qt::Unchecked" mutually-exclusive="1" name="Materials" mutually-exclusive-child="0">
         <customproperties/>
-        <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="buildings20151127143605864" name="Building Status">
+        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="buildings20151127143605864" name="Building Condition">
           <customproperties>
             <property key="showFeatureCount" value="1"/>
           </customproperties>
@@ -37,12 +37,12 @@
           </customproperties>
         </layer-tree-layer>
       </layer-tree-group>
-      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="buildings20151122102420057" name="Period">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="buildings20151122102420057" name="Period">
         <customproperties>
           <property key="showFeatureCount" value="1"/>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Building Function">
+      <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Building Function">
         <customproperties/>
         <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="BuildingWithShops20151121204811737" name="MixedUsage">
           <customproperties>
@@ -69,12 +69,12 @@
         </customproperties>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="UrbanTypologies20151119144142295" name="Urban Typology">
+    <layer-tree-layer expanded="0" checked="Qt::Checked" id="UrbanTypologies20151119144142295" name="Urban Typology">
       <customproperties>
         <property key="showFeatureCount" value="1"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-group expanded="0" checked="Qt::Unchecked" mutually-exclusive="1" name="Historic" mutually-exclusive-child="3">
+    <layer-tree-group expanded="1" checked="Qt::Unchecked" mutually-exclusive="1" name="Historic" mutually-exclusive-child="1">
       <customproperties/>
       <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="ZNA_Post_Revolution_developments_1973_modified20160113142504650" name="1973 Post Revolution Developments">
         <customproperties/>
@@ -89,38 +89,38 @@
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="0" checked="Qt::Checked" name="Leisure &amp; Green">
+    <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Leisure &amp; Green">
       <customproperties/>
-      <layer-tree-layer expanded="0" checked="Qt::Checked" id="leisure201601141659509751751221639" name="Leisure">
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="leisure201601141659509751751221639" name="Leisure">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Checked" id="naturalareas20160114013621352" name="Natural Areas">
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="naturalareas20160114013621352" name="Natural Areas">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="tourismareas20160114013617132" name="Tourism">
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="tourismareas20160114013617132" name="Tourism">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Baselayer">
+    <layer-tree-group expanded="1" checked="Qt::Checked" name="Baselayer">
       <customproperties/>
-      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="waterways20160114013610610" name="waterways">
+      <layer-tree-layer expanded="0" checked="Qt::Checked" id="waterways20160114013610610" name="Waterways">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="shops20151122112206587" name="shops">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="shops20151122112206587" name="Shops">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="roads20151120105828916" name="Roads">
+      <layer-tree-layer expanded="0" checked="Qt::Checked" id="roads20151120105828916" name="Roads">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="roads_copy20151120110959869" name="Other Line Things">
+      <layer-tree-layer expanded="0" checked="Qt::Checked" id="roads_copy20151120110959869" name="Other Line Things">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Building_Function_copy20151120065529422" name="Unsurveyed Buildings">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="Building_Function_copy20151120065529422" name="Unsurveyed Buildings">
         <customproperties>
           <property key="showFeatureCount" value="1"/>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Unsureveyed_Buildings_copy20151120074023101" name="Buildings">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="Unsureveyed_Buildings_copy20151120074023101" name="Buildings">
         <customproperties>
           <property key="showFeatureCount" value="1"/>
         </customproperties>
@@ -131,10 +131,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>4362726.72646052483469248</xmin>
-      <ymin>-688324.70787803747225553</ymin>
-      <xmax>4365239.31668808776885271</xmax>
-      <ymax>-686984.8189829207258299</ymax>
+      <xmin>4362955.35105909779667854</xmin>
+      <ymin>-689104.08948324911762029</ymin>
+      <xmax>4365172.99679424427449703</xmax>
+      <ymax>-686424.16326176526490599</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -224,19 +224,19 @@
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
-    <legendgroup open="false" checked="Qt::Unchecked" name="Future">
-      <legendgroup open="false" checked="Qt::Unchecked" name="Green">
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Water Catchments" showFeatureCount="0">
+    <legendgroup open="false" checked="Qt::Checked" name="Future">
+      <legendgroup open="false" checked="Qt::Checked" name="Green">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Water Catchments" showFeatureCount="0">
           <filegroup open="true" hidden="false">
-            <legendlayerfile isInOverview="0" layerid="WaterCatchments20160113203307455" visible="0"/>
+            <legendlayerfile isInOverview="0" layerid="WaterCatchments20160113203307455" visible="1"/>
           </filegroup>
         </legendlayer>
       </legendgroup>
     </legendgroup>
-    <legendgroup open="false" checked="Qt::Unchecked" name="Buildings">
+    <legendgroup open="true" checked="Qt::PartiallyChecked" name="Buildings">
       <legendgroup open="true" checked="Qt::Unchecked" name="Materials">
-        <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Building Status" showFeatureCount="1">
-          <filegroup open="false" hidden="false">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Building Condition" showFeatureCount="1">
+          <filegroup open="true" hidden="false">
             <legendlayerfile isInOverview="0" layerid="buildings20151127143605864" visible="0"/>
           </filegroup>
         </legendlayer>
@@ -256,12 +256,12 @@
           </filegroup>
         </legendlayer>
       </legendgroup>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Period" showFeatureCount="1">
-        <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="buildings20151122102420057" visible="0"/>
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Period" showFeatureCount="1">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="buildings20151122102420057" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendgroup open="false" checked="Qt::Unchecked" name="Building Function">
+      <legendgroup open="true" checked="Qt::Unchecked" name="Building Function">
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="MixedUsage" showFeatureCount="1">
           <filegroup open="true" hidden="false">
             <legendlayerfile isInOverview="0" layerid="BuildingWithShops20151121204811737" visible="0"/>
@@ -289,12 +289,12 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Urban Typology" showFeatureCount="1">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Urban Typology" showFeatureCount="1">
       <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="UrbanTypologies20151119144142295" visible="0"/>
+        <legendlayerfile isInOverview="0" layerid="UrbanTypologies20151119144142295" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendgroup open="false" checked="Qt::Unchecked" name="Historic">
+    <legendgroup open="true" checked="Qt::Unchecked" name="Historic">
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="1973 Post Revolution Developments" showFeatureCount="0">
         <filegroup open="true" hidden="false">
           <legendlayerfile isInOverview="0" layerid="ZNA_Post_Revolution_developments_1973_modified20160113142504650" visible="0"/>
@@ -316,52 +316,52 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="false" checked="Qt::Checked" name="Leisure &amp; Green">
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Leisure" showFeatureCount="0">
+    <legendgroup open="false" checked="Qt::Unchecked" name="Leisure &amp; Green">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Leisure" showFeatureCount="0">
         <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="leisure201601141659509751751221639" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="leisure201601141659509751751221639" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Natural Areas" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Natural Areas" showFeatureCount="0">
         <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="naturalareas20160114013621352" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="naturalareas20160114013621352" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Tourism" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Tourism" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="tourismareas20160114013617132" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="tourismareas20160114013617132" visible="0"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="true" checked="Qt::Unchecked" name="Baselayer">
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="waterways" showFeatureCount="0">
+    <legendgroup open="true" checked="Qt::Checked" name="Baselayer">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Waterways" showFeatureCount="0">
         <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="waterways20160114013610610" visible="0"/>
+          <legendlayerfile isInOverview="0" layerid="waterways20160114013610610" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="shops" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Shops" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="shops20151122112206587" visible="0"/>
+          <legendlayerfile isInOverview="0" layerid="shops20151122112206587" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Roads" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Roads" showFeatureCount="0">
         <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="roads20151120105828916" visible="0"/>
+          <legendlayerfile isInOverview="0" layerid="roads20151120105828916" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Other Line Things" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Other Line Things" showFeatureCount="0">
         <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="roads_copy20151120110959869" visible="0"/>
+          <legendlayerfile isInOverview="0" layerid="roads_copy20151120110959869" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Unsurveyed Buildings" showFeatureCount="1">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Unsurveyed Buildings" showFeatureCount="1">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="Building_Function_copy20151120065529422" visible="0"/>
+          <legendlayerfile isInOverview="0" layerid="Building_Function_copy20151120065529422" visible="1"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Buildings" showFeatureCount="1">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Buildings" showFeatureCount="1">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="Unsureveyed_Buildings_copy20151120074023101" visible="0"/>
+          <legendlayerfile isInOverview="0" layerid="Unsureveyed_Buildings_copy20151120074023101" visible="1"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
@@ -401,7 +401,7 @@
             <styleFont description="Ubuntu,12,-1,5,50,0,0,0,0,0" style=""/>
           </style>
         </styles>
-        <ComposerItem pagey="1049.3" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="66.5717" y="1049.3" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="91.5" outlineWidth="0.3" excludeFromExports="0" uuid="{d98c76d0-6312-4129-92ce-6d2ae066368d}" height="2463.1" itemRotation="0" frame="false" pagex="66.5717">
+        <ComposerItem pagey="1049.3" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="66.5717" y="1049.3" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="91.5" outlineWidth="0.3" excludeFromExports="0" uuid="{d98c76d0-6312-4129-92ce-6d2ae066368d}" height="952.6" itemRotation="0" frame="false" pagex="66.5717">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -1623,275 +1623,19 @@
       <provider>gdal</provider>
       <noData>
         <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
       </noData>
       <map-layer-style-manager current="">
         <map-layer-style name=""/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer opacity="0.498039" alphaBand="-1" band="1" type="paletted">
+        <rasterrenderer opacity="0.498039" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
           <rasterTransparency/>
-          <colorPalette>
-            <paletteEntry value="0" color="#ffffff" label="0"/>
-            <paletteEntry value="1" color="#000000" label="1"/>
-            <paletteEntry value="2" color="#000000" label="2"/>
-            <paletteEntry value="3" color="#000000" label="3"/>
-            <paletteEntry value="4" color="#000000" label="4"/>
-            <paletteEntry value="5" color="#000000" label="5"/>
-            <paletteEntry value="6" color="#000000" label="6"/>
-            <paletteEntry value="7" color="#000000" label="7"/>
-            <paletteEntry value="8" color="#000000" label="8"/>
-            <paletteEntry value="9" color="#000000" label="9"/>
-            <paletteEntry value="10" color="#000000" label="10"/>
-            <paletteEntry value="11" color="#000000" label="11"/>
-            <paletteEntry value="12" color="#000000" label="12"/>
-            <paletteEntry value="13" color="#000000" label="13"/>
-            <paletteEntry value="14" color="#000000" label="14"/>
-            <paletteEntry value="15" color="#000000" label="15"/>
-            <paletteEntry value="16" color="#000000" label="16"/>
-            <paletteEntry value="17" color="#000000" label="17"/>
-            <paletteEntry value="18" color="#000000" label="18"/>
-            <paletteEntry value="19" color="#000000" label="19"/>
-            <paletteEntry value="20" color="#000000" label="20"/>
-            <paletteEntry value="21" color="#000000" label="21"/>
-            <paletteEntry value="22" color="#000000" label="22"/>
-            <paletteEntry value="23" color="#000000" label="23"/>
-            <paletteEntry value="24" color="#000000" label="24"/>
-            <paletteEntry value="25" color="#000000" label="25"/>
-            <paletteEntry value="26" color="#000000" label="26"/>
-            <paletteEntry value="27" color="#000000" label="27"/>
-            <paletteEntry value="28" color="#000000" label="28"/>
-            <paletteEntry value="29" color="#000000" label="29"/>
-            <paletteEntry value="30" color="#000000" label="30"/>
-            <paletteEntry value="31" color="#000000" label="31"/>
-            <paletteEntry value="32" color="#000000" label="32"/>
-            <paletteEntry value="33" color="#000000" label="33"/>
-            <paletteEntry value="34" color="#000000" label="34"/>
-            <paletteEntry value="35" color="#000000" label="35"/>
-            <paletteEntry value="36" color="#000000" label="36"/>
-            <paletteEntry value="37" color="#000000" label="37"/>
-            <paletteEntry value="38" color="#000000" label="38"/>
-            <paletteEntry value="39" color="#000000" label="39"/>
-            <paletteEntry value="40" color="#000000" label="40"/>
-            <paletteEntry value="41" color="#000000" label="41"/>
-            <paletteEntry value="42" color="#000000" label="42"/>
-            <paletteEntry value="43" color="#000000" label="43"/>
-            <paletteEntry value="44" color="#000000" label="44"/>
-            <paletteEntry value="45" color="#000000" label="45"/>
-            <paletteEntry value="46" color="#000000" label="46"/>
-            <paletteEntry value="47" color="#000000" label="47"/>
-            <paletteEntry value="48" color="#000000" label="48"/>
-            <paletteEntry value="49" color="#000000" label="49"/>
-            <paletteEntry value="50" color="#000000" label="50"/>
-            <paletteEntry value="51" color="#000000" label="51"/>
-            <paletteEntry value="52" color="#000000" label="52"/>
-            <paletteEntry value="53" color="#000000" label="53"/>
-            <paletteEntry value="54" color="#000000" label="54"/>
-            <paletteEntry value="55" color="#000000" label="55"/>
-            <paletteEntry value="56" color="#000000" label="56"/>
-            <paletteEntry value="57" color="#000000" label="57"/>
-            <paletteEntry value="58" color="#000000" label="58"/>
-            <paletteEntry value="59" color="#000000" label="59"/>
-            <paletteEntry value="60" color="#000000" label="60"/>
-            <paletteEntry value="61" color="#000000" label="61"/>
-            <paletteEntry value="62" color="#000000" label="62"/>
-            <paletteEntry value="63" color="#000000" label="63"/>
-            <paletteEntry value="64" color="#000000" label="64"/>
-            <paletteEntry value="65" color="#000000" label="65"/>
-            <paletteEntry value="66" color="#000000" label="66"/>
-            <paletteEntry value="67" color="#000000" label="67"/>
-            <paletteEntry value="68" color="#000000" label="68"/>
-            <paletteEntry value="69" color="#000000" label="69"/>
-            <paletteEntry value="70" color="#000000" label="70"/>
-            <paletteEntry value="71" color="#000000" label="71"/>
-            <paletteEntry value="72" color="#000000" label="72"/>
-            <paletteEntry value="73" color="#000000" label="73"/>
-            <paletteEntry value="74" color="#000000" label="74"/>
-            <paletteEntry value="75" color="#000000" label="75"/>
-            <paletteEntry value="76" color="#000000" label="76"/>
-            <paletteEntry value="77" color="#000000" label="77"/>
-            <paletteEntry value="78" color="#000000" label="78"/>
-            <paletteEntry value="79" color="#000000" label="79"/>
-            <paletteEntry value="80" color="#000000" label="80"/>
-            <paletteEntry value="81" color="#000000" label="81"/>
-            <paletteEntry value="82" color="#000000" label="82"/>
-            <paletteEntry value="83" color="#000000" label="83"/>
-            <paletteEntry value="84" color="#000000" label="84"/>
-            <paletteEntry value="85" color="#000000" label="85"/>
-            <paletteEntry value="86" color="#000000" label="86"/>
-            <paletteEntry value="87" color="#000000" label="87"/>
-            <paletteEntry value="88" color="#000000" label="88"/>
-            <paletteEntry value="89" color="#000000" label="89"/>
-            <paletteEntry value="90" color="#000000" label="90"/>
-            <paletteEntry value="91" color="#000000" label="91"/>
-            <paletteEntry value="92" color="#000000" label="92"/>
-            <paletteEntry value="93" color="#000000" label="93"/>
-            <paletteEntry value="94" color="#000000" label="94"/>
-            <paletteEntry value="95" color="#000000" label="95"/>
-            <paletteEntry value="96" color="#000000" label="96"/>
-            <paletteEntry value="97" color="#000000" label="97"/>
-            <paletteEntry value="98" color="#000000" label="98"/>
-            <paletteEntry value="99" color="#000000" label="99"/>
-            <paletteEntry value="100" color="#000000" label="100"/>
-            <paletteEntry value="101" color="#000000" label="101"/>
-            <paletteEntry value="102" color="#000000" label="102"/>
-            <paletteEntry value="103" color="#000000" label="103"/>
-            <paletteEntry value="104" color="#000000" label="104"/>
-            <paletteEntry value="105" color="#000000" label="105"/>
-            <paletteEntry value="106" color="#000000" label="106"/>
-            <paletteEntry value="107" color="#000000" label="107"/>
-            <paletteEntry value="108" color="#000000" label="108"/>
-            <paletteEntry value="109" color="#000000" label="109"/>
-            <paletteEntry value="110" color="#000000" label="110"/>
-            <paletteEntry value="111" color="#000000" label="111"/>
-            <paletteEntry value="112" color="#000000" label="112"/>
-            <paletteEntry value="113" color="#000000" label="113"/>
-            <paletteEntry value="114" color="#000000" label="114"/>
-            <paletteEntry value="115" color="#000000" label="115"/>
-            <paletteEntry value="116" color="#000000" label="116"/>
-            <paletteEntry value="117" color="#000000" label="117"/>
-            <paletteEntry value="118" color="#000000" label="118"/>
-            <paletteEntry value="119" color="#000000" label="119"/>
-            <paletteEntry value="120" color="#000000" label="120"/>
-            <paletteEntry value="121" color="#000000" label="121"/>
-            <paletteEntry value="122" color="#000000" label="122"/>
-            <paletteEntry value="123" color="#000000" label="123"/>
-            <paletteEntry value="124" color="#000000" label="124"/>
-            <paletteEntry value="125" color="#000000" label="125"/>
-            <paletteEntry value="126" color="#000000" label="126"/>
-            <paletteEntry value="127" color="#000000" label="127"/>
-            <paletteEntry value="128" color="#000000" label="128"/>
-            <paletteEntry value="129" color="#000000" label="129"/>
-            <paletteEntry value="130" color="#000000" label="130"/>
-            <paletteEntry value="131" color="#000000" label="131"/>
-            <paletteEntry value="132" color="#000000" label="132"/>
-            <paletteEntry value="133" color="#000000" label="133"/>
-            <paletteEntry value="134" color="#000000" label="134"/>
-            <paletteEntry value="135" color="#000000" label="135"/>
-            <paletteEntry value="136" color="#000000" label="136"/>
-            <paletteEntry value="137" color="#000000" label="137"/>
-            <paletteEntry value="138" color="#000000" label="138"/>
-            <paletteEntry value="139" color="#000000" label="139"/>
-            <paletteEntry value="140" color="#000000" label="140"/>
-            <paletteEntry value="141" color="#000000" label="141"/>
-            <paletteEntry value="142" color="#000000" label="142"/>
-            <paletteEntry value="143" color="#000000" label="143"/>
-            <paletteEntry value="144" color="#000000" label="144"/>
-            <paletteEntry value="145" color="#000000" label="145"/>
-            <paletteEntry value="146" color="#000000" label="146"/>
-            <paletteEntry value="147" color="#000000" label="147"/>
-            <paletteEntry value="148" color="#000000" label="148"/>
-            <paletteEntry value="149" color="#000000" label="149"/>
-            <paletteEntry value="150" color="#000000" label="150"/>
-            <paletteEntry value="151" color="#000000" label="151"/>
-            <paletteEntry value="152" color="#000000" label="152"/>
-            <paletteEntry value="153" color="#000000" label="153"/>
-            <paletteEntry value="154" color="#000000" label="154"/>
-            <paletteEntry value="155" color="#000000" label="155"/>
-            <paletteEntry value="156" color="#000000" label="156"/>
-            <paletteEntry value="157" color="#000000" label="157"/>
-            <paletteEntry value="158" color="#000000" label="158"/>
-            <paletteEntry value="159" color="#000000" label="159"/>
-            <paletteEntry value="160" color="#000000" label="160"/>
-            <paletteEntry value="161" color="#000000" label="161"/>
-            <paletteEntry value="162" color="#000000" label="162"/>
-            <paletteEntry value="163" color="#000000" label="163"/>
-            <paletteEntry value="164" color="#000000" label="164"/>
-            <paletteEntry value="165" color="#000000" label="165"/>
-            <paletteEntry value="166" color="#000000" label="166"/>
-            <paletteEntry value="167" color="#000000" label="167"/>
-            <paletteEntry value="168" color="#000000" label="168"/>
-            <paletteEntry value="169" color="#000000" label="169"/>
-            <paletteEntry value="170" color="#000000" label="170"/>
-            <paletteEntry value="171" color="#000000" label="171"/>
-            <paletteEntry value="172" color="#000000" label="172"/>
-            <paletteEntry value="173" color="#000000" label="173"/>
-            <paletteEntry value="174" color="#000000" label="174"/>
-            <paletteEntry value="175" color="#000000" label="175"/>
-            <paletteEntry value="176" color="#000000" label="176"/>
-            <paletteEntry value="177" color="#000000" label="177"/>
-            <paletteEntry value="178" color="#000000" label="178"/>
-            <paletteEntry value="179" color="#000000" label="179"/>
-            <paletteEntry value="180" color="#000000" label="180"/>
-            <paletteEntry value="181" color="#000000" label="181"/>
-            <paletteEntry value="182" color="#000000" label="182"/>
-            <paletteEntry value="183" color="#000000" label="183"/>
-            <paletteEntry value="184" color="#000000" label="184"/>
-            <paletteEntry value="185" color="#000000" label="185"/>
-            <paletteEntry value="186" color="#000000" label="186"/>
-            <paletteEntry value="187" color="#000000" label="187"/>
-            <paletteEntry value="188" color="#000000" label="188"/>
-            <paletteEntry value="189" color="#000000" label="189"/>
-            <paletteEntry value="190" color="#000000" label="190"/>
-            <paletteEntry value="191" color="#000000" label="191"/>
-            <paletteEntry value="192" color="#000000" label="192"/>
-            <paletteEntry value="193" color="#000000" label="193"/>
-            <paletteEntry value="194" color="#000000" label="194"/>
-            <paletteEntry value="195" color="#000000" label="195"/>
-            <paletteEntry value="196" color="#000000" label="196"/>
-            <paletteEntry value="197" color="#000000" label="197"/>
-            <paletteEntry value="198" color="#000000" label="198"/>
-            <paletteEntry value="199" color="#000000" label="199"/>
-            <paletteEntry value="200" color="#000000" label="200"/>
-            <paletteEntry value="201" color="#000000" label="201"/>
-            <paletteEntry value="202" color="#000000" label="202"/>
-            <paletteEntry value="203" color="#000000" label="203"/>
-            <paletteEntry value="204" color="#000000" label="204"/>
-            <paletteEntry value="205" color="#000000" label="205"/>
-            <paletteEntry value="206" color="#000000" label="206"/>
-            <paletteEntry value="207" color="#000000" label="207"/>
-            <paletteEntry value="208" color="#000000" label="208"/>
-            <paletteEntry value="209" color="#000000" label="209"/>
-            <paletteEntry value="210" color="#000000" label="210"/>
-            <paletteEntry value="211" color="#000000" label="211"/>
-            <paletteEntry value="212" color="#000000" label="212"/>
-            <paletteEntry value="213" color="#000000" label="213"/>
-            <paletteEntry value="214" color="#000000" label="214"/>
-            <paletteEntry value="215" color="#000000" label="215"/>
-            <paletteEntry value="216" color="#000000" label="216"/>
-            <paletteEntry value="217" color="#000000" label="217"/>
-            <paletteEntry value="218" color="#000000" label="218"/>
-            <paletteEntry value="219" color="#000000" label="219"/>
-            <paletteEntry value="220" color="#000000" label="220"/>
-            <paletteEntry value="221" color="#000000" label="221"/>
-            <paletteEntry value="222" color="#000000" label="222"/>
-            <paletteEntry value="223" color="#000000" label="223"/>
-            <paletteEntry value="224" color="#000000" label="224"/>
-            <paletteEntry value="225" color="#000000" label="225"/>
-            <paletteEntry value="226" color="#000000" label="226"/>
-            <paletteEntry value="227" color="#000000" label="227"/>
-            <paletteEntry value="228" color="#000000" label="228"/>
-            <paletteEntry value="229" color="#000000" label="229"/>
-            <paletteEntry value="230" color="#000000" label="230"/>
-            <paletteEntry value="231" color="#000000" label="231"/>
-            <paletteEntry value="232" color="#000000" label="232"/>
-            <paletteEntry value="233" color="#000000" label="233"/>
-            <paletteEntry value="234" color="#000000" label="234"/>
-            <paletteEntry value="235" color="#000000" label="235"/>
-            <paletteEntry value="236" color="#000000" label="236"/>
-            <paletteEntry value="237" color="#000000" label="237"/>
-            <paletteEntry value="238" color="#000000" label="238"/>
-            <paletteEntry value="239" color="#000000" label="239"/>
-            <paletteEntry value="240" color="#000000" label="240"/>
-            <paletteEntry value="241" color="#000000" label="241"/>
-            <paletteEntry value="242" color="#000000" label="242"/>
-            <paletteEntry value="243" color="#000000" label="243"/>
-            <paletteEntry value="244" color="#000000" label="244"/>
-            <paletteEntry value="245" color="#000000" label="245"/>
-            <paletteEntry value="246" color="#000000" label="246"/>
-            <paletteEntry value="247" color="#000000" label="247"/>
-            <paletteEntry value="248" color="#000000" label="248"/>
-            <paletteEntry value="249" color="#000000" label="249"/>
-            <paletteEntry value="250" color="#000000" label="250"/>
-            <paletteEntry value="251" color="#000000" label="251"/>
-            <paletteEntry value="252" color="#000000" label="252"/>
-            <paletteEntry value="253" color="#000000" label="253"/>
-            <paletteEntry value="254" color="#000000" label="254"/>
-            <paletteEntry value="255" color="#000000" label="255"/>
-          </colorPalette>
         </rasterrenderer>
         <brightnesscontrast brightness="0" contrast="0"/>
         <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-        <rasterresampler maxOversampling="2"/>
+        <rasterresampler maxOversampling="2" zoomedInResampler="bilinear"/>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
@@ -1999,9 +1743,6 @@
         <edittype widgetv2type="TextEdit" name="roof:colour">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="roof:levels">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="roof:material">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -2014,10 +1755,19 @@
         <edittype widgetv2type="TextEdit" name="shop">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="source:date">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="start_date">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="tourism">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="website">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="wikipedia">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -2518,9 +2268,6 @@
         <edittype widgetv2type="TextEdit" name="roof:colour">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="roof:levels">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="roof:material">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -2533,10 +2280,19 @@
         <edittype widgetv2type="TextEdit" name="shop">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="source:date">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="start_date">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="tourism">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="website">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="wikipedia">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -2950,9 +2706,6 @@
         <edittype widgetv2type="TextEdit" name="roof:colour">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="roof:levels">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="roof:material">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -2965,10 +2718,19 @@
         <edittype widgetv2type="TextEdit" name="shop">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="source:date">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="start_date">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="tourism">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="website">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="wikipedia">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -3286,9 +3048,6 @@
         <edittype widgetv2type="TextEdit" name="roof:colour">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="roof:levels">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="roof:material">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -3301,10 +3060,19 @@
         <edittype widgetv2type="TextEdit" name="shop">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="source:date">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="start_date">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="tourism">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="website">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="wikipedia">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -3413,9 +3181,6 @@
         <edittype widgetv2type="TextEdit" name="roof:colour">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="roof:levels">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="roof:material">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -3428,10 +3193,19 @@
         <edittype widgetv2type="TextEdit" name="shop">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="source:date">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="start_date">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="tourism">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="website">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="wikipedia">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -3725,9 +3499,6 @@
         <edittype widgetv2type="TextEdit" name="roof:colour">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="roof:levels">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="roof:material">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -3740,10 +3511,19 @@
         <edittype widgetv2type="TextEdit" name="shop">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="source:date">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="start_date">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="tourism">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="website">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="wikipedia">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -5201,9 +4981,6 @@
         <edittype widgetv2type="TextEdit" name="roof:colour">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="roof:levels">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="roof:material">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -5216,10 +4993,19 @@
         <edittype widgetv2type="TextEdit" name="shop">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="source:date">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="start_date">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="tourism">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="website">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="wikipedia">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -5864,9 +5650,6 @@
         <edittype widgetv2type="TextEdit" name="roof:colour">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="roof:levels">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="roof:material">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -5879,10 +5662,19 @@
         <edittype widgetv2type="TextEdit" name="shop">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="source:date">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="start_date">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="tourism">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="website">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="wikipedia">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -5993,9 +5785,6 @@
         <edittype widgetv2type="TextEdit" name="roof:colour">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="roof:levels">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="roof:material">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -6008,10 +5797,19 @@
         <edittype widgetv2type="TextEdit" name="shop">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="source:date">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="start_date">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="tourism">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="website">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="wikipedia">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="period">
@@ -6433,9 +6231,6 @@
         <edittype widgetv2type="TextEdit" name="roof:colour">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="roof:levels">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="roof:material">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -6448,10 +6243,19 @@
         <edittype widgetv2type="TextEdit" name="shop">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="source:date">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="start_date">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="tourism">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="website">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="wikipedia">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="period">
@@ -6563,9 +6367,6 @@
         <edittype widgetv2type="TextEdit" name="roof:colour">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="roof:levels">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="roof:material">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -6578,10 +6379,19 @@
         <edittype widgetv2type="TextEdit" name="shop">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="source:date">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="start_date">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="tourism">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="website">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="wikipedia">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -6944,9 +6754,6 @@
         <edittype widgetv2type="TextEdit" name="roof:colour">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="roof:levels">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="roof:material">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -6959,10 +6766,19 @@
         <edittype widgetv2type="TextEdit" name="shop">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="source:date">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="start_date">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="tourism">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="website">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="wikipedia">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -7071,9 +6887,6 @@
         <edittype widgetv2type="TextEdit" name="roof:colour">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="roof:levels">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="roof:material">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -7086,10 +6899,19 @@
         <edittype widgetv2type="TextEdit" name="shop">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="source:date">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="start_date">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="tourism">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="website">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="wikipedia">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -7739,9 +7561,6 @@
         <edittype widgetv2type="TextEdit" name="roof:colour">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="roof:levels">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="roof:material">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -7754,10 +7573,19 @@
         <edittype widgetv2type="TextEdit" name="shop">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="source:date">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="start_date">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="tourism">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="website">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="wikipedia">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -7770,7 +7598,7 @@
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Building Status</layername>
+      <layername>Building Condition</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -7866,9 +7694,6 @@
         <edittype widgetv2type="TextEdit" name="roof:colour">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="roof:levels">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="roof:material">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -7881,10 +7706,19 @@
         <edittype widgetv2type="TextEdit" name="shop">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="source:date">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="start_date">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="tourism">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="website">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="wikipedia">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -8262,9 +8096,6 @@
         <edittype widgetv2type="TextEdit" name="roof:colour">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="roof:levels">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="roof:material">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -8277,10 +8108,19 @@
         <edittype widgetv2type="TextEdit" name="shop">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="source:date">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="start_date">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="tourism">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="website">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="wikipedia">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -8389,9 +8229,6 @@
         <edittype widgetv2type="TextEdit" name="roof:colour">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="roof:levels">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="roof:material">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -8404,10 +8241,19 @@
         <edittype widgetv2type="TextEdit" name="shop">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="source:date">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="start_date">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="tourism">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="website">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="wikipedia">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -8785,9 +8631,6 @@
         <edittype widgetv2type="TextEdit" name="roof:colour">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="roof:levels">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="roof:material">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -8800,10 +8643,19 @@
         <edittype widgetv2type="TextEdit" name="shop">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="source:date">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="start_date">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="tourism">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="website">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="wikipedia">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -8912,9 +8764,6 @@
         <edittype widgetv2type="TextEdit" name="roof:colour">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="roof:levels">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="roof:material">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -8927,10 +8776,19 @@
         <edittype widgetv2type="TextEdit" name="shop">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="source:date">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="start_date">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="tourism">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="website">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="wikipedia">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -9396,9 +9254,6 @@
         <edittype widgetv2type="TextEdit" name="roof:colour">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="roof:levels">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="roof:material">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -9411,10 +9266,19 @@
         <edittype widgetv2type="TextEdit" name="shop">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="source:date">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="start_date">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="tourism">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="website">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="wikipedia">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -9451,10 +9315,10 @@
         <edittype widgetv2type="TextEdit" name="id">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="name">
+        <edittype widgetv2type="TextEdit" name="leisure">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="leisure">
+        <edittype widgetv2type="TextEdit" name="name">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="sport">
@@ -9600,8 +9464,6 @@
             </layer>
           </symbol>
         </source-symbol>
-        <colorramp type="randomcolors" name="[source]"/>
-        <invertedcolorramp value="0"/>
         <rotation/>
         <sizescale scalemethod="diameter"/>
       </renderer-v2>
@@ -9802,10 +9664,10 @@
         <edittype widgetv2type="TextEdit" name="id">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="name">
+        <edittype widgetv2type="TextEdit" name="leisure">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="leisure">
+        <edittype widgetv2type="TextEdit" name="name">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="sport">
@@ -12493,7 +12355,7 @@
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>shops</layername>
+      <layername>Shops</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -12875,8 +12737,6 @@
             </layer>
           </symbol>
         </source-symbol>
-        <colorramp type="randomcolors" name="[source]"/>
-        <invertedcolorramp value="0"/>
         <rotation/>
         <sizescale scalemethod="diameter"/>
       </renderer-v2>
@@ -13093,7 +12953,7 @@
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>waterways</layername>
+      <layername>Waterways</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -13532,47 +13392,9 @@
       <LayerSnappingList type="QStringList">
         <value>Architectural_Style_copy20151120073152017</value>
         <value>BuildingWithShops20151121204811737</value>
-        <value>Building_Function_copy20151120065529422</value>
-        <value>Unsureveyed_Buildings_copy20151120074023101</value>
-        <value>UrbanTypologies20151119144142295</value>
-        <value>WaterCatchments20160113203307455</value>
-        <value>buildings20151119152444499</value>
-        <value>buildings20151122102420057</value>
-        <value>buildings20151122103415906</value>
-        <value>buildings20151127113743520</value>
-        <value>buildings20151127143605864</value>
-        <value>buildings20151128114749041</value>
-        <value>buildings2201511191356030001290805310</value>
-        <value>naturalareas20160114013621352</value>
-        <value>roads20151120105828916</value>
-        <value>roads_copy20151120110959869</value>
-        <value>shops20151120154534806</value>
-        <value>shops20151122112206587</value>
-        <value>tourismareas20160114013617132</value>
-        <value>waterways20160114013610610</value>
-        <value>leisure201601141659509751751221639</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
         <value>enabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
-        <value>disabled</value>
         <value>disabled</value>
       </LayerSnappingEnabledList>
       <SnappingMode type="QString">current_layer</SnappingMode>
@@ -13580,71 +13402,14 @@
       <LayerSnappingToleranceUnitList type="QStringList">
         <value>2</value>
         <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
-        <value>2</value>
       </LayerSnappingToleranceUnitList>
       <LayerSnapToList type="QStringList">
         <value>to_vertex</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
       </LayerSnapToList>
       <DefaultSnapType type="QString">off</DefaultSnapType>
       <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
       <LayerSnappingToleranceList type="QStringList">
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
-        <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
       </LayerSnappingToleranceList>

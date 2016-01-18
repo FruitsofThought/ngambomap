@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="Ng'ambo Historic Mapping" version="2.12.2-Lyon">
+<qgis projectname="Ng'ambo Historic Mapping" version="2.12.3-Lyon">
   <title>Ng'ambo Historic Mapping</title>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
@@ -12,46 +12,19 @@
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="1" checked="Qt::Unchecked" mutually-exclusive="1" name="Historic" mutually-exclusive-child="-1">
+    <layer-tree-group expanded="1" checked="Qt::Unchecked" mutually-exclusive="1" name="Historic" mutually-exclusive-child="3">
       <customproperties/>
       <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="ZNA_Post_Revolution_developments_1973_modified20160113142504650" name="1973 Post Revolution Developments">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="1960_bnw_modified20160112131901836" name="1960 Land Surveys Zanzibar">
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="1960_bnw_modified20160112131901836" name="1960 Land Surveys Zanzibar">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Baumann_1897_modified20160105131027383" name="1897 Baumann">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="ZNZ_1846_Guillain_modified20160113173059465" name="1846 Guillain">
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="ZNZ_1846_Guillain_modified20160113173059465" name="1846 Guillain">
         <customproperties/>
-      </layer-tree-layer>
-    </layer-tree-group>
-    <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Basemap">
-      <customproperties/>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="shops20151122112206587" name="Shops">
-        <customproperties>
-          <property key="embedded" value="1"/>
-          <property key="embedded_project" value="./NgamboBasemap.qgs"/>
-        </customproperties>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="roads20151120105828916" name="Roads">
-        <customproperties>
-          <property key="embedded" value="1"/>
-          <property key="embedded_project" value="./NgamboBasemap.qgs"/>
-        </customproperties>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="roads_copy20151120110959869" name="Other Line Things">
-        <customproperties>
-          <property key="embedded" value="1"/>
-          <property key="embedded_project" value="./NgamboBasemap.qgs"/>
-        </customproperties>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="waterways20160114013610610" name="Waterways">
-        <customproperties>
-          <property key="embedded" value="1"/>
-          <property key="embedded_project" value="./NgamboBasemap.qgs"/>
-        </customproperties>
       </layer-tree-layer>
     </layer-tree-group>
   </layer-tree-group>
@@ -59,10 +32,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>4362069.75784110557287931</xmin>
-      <ymin>-688593.46660122869070619</ymin>
-      <xmax>4364964.65140655916184187</xmax>
-      <ymax>-685913.54037974530365318</ymax>
+      <xmin>4363159.49033805169165134</xmin>
+      <ymin>-688051.62983192678075284</ymin>
+      <xmax>4363883.09347628802061081</xmax>
+      <ymax>-687381.75959999312181026</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -110,8 +83,8 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="shops20151122112206587"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="naturalareas20160114013621352"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ZNZ_1846_Guillain_modified20160113173059465"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ZNA_Post_Revolution_developments_1973_modified20160113142504650"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="buildings20160114163613877"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ZNA_Post_Revolution_developments_1973_modified20160113142504650"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="BuildingWithShops20151120161454646"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="shops20151122111721733"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="buildings20151120152010885"/>
@@ -128,10 +101,6 @@
       <item>1960_bnw_modified20160112131901836</item>
       <item>ZNA_Post_Revolution_developments_1973_modified20160113142504650</item>
       <item>ZNZ_1846_Guillain_modified20160113173059465</item>
-      <item>waterways20160114013610610</item>
-      <item>shops20151122112206587</item>
-      <item>roads20151120105828916</item>
-      <item>roads_copy20151120110959869</item>
       <item>buildings20160114163613877</item>
       <item>buildings20160114163633170</item>
     </custom-order>
@@ -155,8 +124,8 @@
           <legendlayerfile isInOverview="0" layerid="ZNA_Post_Revolution_developments_1973_modified20160113142504650" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="1960 Land Surveys Zanzibar" showFeatureCount="0">
-        <filegroup open="false" hidden="false">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="1960 Land Surveys Zanzibar" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
           <legendlayerfile isInOverview="0" layerid="1960_bnw_modified20160112131901836" visible="0"/>
         </filegroup>
       </legendlayer>
@@ -165,31 +134,9 @@
           <legendlayerfile isInOverview="0" layerid="Baumann_1897_modified20160105131027383" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="1846 Guillain" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="ZNZ_1846_Guillain_modified20160113173059465" visible="0"/>
-        </filegroup>
-      </legendlayer>
-    </legendgroup>
-    <legendgroup open="false" checked="Qt::Unchecked" name="Basemap">
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Shops" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="shops20151122112206587" visible="0"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="Roads" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="1846 Guillain" showFeatureCount="0">
         <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="roads20151120105828916" visible="0"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Other Line Things" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="roads_copy20151120110959869" visible="0"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Waterways" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="waterways20160114013610610" visible="0"/>
+          <legendlayerfile isInOverview="0" layerid="ZNZ_1846_Guillain_modified20160113173059465" visible="0"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
@@ -229,7 +176,7 @@
             <styleFont description="Ubuntu,12,-1,5,50,0,0,0,0,0" style=""/>
           </style>
         </styles>
-        <ComposerItem pagey="1049.3" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="66.5717" y="1049.3" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="73.5" outlineWidth="0.3" excludeFromExports="0" uuid="{d98c76d0-6312-4129-92ce-6d2ae066368d}" height="1732.6" itemRotation="0" frame="false" pagex="66.5717">
+        <ComposerItem pagey="1049.3" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="66.5717" y="1049.3" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="73.5" outlineWidth="0.3" excludeFromExports="0" uuid="{d98c76d0-6312-4129-92ce-6d2ae066368d}" height="82" itemRotation="0" frame="false" pagex="66.5717">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -315,7 +262,7 @@
           <customproperties/>
         </ComposerItem>
       </ComposerMap>
-      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="false" featureFilter="" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="0" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="0" vectorLayer="waterways20160114013610610" composerMap="0" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="1" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.5" gridColor="0,0,0,255" showUniqueRowsOnly="0">
+      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="false" featureFilter="" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="0" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="0" vectorLayer="buildings20160114163613877" composerMap="0" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="1" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.5" gridColor="0,0,0,255" showUniqueRowsOnly="0">
         <headerFontProperties description="Ubuntu,9,-1,5,50,0,0,0,0,0" style=""/>
         <contentFontProperties description="Ubuntu,9,-1,5,50,0,0,0,0,0" style=""/>
         <displayColumns>
@@ -481,8 +428,8 @@
       <customproperties/>
     </Composition>
   </Composer>
-  <projectlayers layercount="10">
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+  <projectlayers layercount="6">
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>1960_bnw_modified20160112131901836</id>
       <datasource>./Tiffs/1960 bnw_modified.tif</datasource>
       <title></title>
@@ -509,271 +456,41 @@
       <provider>gdal</provider>
       <noData>
         <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
       </noData>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
+      <map-layer-style-manager current="Web">
+        <map-layer-style name="">
+          <qgis version="2.12.3-Lyon" minimumScale="-4.65661e-10" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
+            <pipe>
+              <rasterrenderer opacity="0.498039" alphaBand="0" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+                <rasterTransparency/>
+              </rasterrenderer>
+              <brightnesscontrast brightness="0" contrast="0"/>
+              <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+              <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+          </qgis>
+        </map-layer-style>
+        <map-layer-style name="Print Color">
+          <qgis version="2.12.3-Lyon" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
+            <pipe>
+              <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+                <rasterTransparency/>
+              </rasterrenderer>
+              <brightnesscontrast brightness="0" contrast="0"/>
+              <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+              <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+          </qgis>
+        </map-layer-style>
+        <map-layer-style name="Web"/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer opacity="0.498039" alphaBand="-1" band="1" type="paletted">
+        <rasterrenderer opacity="0.498039" alphaBand="0" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
           <rasterTransparency/>
-          <colorPalette>
-            <paletteEntry value="0" color="#ffffff" label="0"/>
-            <paletteEntry value="1" color="#000000" label="1"/>
-            <paletteEntry value="2" color="#000000" label="2"/>
-            <paletteEntry value="3" color="#000000" label="3"/>
-            <paletteEntry value="4" color="#000000" label="4"/>
-            <paletteEntry value="5" color="#000000" label="5"/>
-            <paletteEntry value="6" color="#000000" label="6"/>
-            <paletteEntry value="7" color="#000000" label="7"/>
-            <paletteEntry value="8" color="#000000" label="8"/>
-            <paletteEntry value="9" color="#000000" label="9"/>
-            <paletteEntry value="10" color="#000000" label="10"/>
-            <paletteEntry value="11" color="#000000" label="11"/>
-            <paletteEntry value="12" color="#000000" label="12"/>
-            <paletteEntry value="13" color="#000000" label="13"/>
-            <paletteEntry value="14" color="#000000" label="14"/>
-            <paletteEntry value="15" color="#000000" label="15"/>
-            <paletteEntry value="16" color="#000000" label="16"/>
-            <paletteEntry value="17" color="#000000" label="17"/>
-            <paletteEntry value="18" color="#000000" label="18"/>
-            <paletteEntry value="19" color="#000000" label="19"/>
-            <paletteEntry value="20" color="#000000" label="20"/>
-            <paletteEntry value="21" color="#000000" label="21"/>
-            <paletteEntry value="22" color="#000000" label="22"/>
-            <paletteEntry value="23" color="#000000" label="23"/>
-            <paletteEntry value="24" color="#000000" label="24"/>
-            <paletteEntry value="25" color="#000000" label="25"/>
-            <paletteEntry value="26" color="#000000" label="26"/>
-            <paletteEntry value="27" color="#000000" label="27"/>
-            <paletteEntry value="28" color="#000000" label="28"/>
-            <paletteEntry value="29" color="#000000" label="29"/>
-            <paletteEntry value="30" color="#000000" label="30"/>
-            <paletteEntry value="31" color="#000000" label="31"/>
-            <paletteEntry value="32" color="#000000" label="32"/>
-            <paletteEntry value="33" color="#000000" label="33"/>
-            <paletteEntry value="34" color="#000000" label="34"/>
-            <paletteEntry value="35" color="#000000" label="35"/>
-            <paletteEntry value="36" color="#000000" label="36"/>
-            <paletteEntry value="37" color="#000000" label="37"/>
-            <paletteEntry value="38" color="#000000" label="38"/>
-            <paletteEntry value="39" color="#000000" label="39"/>
-            <paletteEntry value="40" color="#000000" label="40"/>
-            <paletteEntry value="41" color="#000000" label="41"/>
-            <paletteEntry value="42" color="#000000" label="42"/>
-            <paletteEntry value="43" color="#000000" label="43"/>
-            <paletteEntry value="44" color="#000000" label="44"/>
-            <paletteEntry value="45" color="#000000" label="45"/>
-            <paletteEntry value="46" color="#000000" label="46"/>
-            <paletteEntry value="47" color="#000000" label="47"/>
-            <paletteEntry value="48" color="#000000" label="48"/>
-            <paletteEntry value="49" color="#000000" label="49"/>
-            <paletteEntry value="50" color="#000000" label="50"/>
-            <paletteEntry value="51" color="#000000" label="51"/>
-            <paletteEntry value="52" color="#000000" label="52"/>
-            <paletteEntry value="53" color="#000000" label="53"/>
-            <paletteEntry value="54" color="#000000" label="54"/>
-            <paletteEntry value="55" color="#000000" label="55"/>
-            <paletteEntry value="56" color="#000000" label="56"/>
-            <paletteEntry value="57" color="#000000" label="57"/>
-            <paletteEntry value="58" color="#000000" label="58"/>
-            <paletteEntry value="59" color="#000000" label="59"/>
-            <paletteEntry value="60" color="#000000" label="60"/>
-            <paletteEntry value="61" color="#000000" label="61"/>
-            <paletteEntry value="62" color="#000000" label="62"/>
-            <paletteEntry value="63" color="#000000" label="63"/>
-            <paletteEntry value="64" color="#000000" label="64"/>
-            <paletteEntry value="65" color="#000000" label="65"/>
-            <paletteEntry value="66" color="#000000" label="66"/>
-            <paletteEntry value="67" color="#000000" label="67"/>
-            <paletteEntry value="68" color="#000000" label="68"/>
-            <paletteEntry value="69" color="#000000" label="69"/>
-            <paletteEntry value="70" color="#000000" label="70"/>
-            <paletteEntry value="71" color="#000000" label="71"/>
-            <paletteEntry value="72" color="#000000" label="72"/>
-            <paletteEntry value="73" color="#000000" label="73"/>
-            <paletteEntry value="74" color="#000000" label="74"/>
-            <paletteEntry value="75" color="#000000" label="75"/>
-            <paletteEntry value="76" color="#000000" label="76"/>
-            <paletteEntry value="77" color="#000000" label="77"/>
-            <paletteEntry value="78" color="#000000" label="78"/>
-            <paletteEntry value="79" color="#000000" label="79"/>
-            <paletteEntry value="80" color="#000000" label="80"/>
-            <paletteEntry value="81" color="#000000" label="81"/>
-            <paletteEntry value="82" color="#000000" label="82"/>
-            <paletteEntry value="83" color="#000000" label="83"/>
-            <paletteEntry value="84" color="#000000" label="84"/>
-            <paletteEntry value="85" color="#000000" label="85"/>
-            <paletteEntry value="86" color="#000000" label="86"/>
-            <paletteEntry value="87" color="#000000" label="87"/>
-            <paletteEntry value="88" color="#000000" label="88"/>
-            <paletteEntry value="89" color="#000000" label="89"/>
-            <paletteEntry value="90" color="#000000" label="90"/>
-            <paletteEntry value="91" color="#000000" label="91"/>
-            <paletteEntry value="92" color="#000000" label="92"/>
-            <paletteEntry value="93" color="#000000" label="93"/>
-            <paletteEntry value="94" color="#000000" label="94"/>
-            <paletteEntry value="95" color="#000000" label="95"/>
-            <paletteEntry value="96" color="#000000" label="96"/>
-            <paletteEntry value="97" color="#000000" label="97"/>
-            <paletteEntry value="98" color="#000000" label="98"/>
-            <paletteEntry value="99" color="#000000" label="99"/>
-            <paletteEntry value="100" color="#000000" label="100"/>
-            <paletteEntry value="101" color="#000000" label="101"/>
-            <paletteEntry value="102" color="#000000" label="102"/>
-            <paletteEntry value="103" color="#000000" label="103"/>
-            <paletteEntry value="104" color="#000000" label="104"/>
-            <paletteEntry value="105" color="#000000" label="105"/>
-            <paletteEntry value="106" color="#000000" label="106"/>
-            <paletteEntry value="107" color="#000000" label="107"/>
-            <paletteEntry value="108" color="#000000" label="108"/>
-            <paletteEntry value="109" color="#000000" label="109"/>
-            <paletteEntry value="110" color="#000000" label="110"/>
-            <paletteEntry value="111" color="#000000" label="111"/>
-            <paletteEntry value="112" color="#000000" label="112"/>
-            <paletteEntry value="113" color="#000000" label="113"/>
-            <paletteEntry value="114" color="#000000" label="114"/>
-            <paletteEntry value="115" color="#000000" label="115"/>
-            <paletteEntry value="116" color="#000000" label="116"/>
-            <paletteEntry value="117" color="#000000" label="117"/>
-            <paletteEntry value="118" color="#000000" label="118"/>
-            <paletteEntry value="119" color="#000000" label="119"/>
-            <paletteEntry value="120" color="#000000" label="120"/>
-            <paletteEntry value="121" color="#000000" label="121"/>
-            <paletteEntry value="122" color="#000000" label="122"/>
-            <paletteEntry value="123" color="#000000" label="123"/>
-            <paletteEntry value="124" color="#000000" label="124"/>
-            <paletteEntry value="125" color="#000000" label="125"/>
-            <paletteEntry value="126" color="#000000" label="126"/>
-            <paletteEntry value="127" color="#000000" label="127"/>
-            <paletteEntry value="128" color="#000000" label="128"/>
-            <paletteEntry value="129" color="#000000" label="129"/>
-            <paletteEntry value="130" color="#000000" label="130"/>
-            <paletteEntry value="131" color="#000000" label="131"/>
-            <paletteEntry value="132" color="#000000" label="132"/>
-            <paletteEntry value="133" color="#000000" label="133"/>
-            <paletteEntry value="134" color="#000000" label="134"/>
-            <paletteEntry value="135" color="#000000" label="135"/>
-            <paletteEntry value="136" color="#000000" label="136"/>
-            <paletteEntry value="137" color="#000000" label="137"/>
-            <paletteEntry value="138" color="#000000" label="138"/>
-            <paletteEntry value="139" color="#000000" label="139"/>
-            <paletteEntry value="140" color="#000000" label="140"/>
-            <paletteEntry value="141" color="#000000" label="141"/>
-            <paletteEntry value="142" color="#000000" label="142"/>
-            <paletteEntry value="143" color="#000000" label="143"/>
-            <paletteEntry value="144" color="#000000" label="144"/>
-            <paletteEntry value="145" color="#000000" label="145"/>
-            <paletteEntry value="146" color="#000000" label="146"/>
-            <paletteEntry value="147" color="#000000" label="147"/>
-            <paletteEntry value="148" color="#000000" label="148"/>
-            <paletteEntry value="149" color="#000000" label="149"/>
-            <paletteEntry value="150" color="#000000" label="150"/>
-            <paletteEntry value="151" color="#000000" label="151"/>
-            <paletteEntry value="152" color="#000000" label="152"/>
-            <paletteEntry value="153" color="#000000" label="153"/>
-            <paletteEntry value="154" color="#000000" label="154"/>
-            <paletteEntry value="155" color="#000000" label="155"/>
-            <paletteEntry value="156" color="#000000" label="156"/>
-            <paletteEntry value="157" color="#000000" label="157"/>
-            <paletteEntry value="158" color="#000000" label="158"/>
-            <paletteEntry value="159" color="#000000" label="159"/>
-            <paletteEntry value="160" color="#000000" label="160"/>
-            <paletteEntry value="161" color="#000000" label="161"/>
-            <paletteEntry value="162" color="#000000" label="162"/>
-            <paletteEntry value="163" color="#000000" label="163"/>
-            <paletteEntry value="164" color="#000000" label="164"/>
-            <paletteEntry value="165" color="#000000" label="165"/>
-            <paletteEntry value="166" color="#000000" label="166"/>
-            <paletteEntry value="167" color="#000000" label="167"/>
-            <paletteEntry value="168" color="#000000" label="168"/>
-            <paletteEntry value="169" color="#000000" label="169"/>
-            <paletteEntry value="170" color="#000000" label="170"/>
-            <paletteEntry value="171" color="#000000" label="171"/>
-            <paletteEntry value="172" color="#000000" label="172"/>
-            <paletteEntry value="173" color="#000000" label="173"/>
-            <paletteEntry value="174" color="#000000" label="174"/>
-            <paletteEntry value="175" color="#000000" label="175"/>
-            <paletteEntry value="176" color="#000000" label="176"/>
-            <paletteEntry value="177" color="#000000" label="177"/>
-            <paletteEntry value="178" color="#000000" label="178"/>
-            <paletteEntry value="179" color="#000000" label="179"/>
-            <paletteEntry value="180" color="#000000" label="180"/>
-            <paletteEntry value="181" color="#000000" label="181"/>
-            <paletteEntry value="182" color="#000000" label="182"/>
-            <paletteEntry value="183" color="#000000" label="183"/>
-            <paletteEntry value="184" color="#000000" label="184"/>
-            <paletteEntry value="185" color="#000000" label="185"/>
-            <paletteEntry value="186" color="#000000" label="186"/>
-            <paletteEntry value="187" color="#000000" label="187"/>
-            <paletteEntry value="188" color="#000000" label="188"/>
-            <paletteEntry value="189" color="#000000" label="189"/>
-            <paletteEntry value="190" color="#000000" label="190"/>
-            <paletteEntry value="191" color="#000000" label="191"/>
-            <paletteEntry value="192" color="#000000" label="192"/>
-            <paletteEntry value="193" color="#000000" label="193"/>
-            <paletteEntry value="194" color="#000000" label="194"/>
-            <paletteEntry value="195" color="#000000" label="195"/>
-            <paletteEntry value="196" color="#000000" label="196"/>
-            <paletteEntry value="197" color="#000000" label="197"/>
-            <paletteEntry value="198" color="#000000" label="198"/>
-            <paletteEntry value="199" color="#000000" label="199"/>
-            <paletteEntry value="200" color="#000000" label="200"/>
-            <paletteEntry value="201" color="#000000" label="201"/>
-            <paletteEntry value="202" color="#000000" label="202"/>
-            <paletteEntry value="203" color="#000000" label="203"/>
-            <paletteEntry value="204" color="#000000" label="204"/>
-            <paletteEntry value="205" color="#000000" label="205"/>
-            <paletteEntry value="206" color="#000000" label="206"/>
-            <paletteEntry value="207" color="#000000" label="207"/>
-            <paletteEntry value="208" color="#000000" label="208"/>
-            <paletteEntry value="209" color="#000000" label="209"/>
-            <paletteEntry value="210" color="#000000" label="210"/>
-            <paletteEntry value="211" color="#000000" label="211"/>
-            <paletteEntry value="212" color="#000000" label="212"/>
-            <paletteEntry value="213" color="#000000" label="213"/>
-            <paletteEntry value="214" color="#000000" label="214"/>
-            <paletteEntry value="215" color="#000000" label="215"/>
-            <paletteEntry value="216" color="#000000" label="216"/>
-            <paletteEntry value="217" color="#000000" label="217"/>
-            <paletteEntry value="218" color="#000000" label="218"/>
-            <paletteEntry value="219" color="#000000" label="219"/>
-            <paletteEntry value="220" color="#000000" label="220"/>
-            <paletteEntry value="221" color="#000000" label="221"/>
-            <paletteEntry value="222" color="#000000" label="222"/>
-            <paletteEntry value="223" color="#000000" label="223"/>
-            <paletteEntry value="224" color="#000000" label="224"/>
-            <paletteEntry value="225" color="#000000" label="225"/>
-            <paletteEntry value="226" color="#000000" label="226"/>
-            <paletteEntry value="227" color="#000000" label="227"/>
-            <paletteEntry value="228" color="#000000" label="228"/>
-            <paletteEntry value="229" color="#000000" label="229"/>
-            <paletteEntry value="230" color="#000000" label="230"/>
-            <paletteEntry value="231" color="#000000" label="231"/>
-            <paletteEntry value="232" color="#000000" label="232"/>
-            <paletteEntry value="233" color="#000000" label="233"/>
-            <paletteEntry value="234" color="#000000" label="234"/>
-            <paletteEntry value="235" color="#000000" label="235"/>
-            <paletteEntry value="236" color="#000000" label="236"/>
-            <paletteEntry value="237" color="#000000" label="237"/>
-            <paletteEntry value="238" color="#000000" label="238"/>
-            <paletteEntry value="239" color="#000000" label="239"/>
-            <paletteEntry value="240" color="#000000" label="240"/>
-            <paletteEntry value="241" color="#000000" label="241"/>
-            <paletteEntry value="242" color="#000000" label="242"/>
-            <paletteEntry value="243" color="#000000" label="243"/>
-            <paletteEntry value="244" color="#000000" label="244"/>
-            <paletteEntry value="245" color="#000000" label="245"/>
-            <paletteEntry value="246" color="#000000" label="246"/>
-            <paletteEntry value="247" color="#000000" label="247"/>
-            <paletteEntry value="248" color="#000000" label="248"/>
-            <paletteEntry value="249" color="#000000" label="249"/>
-            <paletteEntry value="250" color="#000000" label="250"/>
-            <paletteEntry value="251" color="#000000" label="251"/>
-            <paletteEntry value="252" color="#000000" label="252"/>
-            <paletteEntry value="253" color="#000000" label="253"/>
-            <paletteEntry value="254" color="#000000" label="254"/>
-            <paletteEntry value="255" color="#000000" label="255"/>
-          </colorPalette>
         </rasterrenderer>
         <brightnesscontrast brightness="0" contrast="0"/>
         <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
@@ -867,7 +584,7 @@
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>ZNZ_1846_Guillain_modified20160113173059465</id>
       <datasource>./Tiffs/ZNZ 1846 Guillain_modified.tif</datasource>
       <title></title>
@@ -895,11 +612,47 @@
       <noData>
         <noDataList bandNo="1" useSrcNoData="0"/>
       </noData>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
+      <map-layer-style-manager current="Web">
+        <map-layer-style name="">
+          <qgis version="2.12.3-Lyon" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
+            <pipe>
+              <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="-1" type="singlebandgray" grayBand="1">
+                <rasterTransparency/>
+                <contrastEnhancement>
+                  <minValue>24</minValue>
+                  <maxValue>232</maxValue>
+                  <algorithm>StretchToMinimumMaximum</algorithm>
+                </contrastEnhancement>
+              </rasterrenderer>
+              <brightnesscontrast brightness="0" contrast="0"/>
+              <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+              <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear" zoomedInResampler="cubic"/>
+            </pipe>
+            <blendMode>0</blendMode>
+          </qgis>
+        </map-layer-style>
+        <map-layer-style name="Print Color">
+          <qgis version="2.12.3-Lyon" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
+            <pipe>
+              <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="-1" type="singlebandgray" grayBand="1">
+                <rasterTransparency/>
+                <contrastEnhancement>
+                  <minValue>24</minValue>
+                  <maxValue>232</maxValue>
+                  <algorithm>StretchToMinimumMaximum</algorithm>
+                </contrastEnhancement>
+              </rasterrenderer>
+              <brightnesscontrast brightness="0" contrast="0"/>
+              <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+              <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear" zoomedInResampler="cubic"/>
+            </pipe>
+            <blendMode>0</blendMode>
+          </qgis>
+        </map-layer-style>
+        <map-layer-style name="Web"/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="-1" type="singlebandgray" grayBand="1">
+        <rasterrenderer gradient="BlackToWhite" opacity="0.494118" alphaBand="0" type="singlebandgray" grayBand="1">
           <rasterTransparency/>
           <contrastEnhancement>
             <minValue>24</minValue>
@@ -913,7 +666,7 @@
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>buildings20160114163613877</id>
       <datasource>dbname='./Ngambo.osm.db' table="buildings" (geometry) sql="building:architecture:historic" IS NOT NULL</datasource>
       <title></title>
@@ -1017,9 +770,6 @@
         <edittype widgetv2type="TextEdit" name="roof:colour">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="roof:levels">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="roof:material">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -1032,10 +782,19 @@
         <edittype widgetv2type="TextEdit" name="shop">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="source:date">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="start_date">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="tourism">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="website">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="wikipedia">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -1050,7 +809,7 @@
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
               <prop k="outline_color" v="0,0,0,255"/>
-              <prop k="outline_style" v="solid"/>
+              <prop k="outline_style" v="no"/>
               <prop k="outline_width" v="0.26"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="style" v="solid"/>
@@ -1092,19 +851,19 @@
         <property key="labeling/fieldName" value="if (&quot;name&quot; IS NOT NULL AND &quot;old_name&quot; IS NOT NULL, &#xa;   concat ( &quot;name&quot;, ' (' , &quot;old_name&quot;, ')'),&#xa;   if (&quot;name&quot; IS NOT NULL, &quot;name&quot;,&#xa;      if (&quot;old_name&quot; IS NOT NULL, concat('&quot;', &quot;old_name&quot;, '&quot;'), '')))"/>
         <property key="labeling/fitInPolygonOnly" value="false"/>
         <property key="labeling/fontCapitals" value="0"/>
-        <property key="labeling/fontFamily" value="Ubuntu"/>
+        <property key="labeling/fontFamily" value="PT Sans"/>
         <property key="labeling/fontItalic" value="false"/>
         <property key="labeling/fontLetterSpacing" value="0"/>
         <property key="labeling/fontLimitPixelSize" value="false"/>
         <property key="labeling/fontMaxPixelSize" value="10000"/>
         <property key="labeling/fontMinPixelSize" value="3"/>
-        <property key="labeling/fontSize" value="9"/>
+        <property key="labeling/fontSize" value="10"/>
         <property key="labeling/fontSizeInMapUnits" value="false"/>
         <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
         <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
         <property key="labeling/fontStrikeout" value="false"/>
         <property key="labeling/fontUnderline" value="false"/>
-        <property key="labeling/fontWeight" value="63"/>
+        <property key="labeling/fontWeight" value="50"/>
         <property key="labeling/fontWordSpacing" value="0"/>
         <property key="labeling/formatNumbers" value="false"/>
         <property key="labeling/isExpression" value="true"/>
@@ -1121,7 +880,7 @@
         <property key="labeling/minFeatureSize" value="0"/>
         <property key="labeling/multilineAlign" value="0"/>
         <property key="labeling/multilineHeight" value="1"/>
-        <property key="labeling/namedStyle" value="Medium"/>
+        <property key="labeling/namedStyle" value="Regular"/>
         <property key="labeling/obstacle" value="true"/>
         <property key="labeling/obstacleFactor" value="1"/>
         <property key="labeling/obstacleType" value="0"/>
@@ -1235,15 +994,16 @@
         <selectedonly on=""/>
       </labelattributes>
       <SingleCategoryDiagramRenderer diagramType="Pie">
-        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
           <fontProperties description="Ubuntu,9,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" showAll="1"/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -1328,9 +1088,6 @@
         <edittype widgetv2type="TextEdit" name="roof:colour">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="roof:levels">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="roof:material">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -1343,10 +1100,19 @@
         <edittype widgetv2type="TextEdit" name="shop">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="source:date">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="start_date">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="tourism">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="website">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="wikipedia">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -1455,9 +1221,6 @@
         <edittype widgetv2type="TextEdit" name="roof:colour">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="roof:levels">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="roof:material">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -1470,10 +1233,19 @@
         <edittype widgetv2type="TextEdit" name="shop">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="source:date">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="start_date">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="tourism">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="website">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="wikipedia">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -1488,7 +1260,7 @@
               <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
               <prop k="offset_unit" v="MM"/>
               <prop k="outline_color" v="0,0,0,255"/>
-              <prop k="outline_style" v="solid"/>
+              <prop k="outline_style" v="no"/>
               <prop k="outline_width" v="0.26"/>
               <prop k="outline_width_unit" v="MM"/>
               <prop k="style" v="solid"/>
@@ -1530,19 +1302,19 @@
         <property key="labeling/fieldName" value="if (&quot;name&quot; IS NOT NULL AND &quot;old_name&quot; IS NOT NULL, &#xa;   concat ( &quot;name&quot;, ' (' , &quot;old_name&quot;, ')'),&#xa;   if (&quot;name&quot; IS NOT NULL, &quot;name&quot;,&#xa;      if (&quot;old_name&quot; IS NOT NULL, &quot;'old_name'&quot;, '')))"/>
         <property key="labeling/fitInPolygonOnly" value="false"/>
         <property key="labeling/fontCapitals" value="0"/>
-        <property key="labeling/fontFamily" value="Ubuntu"/>
+        <property key="labeling/fontFamily" value="PT Sans"/>
         <property key="labeling/fontItalic" value="false"/>
         <property key="labeling/fontLetterSpacing" value="0"/>
         <property key="labeling/fontLimitPixelSize" value="false"/>
         <property key="labeling/fontMaxPixelSize" value="10000"/>
         <property key="labeling/fontMinPixelSize" value="3"/>
-        <property key="labeling/fontSize" value="9"/>
+        <property key="labeling/fontSize" value="10"/>
         <property key="labeling/fontSizeInMapUnits" value="false"/>
         <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
         <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
         <property key="labeling/fontStrikeout" value="false"/>
         <property key="labeling/fontUnderline" value="false"/>
-        <property key="labeling/fontWeight" value="63"/>
+        <property key="labeling/fontWeight" value="50"/>
         <property key="labeling/fontWordSpacing" value="0"/>
         <property key="labeling/formatNumbers" value="false"/>
         <property key="labeling/isExpression" value="true"/>
@@ -1559,7 +1331,7 @@
         <property key="labeling/minFeatureSize" value="0"/>
         <property key="labeling/multilineAlign" value="0"/>
         <property key="labeling/multilineHeight" value="1"/>
-        <property key="labeling/namedStyle" value="Medium"/>
+        <property key="labeling/namedStyle" value="Regular"/>
         <property key="labeling/obstacle" value="true"/>
         <property key="labeling/obstacleFactor" value="1"/>
         <property key="labeling/obstacleType" value="0"/>
@@ -1675,13 +1447,14 @@
       <SingleCategoryDiagramRenderer diagramType="Pie">
         <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
           <fontProperties description="Ubuntu,9,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" showAll="1"/>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
@@ -1766,9 +1539,6 @@
         <edittype widgetv2type="TextEdit" name="roof:colour">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="roof:levels">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="roof:material">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -1781,18 +1551,23 @@
         <edittype widgetv2type="TextEdit" name="shop">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="source:date">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="start_date">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="tourism">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="website">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="wikipedia">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
       </edittypes>
     </maplayer>
-    <maplayer embedded="1" id="roads20151120105828916" project="./NgamboBasemap.qgs"/>
-    <maplayer embedded="1" id="roads_copy20151120110959869" project="./NgamboBasemap.qgs"/>
-    <maplayer embedded="1" id="shops20151122112206587" project="./NgamboBasemap.qgs"/>
-    <maplayer embedded="1" id="waterways20160114013610610" project="./NgamboBasemap.qgs"/>
   </projectlayers>
   <properties>
     <Variables>
@@ -1801,7 +1576,7 @@
     </Variables>
     <WMSContactPerson type="QString"></WMSContactPerson>
     <WMSOnlineResource type="QString"></WMSOnlineResource>
-    <WMSUseLayerIDs type="bool">true</WMSUseLayerIDs>
+    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
     <WMSContactOrganization type="QString">Ministry of Lands Zanzibar</WMSContactOrganization>
     <WMSExtent type="QStringList">
       <value>4362173.78046659659594297</value>
@@ -1816,17 +1591,16 @@
     <Paths>
       <Absolute type="bool">false</Absolute>
     </Paths>
-    <WMSServiceTitle type="QString">Ngambo Mapping</WMSServiceTitle>
+    <WMSServiceTitle type="QString">Ng'ambo Historic Mapping</WMSServiceTitle>
     <WFSLayers type="QStringList"/>
-    <WMSRestrictedLayers type="QStringList"/>
     <WMSContactMail type="QString"></WMSContactMail>
     <WMSRestrictedComposers type="QStringList"/>
+    <WMSRestrictedLayers type="QStringList"/>
     <PositionPrecision>
       <DecimalPlaces type="int">2</DecimalPlaces>
       <Automatic type="bool">true</Automatic>
       <DegreeFormat type="QString">D</DegreeFormat>
     </PositionPrecision>
-    <WCSUrl type="QString"></WCSUrl>
     <qgis2web>
       <Deleteunusedfields type="int">2</Deleteunusedfields>
       <Maxzoomlevel type="int">27</Maxzoomlevel>
@@ -1848,6 +1622,7 @@
       <Template type="QString">Template</Template>
       <Addscalebar type="int">2</Addscalebar>
     </qgis2web>
+    <WCSUrl type="QString"></WCSUrl>
     <WMSServiceCapabilities type="bool">true</WMSServiceCapabilities>
     <WMSContactPhone type="QString"></WMSContactPhone>
     <WMSServiceAbstract type="QString">The Ngambo Mapping project</WMSServiceAbstract>
@@ -1876,14 +1651,10 @@
     <Digitizing>
       <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
       <LayerSnappingList type="QStringList">
-        <value>roads20151120105828916</value>
-        <value>roads_copy20151120110959869</value>
-        <value>shops20151122112206587</value>
-        <value>waterways20160114013610610</value>
+        <value>buildings20160114163613877</value>
+        <value>buildings20160114163633170</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
-        <value>disabled</value>
-        <value>disabled</value>
         <value>disabled</value>
         <value>disabled</value>
       </LayerSnappingEnabledList>
@@ -1892,20 +1663,14 @@
       <LayerSnappingToleranceUnitList type="QStringList">
         <value>2</value>
         <value>2</value>
-        <value>2</value>
-        <value>2</value>
       </LayerSnappingToleranceUnitList>
       <LayerSnapToList type="QStringList">
-        <value>to_vertex_and_segment</value>
-        <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
         <value>to_vertex_and_segment</value>
       </LayerSnapToList>
       <DefaultSnapType type="QString">off</DefaultSnapType>
       <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
       <LayerSnappingToleranceList type="QStringList">
-        <value>0.000000</value>
-        <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
       </LayerSnappingToleranceList>
@@ -1918,7 +1683,10 @@
     </Macros>
     <WMSAccessConstraints type="QString"></WMSAccessConstraints>
     <WCSLayers type="QStringList">
+      <value>1960_bnw_modified20160112131901836</value>
       <value>Baumann_1897_modified20160105131027383</value>
+      <value>ZNA_Post_Revolution_developments_1973_modified20160113142504650</value>
+      <value>ZNZ_1846_Guillain_modified20160113173059465</value>
     </WCSLayers>
     <Legend>
       <filterByMap type="bool">false</filterByMap>

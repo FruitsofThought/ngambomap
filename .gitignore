@@ -1,3 +1,15 @@
-NgamboMapping.qgs~
-NgamboMapping.qgs.bak
-NgamboMapping.qgs.bak~
+.directory
+/*.qgs~
+/*.qgs.bak~
+/*.bak
+maki
+AllBuildings
+Tutorial
+/*.json
+Illustrators
+LayerDefinitions
+
+
+#Very BIG tiffs
+Tiffs/1960 bnw_modified.tif
+
