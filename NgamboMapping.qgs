@@ -2342,7 +2342,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>BuildingWithShops20151121204811737</id>
-      <datasource>./BuildingsWithShops/BuildingWithShops.shp|layerid=0|subset=("building" LIKE '%;%' AND "building" != 'commercial') OR ("shop" IS NOT NULL AND "building" != 'commercial')  OR ("shop_2" IS NOT NULL AND "building" != 'commercial') 
+      <datasource>./ShapeFiles/BuildingsWithShops/BuildingWithShops.shp|layerid=0|subset=("building" LIKE '%;%' AND "building" != 'commercial') OR ("shop" IS NOT NULL AND "building" != 'commercial')  OR ("shop_2" IS NOT NULL AND "building" != 'commercial') 
 </datasource>
       <title></title>
       <abstract></abstract>
@@ -4531,7 +4531,7 @@
     </maplayer>
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>WaterCatchments20160113203307455</id>
-      <datasource>./WaterCatchments/WaterCatchments.shp</datasource>
+      <datasource>./ShapeFiles/WaterCatchments/WaterCatchments.shp</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
