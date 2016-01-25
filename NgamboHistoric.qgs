@@ -12,9 +12,9 @@
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="1" checked="Qt::Checked" mutually-exclusive="1" name="Historic" mutually-exclusive-child="0">
+    <layer-tree-group expanded="1" checked="Qt::Checked" mutually-exclusive="1" name="Historic" mutually-exclusive-child="6">
       <customproperties/>
-      <layer-tree-layer expanded="0" checked="Qt::Checked" id="1987_bnw_modified20160125151948280" name="1987 Zanzibar Plan">
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="1987_bnw_modified20160125151948280" name="1987 Zanzibar Plan">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="ZNA_Post_Revolution_developments_1973_modified20160113142504650" name="1973 Post Revolution Developments">
@@ -32,7 +32,7 @@
       <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="1892_bnw_modified20160125144035373" name="1892 Plan of Zanzibar">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="ZNZ_1846_Guillain_modified20160113173059465" name="1846 Guillain">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="ZNZ_1846_Guillain_modified20160113173059465" name="1846 Guillain">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
@@ -41,10 +41,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>4362020.2190436590462923</xmin>
-      <ymin>-688328.02542231231927872</ymin>
-      <xmax>4364363.36309292353689671</xmax>
-      <ymax>-686988.06231157039292157</ymax>
+      <xmin>4362404.88467835169285536</xmin>
+      <ymin>-687383.63670514500699937</ymin>
+      <xmax>4362805.13183029275387526</xmax>
+      <ymax>-687176.75358157209120691</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -135,9 +135,9 @@
       </legendlayer>
     </legendgroup>
     <legendgroup open="true" checked="Qt::Checked" name="Historic">
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="1987 Zanzibar Plan" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="1987 Zanzibar Plan" showFeatureCount="0">
         <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="1987_bnw_modified20160125151948280" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="1987_bnw_modified20160125151948280" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="1973 Post Revolution Developments" showFeatureCount="0">
@@ -165,81 +165,13 @@
           <legendlayerfile isInOverview="0" layerid="1892_bnw_modified20160125144035373" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="1846 Guillain" showFeatureCount="0">
-        <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="ZNZ_1846_Guillain_modified20160113173059465" visible="0"/>
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="1846 Guillain" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="ZNZ_1846_Guillain_modified20160113173059465" visible="1"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
   </legend>
-  <mapcanvas>
-    <units>meters</units>
-    <extent>
-      <xmin>4362020.2190436590462923</xmin>
-      <ymin>-688328.02542231231927872</ymin>
-      <xmax>4364363.36309292353689671</xmax>
-      <ymax>-686988.06231157039292157</ymax>
-    </extent>
-    <rotation>0</rotation>
-    <projections>1</projections>
-    <destinationsrs>
-      <spatialrefsys>
-        <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
-        <srsid>3857</srsid>
-        <srid>3857</srid>
-        <authid>EPSG:3857</authid>
-        <description>WGS 84 / Pseudo Mercator</description>
-        <projectionacronym>merc</projectionacronym>
-        <ellipsoidacronym>WGS84</ellipsoidacronym>
-        <geographicflag>false</geographicflag>
-      </spatialrefsys>
-    </destinationsrs>
-    <layer_coordinate_transform_info>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="waterways20160114013610610"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Baumann_1897_Online20160105173841113"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="buildings20151127143605864"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="buildings20151127113743520"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20151119145629093"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="buildings20151119152444499"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="buildings20151122102420057"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Building_Function_copy20151120065529422"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20151119135524818"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads_copy20151120110959869"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="buildings20160114163633170"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="buildings2201511191356030001290805310"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="BuildingWithShops320151121070932993"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="1960_bnw_modified20160122173827209"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads20151122111638345"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="UrbanTypologies20151119144142295"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="BuildingWithShops20151121204811737"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="buildings20151122103415906"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Unsureveyed_Buildings_copy20151120074023101"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="tourismareas20160114013617132"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="1927_bnw_modified20160122173534216"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="1960_bnw_modified20160112130437945"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="buildings20151128114749041"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Building_Function_copy20151120160803456"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="1960_bnw_modified20160112131901836"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="shops20151120154534806"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="BuildingWithShops220151121070733352"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Architectural_Style_copy20151120073152017"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="1960_bnw_modified_compressed20160112125723058"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="roads20151120105828916"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="shops20151122112206587"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="naturalareas20160114013621352"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ZNZ_1846_Guillain_modified20160113173059465"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="buildings20160114163613877"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="ZNA_Post_Revolution_developments_1973_modified20160113142504650"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="BuildingWithShops20151120161454646"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="shops20151122111721733"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="buildings20151120152010885"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="WaterCatchments20160113203307455"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="BuildingWithShops20151120161305435"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Baumann_1897_modified20160105131027383"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="buildings20151119145857462"/>
-      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="leisure20160114013644656"/>
-    </layer_coordinate_transform_info>
-  </mapcanvas>
   <Composer title="Architectural Style" visible="0">
     <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" alignmentSnap="1" printResolution="600" paperWidth="841" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="1" generateWorldFile="0" paperHeight="1189" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
       <symbol alpha="1" clip_to_extent="1" type="fill" name="">
@@ -275,7 +207,7 @@
             <styleFont description="Ubuntu,12,-1,5,50,0,0,0,0,0" style=""/>
           </style>
         </styles>
-        <ComposerItem pagey="1049.3" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="66.5717" y="1049.3" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="73.5" outlineWidth="0.3" excludeFromExports="0" uuid="{d98c76d0-6312-4129-92ce-6d2ae066368d}" height="452.5" itemRotation="0" frame="false" pagex="66.5717">
+        <ComposerItem pagey="1049.3" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="66.5717" y="1049.3" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="73.5" outlineWidth="0.3" excludeFromExports="0" uuid="{d98c76d0-6312-4129-92ce-6d2ae066368d}" height="404.5" itemRotation="0" frame="false" pagex="66.5717">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -562,7 +494,7 @@
             <styleFont description="PT Sans,12,-1,5,50,0,0,0,0,0" style=""/>
           </style>
         </styles>
-        <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
+        <layer-tree-group expanded="1" checked="Qt::Unchecked" name="">
           <customproperties/>
           <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="ZNA_Post_Revolution_developments_1973_modified20160113142504650" name="1973 Post Revolution Developments">
             <customproperties>
@@ -571,9 +503,9 @@
               <property key="legend/title-label" value=""/>
             </customproperties>
           </layer-tree-layer>
-          <layer-tree-group expanded="0" checked="Qt::PartiallyChecked" mutually-exclusive="1" name="Historic" mutually-exclusive-child="0">
+          <layer-tree-group expanded="0" checked="Qt::Unchecked" mutually-exclusive="1" name="Historic" mutually-exclusive-child="0">
             <customproperties/>
-            <layer-tree-layer expanded="0" checked="Qt::PartiallyChecked" id="1960_bnw_modified20160112131901836" name="1960 Land Surveys Zanzibar">
+            <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="1960_bnw_modified20160112131901836" name="1960 Land Surveys Zanzibar">
               <customproperties/>
             </layer-tree-layer>
             <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="1927_bnw_modified20160122173534216" name="1927 Zanzibar City Survey">
@@ -587,7 +519,7 @@
             </layer-tree-layer>
           </layer-tree-group>
         </layer-tree-group>
-        <ComposerItem pagey="203.651" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="29.8234" y="203.651" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="55" outlineWidth="0.3" excludeFromExports="0" uuid="{7f508f56-d1a4-49f6-8fb8-fbae56e2a0d3}" height="300.5" itemRotation="0" frame="false" pagex="29.8234">
+        <ComposerItem pagey="203.651" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="29.8234" y="203.651" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="55" outlineWidth="0.3" excludeFromExports="0" uuid="{7f508f56-d1a4-49f6-8fb8-fbae56e2a0d3}" height="252.5" itemRotation="0" frame="false" pagex="29.8234">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -655,7 +587,7 @@
     </Composition>
   </Composer>
   <projectlayers layercount="9">
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>1892_bnw_modified20160125144035373</id>
       <datasource>./Tiffs/1892 bnw_modified.tif</datasource>
       <title></title>
@@ -683,7 +615,7 @@
       <noData>
         <noDataList bandNo="1" useSrcNoData="0"/>
       </noData>
-      <map-layer-style-manager current="Coloured Web">
+      <map-layer-style-manager current="Black And White Print">
         <map-layer-style name="">
           <qgis version="2.12.3-Lyon" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
             <pipe>
@@ -702,25 +634,34 @@
             <blendMode>0</blendMode>
           </qgis>
         </map-layer-style>
-        <map-layer-style name="Black and White Print">
-          <qgis version="2.12.3-Lyon" minimumScale="-4.65661e-10" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
+        <map-layer-style name="Black And White Print"/>
+        <map-layer-style name="Coloured Web">
+          <qgis version="2.12.3-Lyon" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
             <pipe>
-              <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="0" type="singlebandgray" grayBand="1">
+              <rasterrenderer opacity="0.498039" alphaBand="0" classificationMax="255" classificationMinMaxOrigin="CumulativeCutFullExtentExact" band="1" classificationMin="32" type="singlebandpseudocolor">
                 <rasterTransparency/>
-                <contrastEnhancement>
-                  <minValue>0</minValue>
-                  <maxValue>242</maxValue>
-                  <algorithm>StretchToMinimumMaximum</algorithm>
-                </contrastEnhancement>
+                <rastershader>
+                  <colorrampshader colorRampType="INTERPOLATED" clip="0">
+                    <item alpha="255" value="32" label="32.000000" color="#8d4700"/>
+                    <item alpha="255" value="56.7778" label="56.777778" color="#995b1c"/>
+                    <item alpha="255" value="81.5556" label="81.555556" color="#a66f38"/>
+                    <item alpha="255" value="106.333" label="106.333333" color="#b38455"/>
+                    <item alpha="255" value="131.111" label="131.111111" color="#bf9871"/>
+                    <item alpha="255" value="155.889" label="155.888889" color="#ccad8d"/>
+                    <item alpha="255" value="180.667" label="180.666667" color="#d9c1aa"/>
+                    <item alpha="255" value="205.444" label="205.444444" color="#e5d6c6"/>
+                    <item alpha="255" value="230.222" label="230.222222" color="#f2eae2"/>
+                    <item alpha="255" value="255" label="255.000000" color="#ffffff"/>
+                  </colorrampshader>
+                </rastershader>
               </rasterrenderer>
-              <brightnesscontrast brightness="0" contrast="24"/>
+              <brightnesscontrast brightness="0" contrast="25"/>
               <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
               <rasterresampler maxOversampling="2"/>
             </pipe>
             <blendMode>0</blendMode>
           </qgis>
         </map-layer-style>
-        <map-layer-style name="Coloured Web"/>
         <map-layer-style name="Print Colour">
           <qgis version="2.12.3-Lyon" minimumScale="-4.65661e-10" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
             <pipe>
@@ -740,9 +681,9 @@
           </qgis>
         </map-layer-style>
         <map-layer-style name="Web">
-          <qgis version="2.12.3-Lyon" minimumScale="-4.65661e-10" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
+          <qgis version="2.12.3-Lyon" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
             <pipe>
-              <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="0" type="singlebandgray" grayBand="1">
+              <rasterrenderer gradient="BlackToWhite" opacity="0.498039" alphaBand="-1" type="singlebandgray" grayBand="1">
                 <rasterTransparency/>
                 <contrastEnhancement>
                   <minValue>0</minValue>
@@ -759,24 +700,15 @@
         </map-layer-style>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer opacity="0.498039" alphaBand="0" classificationMax="255" classificationMinMaxOrigin="CumulativeCutFullExtentExact" band="1" classificationMin="32" type="singlebandpseudocolor">
+        <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="0" type="singlebandgray" grayBand="1">
           <rasterTransparency/>
-          <rastershader>
-            <colorrampshader colorRampType="INTERPOLATED" clip="0">
-              <item alpha="255" value="32" label="32.000000" color="#8d4700"/>
-              <item alpha="255" value="56.7778" label="56.777778" color="#995b1c"/>
-              <item alpha="255" value="81.5556" label="81.555556" color="#a66f38"/>
-              <item alpha="255" value="106.333" label="106.333333" color="#b38455"/>
-              <item alpha="255" value="131.111" label="131.111111" color="#bf9871"/>
-              <item alpha="255" value="155.889" label="155.888889" color="#ccad8d"/>
-              <item alpha="255" value="180.667" label="180.666667" color="#d9c1aa"/>
-              <item alpha="255" value="205.444" label="205.444444" color="#e5d6c6"/>
-              <item alpha="255" value="230.222" label="230.222222" color="#f2eae2"/>
-              <item alpha="255" value="255" label="255.000000" color="#ffffff"/>
-            </colorrampshader>
-          </rastershader>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>242</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
         </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="25"/>
+        <brightnesscontrast brightness="0" contrast="24"/>
         <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
         <rasterresampler maxOversampling="2"/>
       </pipe>
@@ -848,6 +780,24 @@
           </qgis>
         </map-layer-style>
         <map-layer-style name="Coloured Web"/>
+        <map-layer-style name="Web">
+          <qgis version="2.12.3-Lyon" minimumScale="-4.65661e-10" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
+            <pipe>
+              <rasterrenderer gradient="BlackToWhite" opacity="0.494118" alphaBand="0" type="singlebandgray" grayBand="1">
+                <rasterTransparency/>
+                <contrastEnhancement>
+                  <minValue>18</minValue>
+                  <maxValue>255</maxValue>
+                  <algorithm>StretchToMinimumMaximum</algorithm>
+                </contrastEnhancement>
+              </rasterrenderer>
+              <brightnesscontrast brightness="0" contrast="0"/>
+              <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+              <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+          </qgis>
+        </map-layer-style>
         <map-layer-style name="Web Black and White">
           <qgis version="2.12.3-Lyon" minimumScale="-4.65661e-10" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
             <pipe>
@@ -918,8 +868,6 @@
       <provider>gdal</provider>
       <noData>
         <noDataList bandNo="1" useSrcNoData="0"/>
-        <noDataList bandNo="2" useSrcNoData="0"/>
-        <noDataList bandNo="3" useSrcNoData="0"/>
       </noData>
       <map-layer-style-manager current="Coloured Web">
         <map-layer-style name="">
@@ -936,10 +884,15 @@
           </qgis>
         </map-layer-style>
         <map-layer-style name="Black And White Print">
-          <qgis version="2.12.3-Lyon" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
+          <qgis version="2.12.3-Lyon" minimumScale="-4.65661e-10" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
             <pipe>
-              <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+              <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="0" type="singlebandgray" grayBand="1">
                 <rasterTransparency/>
+                <contrastEnhancement>
+                  <minValue>0</minValue>
+                  <maxValue>0</maxValue>
+                  <algorithm>NoEnhancement</algorithm>
+                </contrastEnhancement>
               </rasterrenderer>
               <brightnesscontrast brightness="0" contrast="0"/>
               <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
@@ -963,10 +916,15 @@
           </qgis>
         </map-layer-style>
         <map-layer-style name="Web">
-          <qgis version="2.12.3-Lyon" minimumScale="-4.65661e-10" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
+          <qgis version="2.12.3-Lyon" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
             <pipe>
-              <rasterrenderer opacity="0.498039" alphaBand="0" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+              <rasterrenderer gradient="BlackToWhite" opacity="0.498039" alphaBand="-1" type="singlebandgray" grayBand="1">
                 <rasterTransparency/>
+                <contrastEnhancement>
+                  <minValue>0</minValue>
+                  <maxValue>0</maxValue>
+                  <algorithm>NoEnhancement</algorithm>
+                </contrastEnhancement>
               </rasterrenderer>
               <brightnesscontrast brightness="0" contrast="0"/>
               <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
@@ -1028,7 +986,7 @@
       <noData>
         <noDataList bandNo="1" useSrcNoData="0"/>
       </noData>
-      <map-layer-style-manager current="Web">
+      <map-layer-style-manager current="Black And White Print">
         <map-layer-style name="">
           <qgis version="2.12.3-Lyon" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
             <pipe>
@@ -1047,24 +1005,7 @@
             <blendMode>0</blendMode>
           </qgis>
         </map-layer-style>
-        <map-layer-style name="Black and White Print">
-          <qgis version="2.12.3-Lyon" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
-            <pipe>
-              <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="-1" type="singlebandgray" grayBand="1">
-                <rasterTransparency/>
-                <contrastEnhancement>
-                  <minValue>0</minValue>
-                  <maxValue>255</maxValue>
-                  <algorithm>StretchToMinimumMaximum</algorithm>
-                </contrastEnhancement>
-              </rasterrenderer>
-              <brightnesscontrast brightness="0" contrast="0"/>
-              <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-              <rasterresampler maxOversampling="2"/>
-            </pipe>
-            <blendMode>0</blendMode>
-          </qgis>
-        </map-layer-style>
+        <map-layer-style name="Black And White Print"/>
         <map-layer-style name="Coloured Web">
           <qgis version="2.12.3-Lyon" minimumScale="-4.65661e-10" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
             <pipe>
@@ -1092,24 +1033,41 @@
             <blendMode>0</blendMode>
           </qgis>
         </map-layer-style>
-        <map-layer-style name="Web"/>
+        <map-layer-style name="Web">
+          <qgis version="2.12.3-Lyon" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
+            <pipe>
+              <rasterrenderer gradient="BlackToWhite" opacity="0.498039" alphaBand="-1" type="singlebandgray" grayBand="1">
+                <rasterTransparency/>
+                <contrastEnhancement>
+                  <minValue>0</minValue>
+                  <maxValue>255</maxValue>
+                  <algorithm>NoEnhancement</algorithm>
+                </contrastEnhancement>
+              </rasterrenderer>
+              <brightnesscontrast brightness="0" contrast="25"/>
+              <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+              <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+          </qgis>
+        </map-layer-style>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer gradient="BlackToWhite" opacity="0.498039" alphaBand="-1" type="singlebandgray" grayBand="1">
+        <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="-1" type="singlebandgray" grayBand="1">
           <rasterTransparency/>
           <contrastEnhancement>
             <minValue>0</minValue>
             <maxValue>255</maxValue>
-            <algorithm>NoEnhancement</algorithm>
+            <algorithm>StretchToMinimumMaximum</algorithm>
           </contrastEnhancement>
         </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="25"/>
+        <brightnesscontrast brightness="0" contrast="0"/>
         <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
         <rasterresampler maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>Baumann_1897_modified20160105131027383</id>
       <datasource>./Tiffs/1897 color_modified.tif</datasource>
       <title></title>
@@ -1173,9 +1131,9 @@
         </map-layer-style>
         <map-layer-style name="Coloured Web"/>
         <map-layer-style name="Web">
-          <qgis version="2.12.3-Lyon" minimumScale="-4.65661e-10" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
+          <qgis version="2.12.3-Lyon" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
             <pipe>
-              <rasterrenderer opacity="0.537255" alphaBand="0" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+              <rasterrenderer opacity="0.698039" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
                 <rasterTransparency/>
               </rasterrenderer>
               <brightnesscontrast brightness="0" contrast="0"/>
@@ -1187,24 +1145,19 @@
         </map-layer-style>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer opacity="0.498039" alphaBand="0" classificationMax="255" classificationMinMaxOrigin="CumulativeCutFullExtentExact" band="1" classificationMin="32" type="singlebandpseudocolor">
+        <rasterrenderer opacity="0.498039" alphaBand="-1" classificationMax="255" classificationMinMaxOrigin="CumulativeCutFullExtentExact" band="1" classificationMin="37" type="singlebandpseudocolor">
           <rasterTransparency/>
           <rastershader>
             <colorrampshader colorRampType="INTERPOLATED" clip="0">
               <item alpha="255" value="32" label="32.000000" color="#8d4700"/>
-              <item alpha="255" value="56.7778" label="56.777778" color="#995b1c"/>
-              <item alpha="255" value="81.5556" label="81.555556" color="#a66f38"/>
-              <item alpha="255" value="106.333" label="106.333333" color="#b38455"/>
-              <item alpha="255" value="131.111" label="131.111111" color="#bf9871"/>
-              <item alpha="255" value="155.889" label="155.888889" color="#ccad8d"/>
-              <item alpha="255" value="180.667" label="180.666667" color="#d9c1aa"/>
-              <item alpha="255" value="205.444" label="205.444444" color="#e5d6c6"/>
-              <item alpha="255" value="230.222" label="230.222222" color="#f2eae2"/>
+              <item alpha="255" value="87.75" label="87.750000" color="#a9753f"/>
+              <item alpha="255" value="143.5" label="143.500000" color="#c6a37f"/>
+              <item alpha="255" value="199.25" label="199.250000" color="#e2d1bf"/>
               <item alpha="255" value="255" label="255.000000" color="#ffffff"/>
             </colorrampshader>
           </rastershader>
         </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="25"/>
+        <brightnesscontrast brightness="0" contrast="0"/>
         <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
         <rasterresampler maxOversampling="2"/>
       </pipe>
@@ -1255,6 +1208,19 @@
           </qgis>
         </map-layer-style>
         <map-layer-style name="Coloured Web"/>
+        <map-layer-style name="Web">
+          <qgis version="2.12.3-Lyon" minimumScale="-4.65661e-10" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
+            <pipe>
+              <rasterrenderer opacity="0.498039" alphaBand="0" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+                <rasterTransparency/>
+              </rasterrenderer>
+              <brightnesscontrast brightness="0" contrast="0"/>
+              <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+              <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear" zoomedInResampler="cubic"/>
+            </pipe>
+            <blendMode>0</blendMode>
+          </qgis>
+        </map-layer-style>
       </map-layer-style-manager>
       <pipe>
         <rasterrenderer opacity="0.498039" alphaBand="0" classificationMax="255" classificationMinMaxOrigin="CumulativeCutFullExtentExact" band="1" classificationMin="32" type="singlebandpseudocolor">
@@ -2358,15 +2324,14 @@
     </Paths>
     <WMSServiceTitle type="QString">Ng'ambo Historic Mapping</WMSServiceTitle>
     <WFSLayers type="QStringList"/>
-    <WMSRestrictedLayers type="QStringList"/>
     <WMSContactMail type="QString"></WMSContactMail>
     <WMSRestrictedComposers type="QStringList"/>
+    <WMSRestrictedLayers type="QStringList"/>
     <PositionPrecision>
       <DecimalPlaces type="int">2</DecimalPlaces>
       <Automatic type="bool">true</Automatic>
       <DegreeFormat type="QString">D</DegreeFormat>
     </PositionPrecision>
-    <WCSUrl type="QString"></WCSUrl>
     <qgis2web>
       <Deleteunusedfields type="int">2</Deleteunusedfields>
       <Maxzoomlevel type="int">27</Maxzoomlevel>
@@ -2388,6 +2353,7 @@
       <Template type="QString">Template</Template>
       <Addscalebar type="int">2</Addscalebar>
     </qgis2web>
+    <WCSUrl type="QString"></WCSUrl>
     <WMSServiceCapabilities type="bool">true</WMSServiceCapabilities>
     <WMSContactPhone type="QString"></WMSContactPhone>
     <WMSServiceAbstract type="QString">The Ngambo Mapping project</WMSServiceAbstract>
@@ -2448,7 +2414,10 @@
     </Macros>
     <WMSAccessConstraints type="QString"></WMSAccessConstraints>
     <WCSLayers type="QStringList">
+      <value>1892_bnw_modified20160125144035373</value>
+      <value>1927_bnw_modified20160122173534216</value>
       <value>1960_bnw_modified20160112131901836</value>
+      <value>1987_bnw_modified20160125151948280</value>
       <value>Baumann_1897_modified20160105131027383</value>
       <value>ZNA_Post_Revolution_developments_1973_modified20160113142504650</value>
       <value>ZNZ_1846_Guillain_modified20160113173059465</value>
@@ -2475,7 +2444,13 @@
     <WMSUrl type="QString"></WMSUrl>
   </properties>
   <visibility-presets>
-    <visibility-preset name="Print"/>
+    <visibility-preset name="Black and White Print">
+      <layer style="Black And White Print" id="ZNZ_1846_Guillain_modified20160113173059465"/>
+    </visibility-preset>
     <visibility-preset name="Users"/>
+    <visibility-preset name="Web (Default)">
+      <layer style="Web" id="ZNZ_1846_Guillain_modified20160113173059465"/>
+    </visibility-preset>
+    <visibility-preset name="Web Coloured"/>
   </visibility-presets>
 </qgis>
