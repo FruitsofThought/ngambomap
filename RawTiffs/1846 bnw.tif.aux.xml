@@ -1,0 +1,59 @@
+<PAMDataset>
+  <Metadata />
+  <Metadata domain="xml:XMP" format="xml">
+    <?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+    <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="XMP toolkit 3.0-28, framework 1.6">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:iX="http://ns.adobe.com/iX/1.0/">
+        <rdf:Description rdf:about="uuid:f97a7810-5f32-11de-8568-e368d2d7b763" xmlns:exif="http://ns.adobe.com/exif/1.0/">
+          <exif:ColorSpace>4294967295</exif:ColorSpace>
+          <exif:PixelXDimension>3463</exif:PixelXDimension>
+          <exif:PixelYDimension>4374</exif:PixelYDimension>
+        </rdf:Description>
+        <rdf:Description rdf:about="uuid:f97a7810-5f32-11de-8568-e368d2d7b763" xmlns:pdf="http://ns.adobe.com/pdf/1.3/" />
+        <rdf:Description rdf:about="uuid:f97a7810-5f32-11de-8568-e368d2d7b763" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/">
+          <photoshop:History />
+        </rdf:Description>
+        <rdf:Description rdf:about="uuid:f97a7810-5f32-11de-8568-e368d2d7b763" xmlns:tiff="http://ns.adobe.com/tiff/1.0/">
+          <tiff:XResolution>3000000/10000</tiff:XResolution>
+          <tiff:YResolution>3000000/10000</tiff:YResolution>
+          <tiff:ResolutionUnit>2</tiff:ResolutionUnit>
+        </rdf:Description>
+        <rdf:Description rdf:about="uuid:f97a7810-5f32-11de-8568-e368d2d7b763" xmlns:xap="http://ns.adobe.com/xap/1.0/">
+          <xap:CreateDate>2009-06-22T15:45:40+01:00</xap:CreateDate>
+          <xap:ModifyDate>2009-06-22T15:45:40+01:00</xap:ModifyDate>
+          <xap:MetadataDate>2009-06-22T15:45:40+01:00</xap:MetadataDate>
+          <xap:CreatorTool>Adobe Photoshop CS Windows</xap:CreatorTool>
+        </rdf:Description>
+        <rdf:Description rdf:about="uuid:f97a7810-5f32-11de-8568-e368d2d7b763" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:xapMM="http://ns.adobe.com/xap/1.0/mm/">
+          <xapMM:DerivedFrom rdf:parseType="Resource">
+            <stRef:instanceID>uuid:c284ff1c-103b-11dd-9e17-9af727831aeb</stRef:instanceID>
+            <stRef:documentID>adobe:docid:photoshop:c284ff1b-103b-11dd-9e17-9af727831aeb</stRef:documentID>
+          </xapMM:DerivedFrom>
+          <xapMM:DocumentID>adobe:docid:photoshop:0848d356-5f32-11de-8568-e368d2d7b763</xapMM:DocumentID>
+        </rdf:Description>
+        <rdf:Description rdf:about="uuid:f97a7810-5f32-11de-8568-e368d2d7b763" xmlns:dc="http://purl.org/dc/elements/1.1/">
+          <dc:format>image/tiff</dc:format>
+        </rdf:Description>
+      </rdf:RDF>
+    </x:xmpmeta>
+    <?xpacket end="w"?>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Histograms>
+      <HistItem>
+        <HistMin>0.502016129032258</HistMin>
+        <HistMax>248.4979838709677</HistMax>
+        <BucketCount>248</BucketCount>
+        <IncludeOutOfRange>0</IncludeOutOfRange>
+        <Approximate>1</Approximate>
+        <HistCounts>1|80|37|23|33|35|29|31|34|39|30|31|28|24|40|27|17|35|27|33|35|34|29|35|40|32|33|34|34|31|33|37|27|35|39|48|33|41|33|24|46|36|37|20|23|46|42|40|49|38|29|33|33|32|30|38|34|32|37|41|34|38|28|37|32|30|55|37|36|34|33|38|40|40|55|43|48|52|43|41|49|48|36|44|40|42|40|39|45|51|45|59|53|58|54|59|59|51|73|57|74|59|78|75|66|74|78|79|88|66|86|85|68|80|73|74|88|93|62|84|69|85|91|72|67|80|80|72|74|51|55|68|60|66|56|62|58|63|41|59|79|66|59|70|63|60|74|64|71|60|70|64|63|68|71|62|68|63|53|63|59|50|67|78|54|61|56|57|62|58|61|75|73|84|72|71|84|72|69|69|59|83|82|78|76|80|79|93|100|85|79|92|105|98|93|93|105|113|105|120|113|131|121|140|116|139|141|127|131|114|131|134|144|155|150|192|173|174|171|179|174|156|205|205|177|191|197|212|216|279|264|341|329|337|308|435|364|413|399|408|599|538|723|730|838|1288|2118|305975</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">248</MDI>
+      <MDI key="STATISTICS_MEAN">243.02067992588</MDI>
+      <MDI key="STATISTICS_MINIMUM">1</MDI>
+      <MDI key="STATISTICS_STDDEV">25.561055312444</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
