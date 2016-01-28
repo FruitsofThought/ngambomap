@@ -12,9 +12,9 @@
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="1" checked="Qt::Checked" mutually-exclusive="1" name="Historic" mutually-exclusive-child="6">
+    <layer-tree-group expanded="1" checked="Qt::Checked" mutually-exclusive="1" name="Historic" mutually-exclusive-child="0">
       <customproperties/>
-      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="1987_bnw_modified20160125151948280" name="1987 Zanzibar Plan">
+      <layer-tree-layer expanded="0" checked="Qt::Checked" id="1987_bnw_modified20160125151948280" name="1987 Zanzibar Plan">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="ZNA_Post_Revolution_developments_1973_modified20160113142504650" name="1973 Post Revolution Developments">
@@ -29,10 +29,10 @@
       <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="Baumann_1897_modified20160105131027383" name="1897 Baumann">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="1892_bnw_modified20160125144035373" name="1892 Plan of Zanzibar">
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="1892_bnw_modified20160125144035373" name="1892 Plan of Zanzibar">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="ZNZ_1846_Guillain_modified20160113173059465" name="1846 Guillain">
+      <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="ZNZ_1846_Guillain_modified20160113173059465" name="1846 Guillain">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
@@ -41,10 +41,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>4362361.05003632698208094</xmin>
-      <ymin>-687309.89618585165590048</ymin>
-      <xmax>4362761.29718826804310083</xmax>
-      <ymax>-687103.01306227874010801</ymax>
+      <xmin>4361336.22783176973462105</xmin>
+      <ymin>-689621.35376635915599763</ymin>
+      <xmax>4365545.3444635197520256</xmax>
+      <ymax>-687017.91999523318372667</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -135,9 +135,9 @@
       </legendlayer>
     </legendgroup>
     <legendgroup open="true" checked="Qt::Checked" name="Historic">
-      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="1987 Zanzibar Plan" showFeatureCount="0">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="1987 Zanzibar Plan" showFeatureCount="0">
         <filegroup open="false" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="1987_bnw_modified20160125151948280" visible="0"/>
+          <legendlayerfile isInOverview="0" layerid="1987_bnw_modified20160125151948280" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="1973 Post Revolution Developments" showFeatureCount="0">
@@ -160,14 +160,14 @@
           <legendlayerfile isInOverview="0" layerid="Baumann_1897_modified20160105131027383" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="1892 Plan of Zanzibar" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="1892 Plan of Zanzibar" showFeatureCount="0">
+        <filegroup open="false" hidden="false">
           <legendlayerfile isInOverview="0" layerid="1892_bnw_modified20160125144035373" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="1846 Guillain" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="ZNZ_1846_Guillain_modified20160113173059465" visible="1"/>
+      <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="1846 Guillain" showFeatureCount="0">
+        <filegroup open="false" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="ZNZ_1846_Guillain_modified20160113173059465" visible="0"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
@@ -207,7 +207,7 @@
             <styleFont description="Ubuntu,12,-1,5,50,0,0,0,0,0" style=""/>
           </style>
         </styles>
-        <ComposerItem pagey="1049.3" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="66.5717" y="1049.3" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="73.5" outlineWidth="0.3" excludeFromExports="0" uuid="{d98c76d0-6312-4129-92ce-6d2ae066368d}" height="482.5" itemRotation="0" frame="false" pagex="66.5717">
+        <ComposerItem pagey="1049.3" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="66.5717" y="1049.3" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="73.5" outlineWidth="0.3" excludeFromExports="0" uuid="{d98c76d0-6312-4129-92ce-6d2ae066368d}" height="188.5" itemRotation="0" frame="false" pagex="66.5717">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -519,7 +519,7 @@
             </layer-tree-layer>
           </layer-tree-group>
         </layer-tree-group>
-        <ComposerItem pagey="203.651" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="29.8234" y="203.651" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="55" outlineWidth="0.3" excludeFromExports="0" uuid="{7f508f56-d1a4-49f6-8fb8-fbae56e2a0d3}" height="270.5" itemRotation="0" frame="false" pagex="29.8234">
+        <ComposerItem pagey="203.651" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="29.8234" y="203.651" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="51" outlineWidth="0.3" excludeFromExports="0" uuid="{7f508f56-d1a4-49f6-8fb8-fbae56e2a0d3}" height="60.9" itemRotation="0" frame="false" pagex="29.8234">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
           <customproperties/>
@@ -615,7 +615,7 @@
       <noData>
         <noDataList bandNo="1" useSrcNoData="0"/>
       </noData>
-      <map-layer-style-manager current="Print Colour">
+      <map-layer-style-manager current="Web">
         <map-layer-style name="">
           <qgis version="2.12.3-Lyon" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
             <pipe>
@@ -679,45 +679,45 @@
             <blendMode>0</blendMode>
           </qgis>
         </map-layer-style>
-        <map-layer-style name="Print Colour"/>
-        <map-layer-style name="Web">
+        <map-layer-style name="Print Colour">
           <qgis version="2.12.3-Lyon" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
             <pipe>
-              <rasterrenderer gradient="BlackToWhite" opacity="0.498039" alphaBand="-1" type="singlebandgray" grayBand="1">
+              <rasterrenderer opacity="0.498039" alphaBand="-1" classificationMax="255" classificationMinMaxOrigin="CumulativeCutFullExtentExact" band="1" classificationMin="32" type="singlebandpseudocolor">
                 <rasterTransparency/>
-                <contrastEnhancement>
-                  <minValue>0</minValue>
-                  <maxValue>242</maxValue>
-                  <algorithm>StretchToMinimumMaximum</algorithm>
-                </contrastEnhancement>
+                <rastershader>
+                  <colorrampshader colorRampType="INTERPOLATED" clip="0">
+                    <item alpha="255" value="32" label="32.000000" color="#8d4700"/>
+                    <item alpha="255" value="56.7778" label="56.777778" color="#995b1c"/>
+                    <item alpha="255" value="81.5556" label="81.555556" color="#a66f38"/>
+                    <item alpha="255" value="106.333" label="106.333333" color="#b38455"/>
+                    <item alpha="255" value="131.111" label="131.111111" color="#bf9871"/>
+                    <item alpha="255" value="155.889" label="155.888889" color="#ccad8d"/>
+                    <item alpha="255" value="180.667" label="180.666667" color="#d9c1aa"/>
+                    <item alpha="255" value="205.444" label="205.444444" color="#e5d6c6"/>
+                    <item alpha="255" value="230.222" label="230.222222" color="#f2eae2"/>
+                    <item alpha="255" value="255" label="255.000000" color="#ffffff"/>
+                  </colorrampshader>
+                </rastershader>
               </rasterrenderer>
-              <brightnesscontrast brightness="0" contrast="24"/>
+              <brightnesscontrast brightness="0" contrast="25"/>
               <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
               <rasterresampler maxOversampling="2"/>
             </pipe>
             <blendMode>0</blendMode>
           </qgis>
         </map-layer-style>
+        <map-layer-style name="Web"/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer opacity="0.498039" alphaBand="-1" classificationMax="255" classificationMinMaxOrigin="CumulativeCutFullExtentExact" band="1" classificationMin="32" type="singlebandpseudocolor">
+        <rasterrenderer gradient="BlackToWhite" opacity="0.498039" alphaBand="-1" type="singlebandgray" grayBand="1">
           <rasterTransparency/>
-          <rastershader>
-            <colorrampshader colorRampType="INTERPOLATED" clip="0">
-              <item alpha="255" value="32" label="32.000000" color="#8d4700"/>
-              <item alpha="255" value="56.7778" label="56.777778" color="#995b1c"/>
-              <item alpha="255" value="81.5556" label="81.555556" color="#a66f38"/>
-              <item alpha="255" value="106.333" label="106.333333" color="#b38455"/>
-              <item alpha="255" value="131.111" label="131.111111" color="#bf9871"/>
-              <item alpha="255" value="155.889" label="155.888889" color="#ccad8d"/>
-              <item alpha="255" value="180.667" label="180.666667" color="#d9c1aa"/>
-              <item alpha="255" value="205.444" label="205.444444" color="#e5d6c6"/>
-              <item alpha="255" value="230.222" label="230.222222" color="#f2eae2"/>
-              <item alpha="255" value="255" label="255.000000" color="#ffffff"/>
-            </colorrampshader>
-          </rastershader>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>242</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
         </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="25"/>
+        <brightnesscontrast brightness="0" contrast="24"/>
         <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
         <rasterresampler maxOversampling="2"/>
       </pipe>
@@ -751,7 +751,7 @@
       <noData>
         <noDataList bandNo="1" useSrcNoData="0"/>
       </noData>
-      <map-layer-style-manager current="Coloured Print">
+      <map-layer-style-manager current="Web">
         <map-layer-style name="">
           <qgis version="2.12.3-Lyon" minimumScale="-4.65661e-10" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
             <pipe>
@@ -771,9 +771,9 @@
           </qgis>
         </map-layer-style>
         <map-layer-style name="Black And White Print">
-          <qgis version="2.12.3-Lyon" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
+          <qgis version="2.12.3-Lyon" minimumScale="-4.65661e-10" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
             <pipe>
-              <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="-1" type="singlebandgray" grayBand="1">
+              <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="0" type="singlebandgray" grayBand="1">
                 <rasterTransparency/>
                 <contrastEnhancement>
                   <minValue>18</minValue>
@@ -781,14 +781,40 @@
                   <algorithm>StretchToMinimumMaximum</algorithm>
                 </contrastEnhancement>
               </rasterrenderer>
-              <brightnesscontrast brightness="0" contrast="0"/>
+              <brightnesscontrast brightness="88" contrast="40"/>
               <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
               <rasterresampler maxOversampling="2"/>
             </pipe>
             <blendMode>0</blendMode>
           </qgis>
         </map-layer-style>
-        <map-layer-style name="Coloured Print"/>
+        <map-layer-style name="Coloured Print">
+          <qgis version="2.12.3-Lyon" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
+            <pipe>
+              <rasterrenderer opacity="0.498039" alphaBand="-1" classificationMax="255" classificationMinMaxOrigin="CumulativeCutFullExtentExact" band="1" classificationMin="32" type="singlebandpseudocolor">
+                <rasterTransparency/>
+                <rastershader>
+                  <colorrampshader colorRampType="INTERPOLATED" clip="0">
+                    <item alpha="255" value="32" label="32.000000" color="#8d4700"/>
+                    <item alpha="255" value="56.7778" label="56.777778" color="#995b1c"/>
+                    <item alpha="255" value="81.5556" label="81.555556" color="#a66f38"/>
+                    <item alpha="255" value="106.333" label="106.333333" color="#b38455"/>
+                    <item alpha="255" value="131.111" label="131.111111" color="#bf9871"/>
+                    <item alpha="255" value="155.889" label="155.888889" color="#ccad8d"/>
+                    <item alpha="255" value="180.667" label="180.666667" color="#d9c1aa"/>
+                    <item alpha="255" value="205.444" label="205.444444" color="#e5d6c6"/>
+                    <item alpha="255" value="230.222" label="230.222222" color="#f2eae2"/>
+                    <item alpha="255" value="255" label="255.000000" color="#ffffff"/>
+                  </colorrampshader>
+                </rastershader>
+              </rasterrenderer>
+              <brightnesscontrast brightness="0" contrast="25"/>
+              <huesaturation colorizeGreen="0" colorizeOn="0" colorizeRed="121" colorizeBlue="0" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+              <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>6</blendMode>
+          </qgis>
+        </map-layer-style>
         <map-layer-style name="Coloured Web">
           <qgis version="2.12.3-Lyon" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
             <pipe>
@@ -816,24 +842,7 @@
             <blendMode>6</blendMode>
           </qgis>
         </map-layer-style>
-        <map-layer-style name="Web">
-          <qgis version="2.12.3-Lyon" minimumScale="-4.65661e-10" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
-            <pipe>
-              <rasterrenderer gradient="BlackToWhite" opacity="0.494118" alphaBand="0" type="singlebandgray" grayBand="1">
-                <rasterTransparency/>
-                <contrastEnhancement>
-                  <minValue>18</minValue>
-                  <maxValue>255</maxValue>
-                  <algorithm>StretchToMinimumMaximum</algorithm>
-                </contrastEnhancement>
-              </rasterrenderer>
-              <brightnesscontrast brightness="0" contrast="0"/>
-              <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-              <rasterresampler maxOversampling="2"/>
-            </pipe>
-            <blendMode>0</blendMode>
-          </qgis>
-        </map-layer-style>
+        <map-layer-style name="Web"/>
         <map-layer-style name="Web Black and White">
           <qgis version="2.12.3-Lyon" minimumScale="-4.65661e-10" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
             <pipe>
@@ -854,30 +863,21 @@
         </map-layer-style>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer opacity="0.498039" alphaBand="-1" classificationMax="255" classificationMinMaxOrigin="CumulativeCutFullExtentExact" band="1" classificationMin="32" type="singlebandpseudocolor">
+        <rasterrenderer gradient="BlackToWhite" opacity="0.498039" alphaBand="-1" type="singlebandgray" grayBand="1">
           <rasterTransparency/>
-          <rastershader>
-            <colorrampshader colorRampType="INTERPOLATED" clip="0">
-              <item alpha="255" value="32" label="32.000000" color="#8d4700"/>
-              <item alpha="255" value="56.7778" label="56.777778" color="#995b1c"/>
-              <item alpha="255" value="81.5556" label="81.555556" color="#a66f38"/>
-              <item alpha="255" value="106.333" label="106.333333" color="#b38455"/>
-              <item alpha="255" value="131.111" label="131.111111" color="#bf9871"/>
-              <item alpha="255" value="155.889" label="155.888889" color="#ccad8d"/>
-              <item alpha="255" value="180.667" label="180.666667" color="#d9c1aa"/>
-              <item alpha="255" value="205.444" label="205.444444" color="#e5d6c6"/>
-              <item alpha="255" value="230.222" label="230.222222" color="#f2eae2"/>
-              <item alpha="255" value="255" label="255.000000" color="#ffffff"/>
-            </colorrampshader>
-          </rastershader>
+          <contrastEnhancement>
+            <minValue>18</minValue>
+            <maxValue>255</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
         </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="25"/>
-        <huesaturation colorizeGreen="0" colorizeOn="0" colorizeRed="121" colorizeBlue="0" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <brightnesscontrast brightness="48" contrast="19"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
         <rasterresampler maxOversampling="2"/>
       </pipe>
-      <blendMode>6</blendMode>
+      <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>1960_bnw_modified20160112131901836</id>
       <datasource>./Tiffs/1960 bnw_modified.tif</datasource>
       <title></title>
@@ -905,7 +905,7 @@
       <noData>
         <noDataList bandNo="1" useSrcNoData="0"/>
       </noData>
-      <map-layer-style-manager current="Print Color">
+      <map-layer-style-manager current="Web">
         <map-layer-style name="">
           <qgis version="2.12.3-Lyon" minimumScale="-4.65661e-10" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
             <pipe>
@@ -920,17 +920,17 @@
           </qgis>
         </map-layer-style>
         <map-layer-style name="Black And White Print">
-          <qgis version="2.12.3-Lyon" minimumScale="-4.65661e-10" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
+          <qgis version="2.12.3-Lyon" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
             <pipe>
-              <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="0" type="singlebandgray" grayBand="1">
+              <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="-1" type="singlebandgray" grayBand="1">
                 <rasterTransparency/>
                 <contrastEnhancement>
                   <minValue>0</minValue>
-                  <maxValue>0</maxValue>
-                  <algorithm>NoEnhancement</algorithm>
+                  <maxValue>255</maxValue>
+                  <algorithm>StretchToMinimumMaximum</algorithm>
                 </contrastEnhancement>
               </rasterrenderer>
-              <brightnesscontrast brightness="0" contrast="0"/>
+              <brightnesscontrast brightness="48" contrast="20"/>
               <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
               <rasterresampler maxOversampling="2"/>
             </pipe>
@@ -964,51 +964,51 @@
             <blendMode>0</blendMode>
           </qgis>
         </map-layer-style>
-        <map-layer-style name="Print Color"/>
-        <map-layer-style name="Web">
-          <qgis version="2.12.3-Lyon" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
+        <map-layer-style name="Print Color">
+          <qgis version="2.12.3-Lyon" minimumScale="-4.65661e-10" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
             <pipe>
-              <rasterrenderer gradient="BlackToWhite" opacity="0.498039" alphaBand="-1" type="singlebandgray" grayBand="1">
+              <rasterrenderer opacity="0.498039" alphaBand="0" classificationMax="255" classificationMinMaxOrigin="CumulativeCutFullExtentExact" band="1" classificationMin="32" type="singlebandpseudocolor">
                 <rasterTransparency/>
-                <contrastEnhancement>
-                  <minValue>0</minValue>
-                  <maxValue>0</maxValue>
-                  <algorithm>NoEnhancement</algorithm>
-                </contrastEnhancement>
+                <rastershader>
+                  <colorrampshader colorRampType="INTERPOLATED" clip="0">
+                    <item alpha="255" value="32" label="32.000000" color="#8d4700"/>
+                    <item alpha="255" value="56.7778" label="56.777778" color="#995b1c"/>
+                    <item alpha="255" value="81.5556" label="81.555556" color="#a66f38"/>
+                    <item alpha="255" value="106.333" label="106.333333" color="#b38455"/>
+                    <item alpha="255" value="131.111" label="131.111111" color="#bf9871"/>
+                    <item alpha="255" value="155.889" label="155.888889" color="#ccad8d"/>
+                    <item alpha="255" value="180.667" label="180.666667" color="#d9c1aa"/>
+                    <item alpha="255" value="205.444" label="205.444444" color="#e5d6c6"/>
+                    <item alpha="255" value="230.222" label="230.222222" color="#f2eae2"/>
+                    <item alpha="255" value="255" label="255.000000" color="#ffffff"/>
+                  </colorrampshader>
+                </rastershader>
               </rasterrenderer>
-              <brightnesscontrast brightness="0" contrast="0"/>
+              <brightnesscontrast brightness="0" contrast="25"/>
               <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
               <rasterresampler maxOversampling="2"/>
             </pipe>
             <blendMode>0</blendMode>
           </qgis>
         </map-layer-style>
+        <map-layer-style name="Web"/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer opacity="0.498039" alphaBand="0" classificationMax="255" classificationMinMaxOrigin="CumulativeCutFullExtentExact" band="1" classificationMin="32" type="singlebandpseudocolor">
+        <rasterrenderer gradient="BlackToWhite" opacity="0.498039" alphaBand="-1" type="singlebandgray" grayBand="1">
           <rasterTransparency/>
-          <rastershader>
-            <colorrampshader colorRampType="INTERPOLATED" clip="0">
-              <item alpha="255" value="32" label="32.000000" color="#8d4700"/>
-              <item alpha="255" value="56.7778" label="56.777778" color="#995b1c"/>
-              <item alpha="255" value="81.5556" label="81.555556" color="#a66f38"/>
-              <item alpha="255" value="106.333" label="106.333333" color="#b38455"/>
-              <item alpha="255" value="131.111" label="131.111111" color="#bf9871"/>
-              <item alpha="255" value="155.889" label="155.888889" color="#ccad8d"/>
-              <item alpha="255" value="180.667" label="180.666667" color="#d9c1aa"/>
-              <item alpha="255" value="205.444" label="205.444444" color="#e5d6c6"/>
-              <item alpha="255" value="230.222" label="230.222222" color="#f2eae2"/>
-              <item alpha="255" value="255" label="255.000000" color="#ffffff"/>
-            </colorrampshader>
-          </rastershader>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>0</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </contrastEnhancement>
         </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="25"/>
+        <brightnesscontrast brightness="30" contrast="32"/>
         <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
         <rasterresampler maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>1987_bnw_modified20160125151948280</id>
       <datasource>./Tiffs/1987 bnw_modified.tif</datasource>
       <title></title>
@@ -1036,7 +1036,7 @@
       <noData>
         <noDataList bandNo="1" useSrcNoData="0"/>
       </noData>
-      <map-layer-style-manager current="Coloured Web">
+      <map-layer-style-manager current="Web">
         <map-layer-style name="">
           <qgis version="2.12.3-Lyon" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
             <pipe>
@@ -1056,9 +1056,9 @@
           </qgis>
         </map-layer-style>
         <map-layer-style name="Black And White Print">
-          <qgis version="2.12.3-Lyon" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
+          <qgis version="2.12.3-Lyon" minimumScale="-4.65661e-10" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
             <pipe>
-              <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="-1" type="singlebandgray" grayBand="1">
+              <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="0" type="singlebandgray" grayBand="1">
                 <rasterTransparency/>
                 <contrastEnhancement>
                   <minValue>0</minValue>
@@ -1066,58 +1066,58 @@
                   <algorithm>StretchToMinimumMaximum</algorithm>
                 </contrastEnhancement>
               </rasterrenderer>
-              <brightnesscontrast brightness="0" contrast="0"/>
+              <brightnesscontrast brightness="71" contrast="15"/>
               <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
               <rasterresampler maxOversampling="2"/>
             </pipe>
             <blendMode>0</blendMode>
           </qgis>
         </map-layer-style>
-        <map-layer-style name="Coloured Web"/>
-        <map-layer-style name="Web">
+        <map-layer-style name="Coloured Web">
           <qgis version="2.12.3-Lyon" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
             <pipe>
-              <rasterrenderer gradient="BlackToWhite" opacity="0.498039" alphaBand="-1" type="singlebandgray" grayBand="1">
+              <rasterrenderer opacity="0.498039" alphaBand="-1" classificationMax="255" classificationMinMaxOrigin="CumulativeCutFullExtentExact" band="1" classificationMin="32" type="singlebandpseudocolor">
                 <rasterTransparency/>
-                <contrastEnhancement>
-                  <minValue>0</minValue>
-                  <maxValue>255</maxValue>
-                  <algorithm>NoEnhancement</algorithm>
-                </contrastEnhancement>
+                <rastershader>
+                  <colorrampshader colorRampType="INTERPOLATED" clip="0">
+                    <item alpha="255" value="32" label="32.000000" color="#8d4700"/>
+                    <item alpha="255" value="56.7778" label="56.777778" color="#995b1c"/>
+                    <item alpha="255" value="81.5556" label="81.555556" color="#a66f38"/>
+                    <item alpha="255" value="106.333" label="106.333333" color="#b38455"/>
+                    <item alpha="255" value="131.111" label="131.111111" color="#bf9871"/>
+                    <item alpha="255" value="155.889" label="155.888889" color="#ccad8d"/>
+                    <item alpha="255" value="180.667" label="180.666667" color="#d9c1aa"/>
+                    <item alpha="255" value="205.444" label="205.444444" color="#e5d6c6"/>
+                    <item alpha="255" value="230.222" label="230.222222" color="#f2eae2"/>
+                    <item alpha="255" value="255" label="255.000000" color="#ffffff"/>
+                  </colorrampshader>
+                </rastershader>
               </rasterrenderer>
-              <brightnesscontrast brightness="0" contrast="25"/>
+              <brightnesscontrast brightness="50" contrast="43"/>
               <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
               <rasterresampler maxOversampling="2"/>
             </pipe>
             <blendMode>0</blendMode>
           </qgis>
         </map-layer-style>
+        <map-layer-style name="Web"/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer opacity="0.498039" alphaBand="0" classificationMax="255" classificationMinMaxOrigin="CumulativeCutFullExtentExact" band="1" classificationMin="32" type="singlebandpseudocolor">
+        <rasterrenderer gradient="BlackToWhite" opacity="0.498039" alphaBand="-1" type="singlebandgray" grayBand="1">
           <rasterTransparency/>
-          <rastershader>
-            <colorrampshader colorRampType="INTERPOLATED" clip="0">
-              <item alpha="255" value="32" label="32.000000" color="#8d4700"/>
-              <item alpha="255" value="56.7778" label="56.777778" color="#995b1c"/>
-              <item alpha="255" value="81.5556" label="81.555556" color="#a66f38"/>
-              <item alpha="255" value="106.333" label="106.333333" color="#b38455"/>
-              <item alpha="255" value="131.111" label="131.111111" color="#bf9871"/>
-              <item alpha="255" value="155.889" label="155.888889" color="#ccad8d"/>
-              <item alpha="255" value="180.667" label="180.666667" color="#d9c1aa"/>
-              <item alpha="255" value="205.444" label="205.444444" color="#e5d6c6"/>
-              <item alpha="255" value="230.222" label="230.222222" color="#f2eae2"/>
-              <item alpha="255" value="255" label="255.000000" color="#ffffff"/>
-            </colorrampshader>
-          </rastershader>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>255</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
         </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="25"/>
+        <brightnesscontrast brightness="22" contrast="59"/>
         <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
         <rasterresampler maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>Baumann_1897_modified20160105131027383</id>
       <datasource>./Tiffs/1897 color_modified.tif</datasource>
       <title></title>
@@ -1147,7 +1147,7 @@
         <noDataList bandNo="2" useSrcNoData="0"/>
         <noDataList bandNo="3" useSrcNoData="0"/>
       </noData>
-      <map-layer-style-manager current="Coloured Web">
+      <map-layer-style-manager current="Web">
         <map-layer-style name="">
           <qgis version="2.12.3-Lyon" minimumScale="-4.65661e-10" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
             <pipe>
@@ -1179,12 +1179,20 @@
             <blendMode>0</blendMode>
           </qgis>
         </map-layer-style>
-        <map-layer-style name="Coloured Web"/>
-        <map-layer-style name="Web">
-          <qgis version="2.12.3-Lyon" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
+        <map-layer-style name="Coloured Web">
+          <qgis version="2.12.3-Lyon" minimumScale="-4.65661e-10" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
             <pipe>
-              <rasterrenderer opacity="0.698039" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+              <rasterrenderer opacity="0.498039" alphaBand="-1" classificationMax="255" classificationMinMaxOrigin="CumulativeCutFullExtentExact" band="1" classificationMin="37" type="singlebandpseudocolor">
                 <rasterTransparency/>
+                <rastershader>
+                  <colorrampshader colorRampType="INTERPOLATED" clip="0">
+                    <item alpha="255" value="32" label="32.000000" color="#8d4700"/>
+                    <item alpha="255" value="87.75" label="87.750000" color="#a9753f"/>
+                    <item alpha="255" value="143.5" label="143.500000" color="#c6a37f"/>
+                    <item alpha="255" value="199.25" label="199.250000" color="#e2d1bf"/>
+                    <item alpha="255" value="255" label="255.000000" color="#ffffff"/>
+                  </colorrampshader>
+                </rastershader>
               </rasterrenderer>
               <brightnesscontrast brightness="0" contrast="0"/>
               <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
@@ -1193,19 +1201,11 @@
             <blendMode>0</blendMode>
           </qgis>
         </map-layer-style>
+        <map-layer-style name="Web"/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer opacity="0.498039" alphaBand="-1" classificationMax="255" classificationMinMaxOrigin="CumulativeCutFullExtentExact" band="1" classificationMin="37" type="singlebandpseudocolor">
+        <rasterrenderer opacity="0.698039" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
           <rasterTransparency/>
-          <rastershader>
-            <colorrampshader colorRampType="INTERPOLATED" clip="0">
-              <item alpha="255" value="32" label="32.000000" color="#8d4700"/>
-              <item alpha="255" value="87.75" label="87.750000" color="#a9753f"/>
-              <item alpha="255" value="143.5" label="143.500000" color="#c6a37f"/>
-              <item alpha="255" value="199.25" label="199.250000" color="#e2d1bf"/>
-              <item alpha="255" value="255" label="255.000000" color="#ffffff"/>
-            </colorrampshader>
-          </rastershader>
         </rasterrenderer>
         <brightnesscontrast brightness="0" contrast="0"/>
         <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
@@ -1243,60 +1243,60 @@
         <noDataList bandNo="2" useSrcNoData="0"/>
         <noDataList bandNo="3" useSrcNoData="0"/>
       </noData>
-      <map-layer-style-manager current="Coloured Web">
+      <map-layer-style-manager current="Web">
         <map-layer-style name="Black And White Print">
-          <qgis version="2.12.3-Lyon" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
-            <pipe>
-              <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
-                <rasterTransparency/>
-              </rasterrenderer>
-              <brightnesscontrast brightness="0" contrast="0"/>
-              <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-              <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear" zoomedInResampler="cubic"/>
-            </pipe>
-            <blendMode>0</blendMode>
-          </qgis>
-        </map-layer-style>
-        <map-layer-style name="Coloured Web"/>
-        <map-layer-style name="Web">
           <qgis version="2.12.3-Lyon" minimumScale="-4.65661e-10" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
             <pipe>
-              <rasterrenderer opacity="0.498039" alphaBand="0" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+              <rasterrenderer opacity="1" alphaBand="0" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
                 <rasterTransparency/>
               </rasterrenderer>
-              <brightnesscontrast brightness="0" contrast="0"/>
+              <brightnesscontrast brightness="30" contrast="42"/>
               <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
               <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear" zoomedInResampler="cubic"/>
             </pipe>
             <blendMode>0</blendMode>
           </qgis>
         </map-layer-style>
+        <map-layer-style name="Coloured Web">
+          <qgis version="2.12.3-Lyon" minimumScale="-4.65661e-10" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
+            <pipe>
+              <rasterrenderer opacity="0.498039" alphaBand="0" classificationMax="255" classificationMinMaxOrigin="CumulativeCutFullExtentExact" band="1" classificationMin="32" type="singlebandpseudocolor">
+                <rasterTransparency/>
+                <rastershader>
+                  <colorrampshader colorRampType="INTERPOLATED" clip="0">
+                    <item alpha="255" value="32" label="32.000000" color="#8d4700"/>
+                    <item alpha="255" value="56.7778" label="56.777778" color="#995b1c"/>
+                    <item alpha="255" value="81.5556" label="81.555556" color="#a66f38"/>
+                    <item alpha="255" value="106.333" label="106.333333" color="#b38455"/>
+                    <item alpha="255" value="131.111" label="131.111111" color="#bf9871"/>
+                    <item alpha="255" value="155.889" label="155.888889" color="#ccad8d"/>
+                    <item alpha="255" value="180.667" label="180.666667" color="#d9c1aa"/>
+                    <item alpha="255" value="205.444" label="205.444444" color="#e5d6c6"/>
+                    <item alpha="255" value="230.222" label="230.222222" color="#f2eae2"/>
+                    <item alpha="255" value="255" label="255.000000" color="#ffffff"/>
+                  </colorrampshader>
+                </rastershader>
+              </rasterrenderer>
+              <brightnesscontrast brightness="0" contrast="25"/>
+              <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+              <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear" zoomedInResampler="cubic"/>
+            </pipe>
+            <blendMode>0</blendMode>
+          </qgis>
+        </map-layer-style>
+        <map-layer-style name="Web"/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer opacity="0.498039" alphaBand="0" classificationMax="255" classificationMinMaxOrigin="CumulativeCutFullExtentExact" band="1" classificationMin="32" type="singlebandpseudocolor">
+        <rasterrenderer opacity="0.498039" alphaBand="0" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
           <rasterTransparency/>
-          <rastershader>
-            <colorrampshader colorRampType="INTERPOLATED" clip="0">
-              <item alpha="255" value="32" label="32.000000" color="#8d4700"/>
-              <item alpha="255" value="56.7778" label="56.777778" color="#995b1c"/>
-              <item alpha="255" value="81.5556" label="81.555556" color="#a66f38"/>
-              <item alpha="255" value="106.333" label="106.333333" color="#b38455"/>
-              <item alpha="255" value="131.111" label="131.111111" color="#bf9871"/>
-              <item alpha="255" value="155.889" label="155.888889" color="#ccad8d"/>
-              <item alpha="255" value="180.667" label="180.666667" color="#d9c1aa"/>
-              <item alpha="255" value="205.444" label="205.444444" color="#e5d6c6"/>
-              <item alpha="255" value="230.222" label="230.222222" color="#f2eae2"/>
-              <item alpha="255" value="255" label="255.000000" color="#ffffff"/>
-            </colorrampshader>
-          </rastershader>
         </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="25"/>
+        <brightnesscontrast brightness="0" contrast="0"/>
         <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
         <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear" zoomedInResampler="cubic"/>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>ZNZ_1846_Guillain_modified20160113173059465</id>
       <datasource>./Tiffs/1846 bnw_modified.tif</datasource>
       <title></title>
@@ -1324,7 +1324,7 @@
       <noData>
         <noDataList bandNo="1" useSrcNoData="0"/>
       </noData>
-      <map-layer-style-manager current="Coloured Web">
+      <map-layer-style-manager current="Web">
         <map-layer-style name="">
           <qgis version="2.12.3-Lyon" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
             <pipe>
@@ -1361,7 +1361,33 @@
             <blendMode>0</blendMode>
           </qgis>
         </map-layer-style>
-        <map-layer-style name="Coloured Web"/>
+        <map-layer-style name="Coloured Web">
+          <qgis version="2.12.3-Lyon" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
+            <pipe>
+              <rasterrenderer opacity="0.498039" alphaBand="0" classificationMax="255" classificationMinMaxOrigin="CumulativeCutFullExtentExact" band="1" classificationMin="32" type="singlebandpseudocolor">
+                <rasterTransparency/>
+                <rastershader>
+                  <colorrampshader colorRampType="INTERPOLATED" clip="0">
+                    <item alpha="255" value="32" label="32.000000" color="#8d4700"/>
+                    <item alpha="255" value="56.7778" label="56.777778" color="#995b1c"/>
+                    <item alpha="255" value="81.5556" label="81.555556" color="#a66f38"/>
+                    <item alpha="255" value="106.333" label="106.333333" color="#b38455"/>
+                    <item alpha="255" value="131.111" label="131.111111" color="#bf9871"/>
+                    <item alpha="255" value="155.889" label="155.888889" color="#ccad8d"/>
+                    <item alpha="255" value="180.667" label="180.666667" color="#d9c1aa"/>
+                    <item alpha="255" value="205.444" label="205.444444" color="#e5d6c6"/>
+                    <item alpha="255" value="230.222" label="230.222222" color="#f2eae2"/>
+                    <item alpha="255" value="255" label="255.000000" color="#ffffff"/>
+                  </colorrampshader>
+                </rastershader>
+              </rasterrenderer>
+              <brightnesscontrast brightness="0" contrast="25"/>
+              <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+              <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear" zoomedInResampler="cubic"/>
+            </pipe>
+            <blendMode>0</blendMode>
+          </qgis>
+        </map-layer-style>
         <map-layer-style name="Print Color">
           <qgis version="2.12.3-Lyon" minimumScale="0" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
             <pipe>
@@ -1380,44 +1406,18 @@
             <blendMode>0</blendMode>
           </qgis>
         </map-layer-style>
-        <map-layer-style name="Web">
-          <qgis version="2.12.3-Lyon" minimumScale="-4.65661e-10" maximumScale="1e+08" hasScaleBasedVisibilityFlag="0">
-            <pipe>
-              <rasterrenderer gradient="BlackToWhite" opacity="0.494118" alphaBand="0" type="singlebandgray" grayBand="1">
-                <rasterTransparency/>
-                <contrastEnhancement>
-                  <minValue>24</minValue>
-                  <maxValue>232</maxValue>
-                  <algorithm>StretchToMinimumMaximum</algorithm>
-                </contrastEnhancement>
-              </rasterrenderer>
-              <brightnesscontrast brightness="0" contrast="0"/>
-              <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-              <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear" zoomedInResampler="cubic"/>
-            </pipe>
-            <blendMode>0</blendMode>
-          </qgis>
-        </map-layer-style>
+        <map-layer-style name="Web"/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer opacity="0.498039" alphaBand="0" classificationMax="255" classificationMinMaxOrigin="CumulativeCutFullExtentExact" band="1" classificationMin="32" type="singlebandpseudocolor">
+        <rasterrenderer gradient="BlackToWhite" opacity="0.494118" alphaBand="0" type="singlebandgray" grayBand="1">
           <rasterTransparency/>
-          <rastershader>
-            <colorrampshader colorRampType="INTERPOLATED" clip="0">
-              <item alpha="255" value="32" label="32.000000" color="#8d4700"/>
-              <item alpha="255" value="56.7778" label="56.777778" color="#995b1c"/>
-              <item alpha="255" value="81.5556" label="81.555556" color="#a66f38"/>
-              <item alpha="255" value="106.333" label="106.333333" color="#b38455"/>
-              <item alpha="255" value="131.111" label="131.111111" color="#bf9871"/>
-              <item alpha="255" value="155.889" label="155.888889" color="#ccad8d"/>
-              <item alpha="255" value="180.667" label="180.666667" color="#d9c1aa"/>
-              <item alpha="255" value="205.444" label="205.444444" color="#e5d6c6"/>
-              <item alpha="255" value="230.222" label="230.222222" color="#f2eae2"/>
-              <item alpha="255" value="255" label="255.000000" color="#ffffff"/>
-            </colorrampshader>
-          </rastershader>
+          <contrastEnhancement>
+            <minValue>24</minValue>
+            <maxValue>232</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
         </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="25"/>
+        <brightnesscontrast brightness="0" contrast="0"/>
         <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
         <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear" zoomedInResampler="cubic"/>
       </pipe>
@@ -1530,34 +1530,16 @@
         <edittype widgetv2type="TextEdit" name="roof:material">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="roof:shape">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="roof:structure">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="shop">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="source:date">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="start_date">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="tourism">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="website">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="wikipedia">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="AREA">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="PERIMETER">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -1854,34 +1836,16 @@
         <edittype widgetv2type="TextEdit" name="roof:material">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="roof:shape">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="roof:structure">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="shop">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="source:date">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="start_date">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="tourism">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="website">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="wikipedia">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="AREA">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="PERIMETER">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -1993,34 +1957,16 @@
         <edittype widgetv2type="TextEdit" name="roof:material">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="roof:shape">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="roof:structure">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="shop">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="source:date">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="start_date">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="tourism">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="website">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="wikipedia">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="AREA">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="PERIMETER">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -2317,34 +2263,16 @@
         <edittype widgetv2type="TextEdit" name="roof:material">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="roof:shape">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="roof:structure">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="shop">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="source:date">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="start_date">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="tourism">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="website">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="wikipedia">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="AREA">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="PERIMETER">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -2494,12 +2422,10 @@
     <WMSUrl type="QString"></WMSUrl>
   </properties>
   <visibility-presets>
-    <visibility-preset name="Black and White Print">
-      <layer style="Black And White Print" id="ZNZ_1846_Guillain_modified20160113173059465"/>
-    </visibility-preset>
+    <visibility-preset name="Black and White Print"/>
     <visibility-preset name="Users"/>
     <visibility-preset name="Web (Default)">
-      <layer style="Web" id="ZNZ_1846_Guillain_modified20160113173059465"/>
+      <layer style="Web" id="1987_bnw_modified20160125151948280"/>
     </visibility-preset>
     <visibility-preset name="Web Coloured">
       <layer style="" id="buildings20160114163633170"/>
