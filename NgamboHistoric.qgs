@@ -1,7 +1,7 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="Ng'ambo Historic Mapping" version="2.12.3-Lyon">
+<qgis projectname="Ng'ambo Historic Mapping" version="2.8.6-Wien">
   <title>Ng'ambo Historic Mapping</title>
-  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+  <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
     <layer-tree-group expanded="1" checked="Qt::Checked" name="Places">
       <customproperties/>
@@ -12,7 +12,7 @@
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="1" checked="Qt::Checked" mutually-exclusive="1" name="Historic" mutually-exclusive-child="0">
+    <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Historic">
       <customproperties/>
       <layer-tree-layer expanded="0" checked="Qt::Checked" id="1987_bnw_modified20160125151948280" name="1987 Zanzibar Plan">
         <customproperties/>
@@ -108,6 +108,18 @@
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="leisure20160114013644656"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
+  <visibility-presets>
+    <visibility-preset name="Black and White Print"/>
+    <visibility-preset name="Users"/>
+    <visibility-preset name="Web (Default)">
+      <layer style="Web" id="1987_bnw_modified20160125151948280"/>
+    </visibility-preset>
+    <visibility-preset name="Web Coloured">
+      <layer style="" id="buildings20160114163613877"/>
+      <layer style="" id="buildings20160114163633170"/>
+      <layer style="Coloured Web" id="ZNZ_1846_Guillain_modified20160113173059465"/>
+    </visibility-preset>
+  </visibility-presets>
   <layer-tree-canvas>
     <custom-order enabled="0">
       <item>Baumann_1897_modified20160105131027383</item>
@@ -134,7 +146,7 @@
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="true" checked="Qt::Checked" name="Historic">
+    <legendgroup open="true" checked="Qt::PartiallyChecked" name="Historic">
       <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="1987 Zanzibar Plan" showFeatureCount="0">
         <filegroup open="false" hidden="false">
           <legendlayerfile isInOverview="0" layerid="1987_bnw_modified20160125151948280" visible="1"/>
@@ -173,14 +185,14 @@
     </legendgroup>
   </legend>
   <Composer title="Architectural Style" visible="0">
-    <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" alignmentSnap="1" printResolution="600" paperWidth="841" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="1" generateWorldFile="0" paperHeight="1189" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
-      <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+    <Composition gridVisible="0" printResolution="600" paperWidth="841" snapGridOffsetX="0" guidesVisible="1" snapGridResolution="10" snapGridOffsetY="0" alignmentSnap="1" snapping="0" snapTolerancePixels="5" numPages="1" paperHeight="1189" smartGuides="1" printAsRaster="1" generateWorldFile="0">
+      <symbol alpha="1" type="fill" name="">
         <layer pass="0" class="SimpleFill" locked="0">
-          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="border_width_map_unit_scale" v="0,0"/>
           <prop k="color" v="255,255,255,255"/>
           <prop k="joinstyle" v="miter"/>
           <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="0,0,0,255"/>
           <prop k="outline_style" v="no"/>
@@ -189,49 +201,35 @@
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <ComposerLegend symbolWidth="7" title="Legend" boxSpace="2" rasterBorderWidth="0" splitLayer="0" equalColumnWidth="0" map="0" titleAlignment="1" rasterBorder="1" symbolHeight="4" wmsLegendHeight="25" wrapChar="" fontColor="#000000" columnSpace="2" wmsLegendWidth="50" columnCount="1" rasterBorderColor="0,0,0,255">
+      <ComposerLegend symbolWidth="7" title="Legend" boxSpace="2" splitLayer="0" equalColumnWidth="0" map="0" titleAlignment="1" symbolHeight="4" wmsLegendHeight="25" wrapChar="" fontColor="#000000" columnSpace="2" wmsLegendWidth="50" columnCount="1">
         <styles>
-          <style marginBottom="2" name="title">
-            <styleFont description="Ubuntu,16,-1,5,50,0,0,0,0,0" style=""/>
-          </style>
-          <style marginTop="2" name="group">
-            <styleFont description="Ubuntu,14,-1,5,50,0,0,0,0,0" style=""/>
-          </style>
-          <style marginTop="2" name="subgroup">
-            <styleFont description="Ubuntu,12,-1,5,50,0,0,0,0,0" style=""/>
-          </style>
-          <style marginTop="2" name="symbol">
-            <styleFont description="Ubuntu,9,-1,5,50,0,0,0,0,0" style=""/>
-          </style>
-          <style marginTop="2" marginLeft="2" name="symbolLabel">
-            <styleFont description="Ubuntu,12,-1,5,50,0,0,0,0,0" style=""/>
-          </style>
+          <style marginBottom="2" name="title" font=",10,-1,0,50,0,0,0,0,0"/>
+          <style marginTop="2" name="group" font=",10,-1,0,50,0,0,0,0,0"/>
+          <style marginTop="2" name="subgroup" font=",10,-1,0,50,0,0,0,0,0"/>
+          <style marginTop="2" name="symbol" font=",10,-1,0,50,0,0,0,0,0"/>
+          <style marginTop="2" marginLeft="2" name="symbolLabel" font=",10,-1,0,50,0,0,0,0,0"/>
         </styles>
-        <ComposerItem pagey="1049.3" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="66.5717" y="1049.3" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="73.5" outlineWidth="0.3" excludeFromExports="0" uuid="{d98c76d0-6312-4129-92ce-6d2ae066368d}" height="188.5" itemRotation="0" frame="false" pagex="66.5717">
+        <ComposerItem pagey="1049.3" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="66.5717" y="1049.3" visibility="1" zValue="4" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="68.05" outlineWidth="0.3" excludeFromExports="0" uuid="{d98c76d0-6312-4129-92ce-6d2ae066368d}" height="129.7" itemRotation="0" frame="false" pagex="66.5717">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-          <customproperties/>
         </ComposerItem>
       </ComposerLegend>
-      <ComposerScaleBar lineCapStyle="square" style="Single Box" numMapUnitsPerScaleBarUnit="1" segmentSizeMode="0" alignment="0" numSegments="4" segmentMillimeters="64.0024" lineJoinStyle="miter" minBarWidth="50" numUnitsPerSegment="100" units="1" labelBarSpace="3" outlineWidth="1" numSegmentsLeft="2" maxBarWidth="150" height="3" boxContentSpace="1" mapId="0" unitLabel="m">
-        <scaleBarFont description="Ubuntu,12,-1,5,50,0,0,0,0,0" style=""/>
+      <ComposerScaleBar segmentMillimeters="64.0024" numMapUnitsPerScaleBarUnit="1" numSegments="4" height="3" alignment="0" labelBarSpace="3" outlineWidth="1" units="1" numSegmentsLeft="2" lineJoinStyle="miter" style="Single Box" unitLabel="m" lineCapStyle="square" font="Noto Sans,12,-1,0,50,0,0,0,0,0" mapId="0" boxContentSpace="1" numUnitsPerSegment="100">
         <fillColor alpha="255" red="0" blue="0" green="0"/>
         <fillColor2 alpha="255" red="255" blue="255" green="255"/>
         <strokeColor alpha="255" red="0" blue="0" green="0"/>
         <textColor alpha="255" red="0" blue="0" green="0"/>
-        <ComposerItem pagey="1103.19" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="516.723" y="1103.19" visibility="1" zValue="3" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="335.812" outlineWidth="0.3" excludeFromExports="0" uuid="{79d39070-6dca-48cc-bb06-e1d66d897b29}" height="20" itemRotation="0" frame="false" pagex="516.723">
+        <ComposerItem pagey="1103.19" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="516.723" y="1103.19" visibility="1" zValue="3" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="336.229" outlineWidth="0.3" excludeFromExports="0" uuid="{79d39070-6dca-48cc-bb06-e1d66d897b29}" height="20" itemRotation="0" frame="false" pagex="516.723">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-          <customproperties/>
         </ComposerItem>
       </ComposerScaleBar>
       <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Ng'Ambo Architectural Styles" htmlState="0" halign="1">
-        <LabelFont description="Ubuntu,48,-1,5,63,0,0,0,0,0" style="Medium"/>
+        <LabelFont description="Ubuntu,48,-1,5,63,0,0,0,0,0"/>
         <FontColor red="0" blue="0" green="0"/>
         <ComposerItem pagey="60.2315" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="50.7213" y="60.2315" visibility="1" zValue="2" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="547.436" outlineWidth="0.3" excludeFromExports="0" uuid="{e0528a93-bd94-4e54-a8da-bd403d335009}" height="72.7685" itemRotation="0" frame="false" pagex="50.7213">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-          <customproperties/>
         </ComposerItem>
       </ComposerLabel>
       <ComposerMap mapRotation="0" keepLayerSet="true" id="0" previewMode="Render" drawCanvasItems="true">
@@ -239,13 +237,13 @@
         <LayerSet/>
         <LayerStyles/>
         <Grid/>
-        <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="0" bottomAnnotationPosition="1" annotationPrecision="3" showAnnotation="0" topFrameDivisions="0" uuid="{f98f9363-4581-4273-a20a-9f6567c4863f}" leftAnnotationDirection="0" topAnnotationPosition="1" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="0" annotationFontColor="0,0,0,255" intervalX="0" gridFrameSideFlags="15" intervalY="0" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" annotationExpression="" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.5" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="0" rightAnnotationPosition="1" gridFrameWidth="2" name="Grid 1" annotationFormat="0" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
+        <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="0" bottomAnnotationPosition="1" annotationFont=",10,-1,0,50,0,0,0,0,0" annotationPrecision="3" showAnnotation="0" topFrameDivisions="0" uuid="{f98f9363-4581-4273-a20a-9f6567c4863f}" leftAnnotationDirection="0" topAnnotationPosition="1" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="0" annotationFontColor="0,0,0,255" intervalX="0" gridFrameSideFlags="15" intervalY="0" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.5" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="0" rightAnnotationPosition="1" gridFrameWidth="2" name="Grid 1" annotationFormat="0" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
           <lineStyle>
-            <symbol alpha="1" clip_to_extent="1" type="line" name="">
+            <symbol alpha="1" type="line" name="">
               <layer pass="0" class="SimpleLine" locked="0">
                 <prop k="capstyle" v="square"/>
                 <prop k="customdash" v="5;2"/>
-                <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="customdash_map_unit_scale" v="0,0"/>
                 <prop k="customdash_unit" v="MM"/>
                 <prop k="draw_inside_polygon" v="0"/>
                 <prop k="joinstyle" v="bevel"/>
@@ -254,88 +252,70 @@
                 <prop k="line_width" v="0"/>
                 <prop k="line_width_unit" v="MM"/>
                 <prop k="offset" v="0"/>
-                <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="offset_map_unit_scale" v="0,0"/>
                 <prop k="offset_unit" v="MM"/>
                 <prop k="use_custom_dash" v="0"/>
-                <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="width_map_unit_scale" v="0,0"/>
               </layer>
             </symbol>
           </lineStyle>
           <markerStyle>
-            <symbol alpha="1" clip_to_extent="1" type="marker" name="">
+            <symbol alpha="1" type="marker" name="">
               <layer pass="0" class="SimpleMarker" locked="0">
                 <prop k="angle" v="0"/>
                 <prop k="color" v="0,0,0,255"/>
                 <prop k="horizontal_anchor_point" v="1"/>
                 <prop k="name" v="circle"/>
                 <prop k="offset" v="0,0"/>
-                <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="offset_map_unit_scale" v="0,0"/>
                 <prop k="offset_unit" v="MM"/>
                 <prop k="outline_color" v="0,0,0,255"/>
                 <prop k="outline_style" v="solid"/>
                 <prop k="outline_width" v="0"/>
-                <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="outline_width_map_unit_scale" v="0,0"/>
                 <prop k="outline_width_unit" v="MM"/>
                 <prop k="scale_method" v="diameter"/>
                 <prop k="size" v="2"/>
-                <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="size_map_unit_scale" v="0,0"/>
                 <prop k="size_unit" v="MM"/>
                 <prop k="vertical_anchor_point" v="1"/>
               </layer>
             </symbol>
           </markerStyle>
-          <annotationFontProperties description="Ubuntu,9,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
         <ComposerItem pagey="133" page="1" id="" lastValidViewScaleFactor="0.468248" positionMode="4" positionLock="false" x="63" y="133" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="706" outlineWidth="0.3" excludeFromExports="1" uuid="{29f3f5e9-0ec4-4419-ae5b-7b54d7976c4d}" height="887" itemRotation="0" frame="false" pagex="63">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-          <customproperties/>
         </ComposerItem>
       </ComposerMap>
-      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" resizeMode="0" filterFeatures="false" featureFilter="" emptyTableMode="0" wrapString="" wrapBehaviour="0" headerMode="0" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="0" vectorLayer="buildings20160114163613877" composerMap="0" headerHAlignment="0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="1" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.5" gridColor="0,0,0,255" showUniqueRowsOnly="0">
-        <headerFontProperties description="Ubuntu,9,-1,5,50,0,0,0,0,0" style=""/>
-        <contentFontProperties description="Ubuntu,9,-1,5,50,0,0,0,0,0" style=""/>
+      <ComposerAttributeTableV2 source="0" showGrid="1" maxFeatures="30" contentFont=",10,-1,0,50,0,0,0,0,0" resizeMode="0" filterFeatures="false" featureFilter="" emptyTableMode="0" headerMode="0" backgroundColor="255,255,255,255" showEmptyRows="0" emptyTableMessage="" showOnlyVisibleFeatures="0" vectorLayer="buildings20160114163613877" composerMap="0" headerHAlignment="0" headerFont=",10,-1,0,50,0,0,0,0,0" contentFontColor="0,0,0,255" headerFontColor="0,0,0,255" cellMargin="1" filterToAtlasIntersection="0" relationId="" gridStrokeWidth="0.5" gridColor="0,0,0,255" showUniqueRowsOnly="0">
         <displayColumns>
-          <column width="0" vAlignment="128" attribute="id" sortByRank="0" hAlignment="1" heading="id" sortOrder="0">
+          <column width="0" attribute="id" sortByRank="0" hAlignment="1" heading="id" sortOrder="0">
             <backgroundColor alpha="0" red="0" blue="0" green="0"/>
           </column>
-          <column width="0" vAlignment="128" attribute="waterway" sortByRank="0" hAlignment="1" heading="waterway" sortOrder="0">
+          <column width="0" attribute="waterway" sortByRank="0" hAlignment="1" heading="waterway" sortOrder="0">
             <backgroundColor alpha="0" red="0" blue="0" green="0"/>
           </column>
         </displayColumns>
-        <cellStyles>
-          <oddColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <evenColumns enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <oddRows enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <evenRows enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <firstColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <lastColumn enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <headerRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <firstRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-          <lastRow enabled="0" cellBackgroundColor="255,255,255,255"/>
-        </cellStyles>
-        <ComposerFrame sectionWidth="36.1" sectionHeight="82.4221" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="0">
-          <ComposerItem pagey="41.2111" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="573.785" y="41.2111" visibility="0" zValue="5" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="36.1" outlineWidth="0.3" excludeFromExports="0" uuid="{518838c7-6010-4d20-99be-c3e3e4750aff}" height="82.4221" itemRotation="0" frame="false" pagex="573.785">
+        <ComposerFrame sectionWidth="42.5844" sectionHeight="82.4221" hideBackgroundIfEmpty="0" hidePageIfEmpty="0" sectionX="0" sectionY="0">
+          <ComposerItem pagey="41.2111" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="573.785" y="41.2111" visibility="0" zValue="5" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="42.5844" outlineWidth="0.3" excludeFromExports="0" uuid="{518838c7-6010-4d20-99be-c3e3e4750aff}" height="82.4221" itemRotation="0" frame="false" pagex="573.785">
             <FrameColor alpha="255" red="0" blue="0" green="0"/>
             <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-            <customproperties/>
           </ComposerItem>
         </ComposerFrame>
-        <customproperties/>
       </ComposerAttributeTableV2>
-      <customproperties/>
     </Composition>
   </Composer>
   <Composer title="UrbanTypologiesA1BlackAndWhite" visible="0">
-    <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" alignmentSnap="1" printResolution="700" paperWidth="594" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="1" generateWorldFile="0" paperHeight="841" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
-      <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+    <Composition gridVisible="0" printResolution="700" paperWidth="594" snapGridOffsetX="0" guidesVisible="1" snapGridResolution="10" snapGridOffsetY="0" alignmentSnap="1" snapping="0" snapTolerancePixels="5" numPages="1" paperHeight="841" smartGuides="1" printAsRaster="1" generateWorldFile="0">
+      <symbol alpha="1" type="fill" name="">
         <layer pass="0" class="SimpleFill" locked="0">
-          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="border_width_map_unit_scale" v="0,0"/>
           <prop k="color" v="255,255,255,255"/>
           <prop k="joinstyle" v="miter"/>
           <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="0,0,0,255"/>
           <prop k="outline_style" v="no"/>
@@ -344,35 +324,23 @@
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <ComposerScaleBar lineCapStyle="square" style="Single Box" numMapUnitsPerScaleBarUnit="1000" segmentSizeMode="0" alignment="0" numSegments="4" segmentMillimeters="30.0348" lineJoinStyle="miter" minBarWidth="50" numUnitsPerSegment="100" units="1" labelBarSpace="3" outlineWidth="1" numSegmentsLeft="2" maxBarWidth="150" height="3" boxContentSpace="1" mapId="0" unitLabel="km">
-        <scaleBarFont description="Ubuntu,12,-1,5,50,0,0,0,0,0" style=""/>
+      <ComposerScaleBar segmentMillimeters="30.0348" numMapUnitsPerScaleBarUnit="1000" numSegments="4" height="3" alignment="0" labelBarSpace="3" outlineWidth="1" units="1" numSegmentsLeft="2" lineJoinStyle="miter" style="Single Box" unitLabel="km" lineCapStyle="square" font="Noto Sans,12,-1,0,50,0,0,0,0,0" mapId="0" boxContentSpace="1" numUnitsPerSegment="100">
         <fillColor alpha="255" red="0" blue="0" green="0"/>
         <fillColor2 alpha="255" red="255" blue="255" green="255"/>
         <strokeColor alpha="255" red="0" blue="0" green="0"/>
         <textColor alpha="255" red="0" blue="0" green="0"/>
-        <ComposerItem pagey="788.874" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="21.4547" y="788.874" visibility="1" zValue="4" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="166.774" outlineWidth="0.3" excludeFromExports="0" uuid="{cd8ddb98-c442-455b-9b8e-c7cb3ffff3d2}" height="20" itemRotation="0" frame="false" pagex="21.4547">
+        <ComposerItem pagey="788.874" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="21.4547" y="788.874" visibility="1" zValue="4" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="167.358" outlineWidth="0.3" excludeFromExports="0" uuid="{cd8ddb98-c442-455b-9b8e-c7cb3ffff3d2}" height="20" itemRotation="0" frame="false" pagex="21.4547">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-          <customproperties/>
         </ComposerItem>
       </ComposerScaleBar>
-      <ComposerLegend symbolWidth="7" title="Legend" rasterBorderWidth="0" titleAlignment="1" map="0" wmsLegendWidth="50" rasterBorderColor="0,0,0,255" wrapChar="" fontColor="#000000" columnCount="1" legendFilterByMap="1" wmsLegendHeight="25" columnSpace="2" symbolHeight="4" equalColumnWidth="0" splitLayer="0" boxSpace="2" rasterBorder="1">
+      <ComposerLegend symbolWidth="7" title="Legend" boxSpace="2" splitLayer="0" equalColumnWidth="0" map="0" titleAlignment="1" symbolHeight="4" wmsLegendHeight="25" wrapChar="" fontColor="#000000" columnSpace="2" wmsLegendWidth="50" legendFilterByMap="1" columnCount="1">
         <styles>
-          <style marginBottom="2" name="title">
-            <styleFont description="Ubuntu,16,-1,5,50,0,0,0,0,0" style=""/>
-          </style>
-          <style marginTop="2" name="group">
-            <styleFont description="Ubuntu,14,-1,5,50,0,0,0,0,0" style=""/>
-          </style>
-          <style marginTop="2" name="subgroup">
-            <styleFont description="Ubuntu,12,-1,5,50,0,0,0,0,0" style=""/>
-          </style>
-          <style marginTop="2" name="symbol">
-            <styleFont description="Ubuntu,9,-1,5,50,0,0,0,0,0" style=""/>
-          </style>
-          <style marginTop="2" marginLeft="2" name="symbolLabel">
-            <styleFont description="Ubuntu,12,-1,5,50,0,0,0,0,0" style=""/>
-          </style>
+          <style marginBottom="2" name="title" font=",10,-1,0,50,0,0,0,0,0"/>
+          <style marginTop="2" name="group" font=",10,-1,0,50,0,0,0,0,0"/>
+          <style marginTop="2" name="subgroup" font=",10,-1,0,50,0,0,0,0,0"/>
+          <style marginTop="2" name="symbol" font=",10,-1,0,50,0,0,0,0,0"/>
+          <style marginTop="2" marginLeft="2" name="symbolLabel" font=",10,-1,0,50,0,0,0,0,0"/>
         </styles>
         <layer-tree-group expanded="1" checked="Qt::Checked" name="">
           <customproperties/>
@@ -382,10 +350,9 @@
             </customproperties>
           </layer-tree-layer>
         </layer-tree-group>
-        <ComposerItem pagey="759.168" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="473.542" y="759.168" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="23.7" outlineWidth="0.3" excludeFromExports="0" uuid="{c304b06d-077b-4400-b8f2-19e5b2b57b21}" height="13.8" itemRotation="0" frame="false" pagex="473.542">
+        <ComposerItem pagey="759.168" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="473.542" y="759.168" visibility="1" zValue="3" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="17.8125" outlineWidth="0.3" excludeFromExports="0" uuid="{c304b06d-077b-4400-b8f2-19e5b2b57b21}" height="11.4" itemRotation="0" frame="false" pagex="473.542">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-          <customproperties/>
         </ComposerItem>
       </ComposerLegend>
       <ComposerMap mapRotation="0" keepLayerSet="true" id="0" previewMode="Render" drawCanvasItems="false">
@@ -393,13 +360,13 @@
         <LayerSet/>
         <LayerStyles/>
         <Grid/>
-        <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="0" bottomAnnotationPosition="1" annotationPrecision="3" showAnnotation="0" topFrameDivisions="0" uuid="{ab53fda5-b077-4d7a-b9a5-60bbeeb64e62}" leftAnnotationDirection="0" topAnnotationPosition="1" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="0" annotationFontColor="0,0,0,255" intervalX="0" gridFrameSideFlags="15" intervalY="0" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" annotationExpression="" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.5" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="0" rightAnnotationPosition="1" gridFrameWidth="2" name="Grid 1" annotationFormat="0" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
+        <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="0" bottomAnnotationPosition="1" annotationFont=",10,-1,0,50,0,0,0,0,0" annotationPrecision="3" showAnnotation="0" topFrameDivisions="0" uuid="{ab53fda5-b077-4d7a-b9a5-60bbeeb64e62}" leftAnnotationDirection="0" topAnnotationPosition="1" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="0" annotationFontColor="0,0,0,255" intervalX="0" gridFrameSideFlags="15" intervalY="0" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.5" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="0" rightAnnotationPosition="1" gridFrameWidth="2" name="Grid 1" annotationFormat="0" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
           <lineStyle>
-            <symbol alpha="1" clip_to_extent="1" type="line" name="">
+            <symbol alpha="1" type="line" name="">
               <layer pass="0" class="SimpleLine" locked="0">
                 <prop k="capstyle" v="square"/>
                 <prop k="customdash" v="5;2"/>
-                <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="customdash_map_unit_scale" v="0,0"/>
                 <prop k="customdash_unit" v="MM"/>
                 <prop k="draw_inside_polygon" v="0"/>
                 <prop k="joinstyle" v="bevel"/>
@@ -408,66 +375,62 @@
                 <prop k="line_width" v="0"/>
                 <prop k="line_width_unit" v="MM"/>
                 <prop k="offset" v="0"/>
-                <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="offset_map_unit_scale" v="0,0"/>
                 <prop k="offset_unit" v="MM"/>
                 <prop k="use_custom_dash" v="0"/>
-                <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="width_map_unit_scale" v="0,0"/>
               </layer>
             </symbol>
           </lineStyle>
           <markerStyle>
-            <symbol alpha="1" clip_to_extent="1" type="marker" name="">
+            <symbol alpha="1" type="marker" name="">
               <layer pass="0" class="SimpleMarker" locked="0">
                 <prop k="angle" v="0"/>
                 <prop k="color" v="0,0,0,255"/>
                 <prop k="horizontal_anchor_point" v="1"/>
                 <prop k="name" v="circle"/>
                 <prop k="offset" v="0,0"/>
-                <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="offset_map_unit_scale" v="0,0"/>
                 <prop k="offset_unit" v="MM"/>
                 <prop k="outline_color" v="0,0,0,255"/>
                 <prop k="outline_style" v="solid"/>
                 <prop k="outline_width" v="0"/>
-                <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="outline_width_map_unit_scale" v="0,0"/>
                 <prop k="outline_width_unit" v="MM"/>
                 <prop k="scale_method" v="diameter"/>
                 <prop k="size" v="2"/>
-                <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="size_map_unit_scale" v="0,0"/>
                 <prop k="size_unit" v="MM"/>
                 <prop k="vertical_anchor_point" v="1"/>
               </layer>
             </symbol>
           </markerStyle>
-          <annotationFontProperties description="Ubuntu,9,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
         <ComposerItem pagey="94.767" page="1" id="" lastValidViewScaleFactor="1.21185" positionMode="0" positionLock="false" x="70.042" y="94.767" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="495" outlineWidth="0.3" excludeFromExports="0" uuid="{1455193a-2ece-45cb-a8d3-8b0f9172dd55}" height="651.466" itemRotation="0" frame="false" pagex="70.042">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-          <customproperties/>
         </ComposerItem>
       </ComposerMap>
       <ComposerLabel valign="32" marginX="1" marginY="1" labelText="Urban Typologies Ng'ambo Area" htmlState="0" halign="1">
-        <LabelFont description="DejaVu Sans,72,-1,5,50,0,0,0,0,0" style="Book"/>
+        <LabelFont description="DejaVu Sans,72,-1,5,50,0,0,0,0,0"/>
         <FontColor red="0" blue="0" green="0"/>
         <ComposerItem pagey="14.9117" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="33.2318" y="14.9117" visibility="1" zValue="1" background="false" transparency="0" frameJoinStyle="miter" blendMode="0" width="540.053" outlineWidth="0.3" excludeFromExports="0" uuid="{b4e5c9ac-c5e1-4409-b2d9-3d649a05bf08}" height="39.6579" itemRotation="0" frame="false" pagex="33.2318">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-          <customproperties/>
         </ComposerItem>
       </ComposerLabel>
-      <customproperties/>
     </Composition>
   </Composer>
   <Composer title="Historic Map Combi Colour" visible="0">
-    <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" alignmentSnap="1" printResolution="300" paperWidth="210" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="0" generateWorldFile="0" paperHeight="297" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
-      <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+    <Composition gridVisible="0" printResolution="300" paperWidth="210" snapGridOffsetX="0" guidesVisible="1" snapGridResolution="10" snapGridOffsetY="0" alignmentSnap="1" snapping="0" snapTolerancePixels="5" numPages="1" paperHeight="297" smartGuides="1" printAsRaster="0" generateWorldFile="0">
+      <symbol alpha="1" type="fill" name="">
         <layer pass="0" class="SimpleFill" locked="0">
-          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="border_width_map_unit_scale" v="0,0"/>
           <prop k="color" v="255,255,255,255"/>
           <prop k="joinstyle" v="miter"/>
           <prop k="offset" v="0,0"/>
-          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="0,0,0,255"/>
           <prop k="outline_style" v="no"/>
@@ -476,23 +439,13 @@
           <prop k="style" v="solid"/>
         </layer>
       </symbol>
-      <ComposerLegend symbolWidth="7" title="Legend" rasterBorderWidth="0" titleAlignment="1" map="0" wmsLegendWidth="50" rasterBorderColor="0,0,0,255" wrapChar="" fontColor="#000000" columnCount="1" legendFilterByMap="1" wmsLegendHeight="25" columnSpace="2" symbolHeight="4" equalColumnWidth="0" splitLayer="0" boxSpace="2" rasterBorder="0">
+      <ComposerLegend symbolWidth="7" title="Legend" boxSpace="2" splitLayer="0" equalColumnWidth="0" map="0" titleAlignment="1" symbolHeight="4" wmsLegendHeight="25" wrapChar="" fontColor="#000000" columnSpace="2" wmsLegendWidth="50" legendFilterByMap="1" columnCount="1">
         <styles>
-          <style marginBottom="2" name="title">
-            <styleFont description="PT Sans,16,-1,5,50,0,0,0,0,0" style=""/>
-          </style>
-          <style marginTop="2" name="group">
-            <styleFont description="PT Sans,14,-1,5,50,0,0,0,0,0" style=""/>
-          </style>
-          <style marginTop="2" name="subgroup">
-            <styleFont description="PT Sans,12,-1,5,50,0,0,0,0,0" style=""/>
-          </style>
-          <style marginTop="2" name="symbol">
-            <styleFont description="PT Sans,9,-1,5,50,0,0,0,0,0" style=""/>
-          </style>
-          <style marginTop="2" marginLeft="2" name="symbolLabel">
-            <styleFont description="PT Sans,12,-1,5,50,0,0,0,0,0" style=""/>
-          </style>
+          <style marginBottom="2" name="title" font=",10,-1,0,50,0,0,0,0,0"/>
+          <style marginTop="2" name="group" font=",10,-1,0,50,0,0,0,0,0"/>
+          <style marginTop="2" name="subgroup" font=",10,-1,0,50,0,0,0,0,0"/>
+          <style marginTop="2" name="symbol" font=",10,-1,0,50,0,0,0,0,0"/>
+          <style marginTop="2" marginLeft="2" name="symbolLabel" font=",10,-1,0,50,0,0,0,0,0"/>
         </styles>
         <layer-tree-group expanded="1" checked="Qt::Unchecked" name="">
           <customproperties/>
@@ -503,7 +456,7 @@
               <property key="legend/title-label" value=""/>
             </customproperties>
           </layer-tree-layer>
-          <layer-tree-group expanded="0" checked="Qt::Unchecked" mutually-exclusive="1" name="Historic" mutually-exclusive-child="0">
+          <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Historic">
             <customproperties/>
             <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="1960_bnw_modified20160112131901836" name="1960 Land Surveys Zanzibar">
               <customproperties/>
@@ -519,23 +472,22 @@
             </layer-tree-layer>
           </layer-tree-group>
         </layer-tree-group>
-        <ComposerItem pagey="203.651" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="29.8234" y="203.651" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="51" outlineWidth="0.3" excludeFromExports="0" uuid="{7f508f56-d1a4-49f6-8fb8-fbae56e2a0d3}" height="60.9" itemRotation="0" frame="false" pagex="29.8234">
+        <ComposerItem pagey="203.651" page="1" id="" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="29.8234" y="203.651" visibility="1" zValue="2" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="50.6375" outlineWidth="0.3" excludeFromExports="0" uuid="{7f508f56-d1a4-49f6-8fb8-fbae56e2a0d3}" height="53.5" itemRotation="0" frame="false" pagex="29.8234">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-          <customproperties/>
         </ComposerItem>
       </ComposerLegend>
       <ComposerMap mapRotation="0" keepLayerSet="false" id="0" previewMode="Render" drawCanvasItems="true">
         <Extent ymin="-689102.98269732121843845" xmin="4362020.2190436590462923" ymax="-686032.34437918127514422" xmax="4364363.36309292353689671"/>
         <LayerSet/>
         <Grid/>
-        <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="0" bottomAnnotationPosition="1" annotationPrecision="3" showAnnotation="0" topFrameDivisions="0" uuid="{c8dde56e-7752-4f05-8047-79cdf1f37330}" leftAnnotationDirection="0" topAnnotationPosition="1" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="0" annotationFontColor="0,0,0,255" intervalX="0" gridFrameSideFlags="15" intervalY="0" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" annotationExpression="" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.5" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="0" rightAnnotationPosition="1" gridFrameWidth="2" name="Grid 1" annotationFormat="0" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
+        <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="0" bottomAnnotationPosition="1" annotationFont=",10,-1,0,50,0,0,0,0,0" annotationPrecision="3" showAnnotation="0" topFrameDivisions="0" uuid="{c8dde56e-7752-4f05-8047-79cdf1f37330}" leftAnnotationDirection="0" topAnnotationPosition="1" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="0" annotationFontColor="0,0,0,255" intervalX="0" gridFrameSideFlags="15" intervalY="0" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.5" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="0" rightAnnotationPosition="1" gridFrameWidth="2" name="Grid 1" annotationFormat="0" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
           <lineStyle>
-            <symbol alpha="1" clip_to_extent="1" type="line" name="">
+            <symbol alpha="1" type="line" name="">
               <layer pass="0" class="SimpleLine" locked="0">
                 <prop k="capstyle" v="square"/>
                 <prop k="customdash" v="5;2"/>
-                <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="customdash_map_unit_scale" v="0,0"/>
                 <prop k="customdash_unit" v="MM"/>
                 <prop k="draw_inside_polygon" v="0"/>
                 <prop k="joinstyle" v="bevel"/>
@@ -544,46 +496,43 @@
                 <prop k="line_width" v="0"/>
                 <prop k="line_width_unit" v="MM"/>
                 <prop k="offset" v="0"/>
-                <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="offset_map_unit_scale" v="0,0"/>
                 <prop k="offset_unit" v="MM"/>
                 <prop k="use_custom_dash" v="0"/>
-                <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="width_map_unit_scale" v="0,0"/>
               </layer>
             </symbol>
           </lineStyle>
           <markerStyle>
-            <symbol alpha="1" clip_to_extent="1" type="marker" name="">
+            <symbol alpha="1" type="marker" name="">
               <layer pass="0" class="SimpleMarker" locked="0">
                 <prop k="angle" v="0"/>
                 <prop k="color" v="0,0,0,255"/>
                 <prop k="horizontal_anchor_point" v="1"/>
                 <prop k="name" v="circle"/>
                 <prop k="offset" v="0,0"/>
-                <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="offset_map_unit_scale" v="0,0"/>
                 <prop k="offset_unit" v="MM"/>
                 <prop k="outline_color" v="0,0,0,255"/>
                 <prop k="outline_style" v="solid"/>
                 <prop k="outline_width" v="0"/>
-                <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="outline_width_map_unit_scale" v="0,0"/>
                 <prop k="outline_width_unit" v="MM"/>
                 <prop k="scale_method" v="diameter"/>
                 <prop k="size" v="2"/>
-                <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="size_map_unit_scale" v="0,0"/>
                 <prop k="size_unit" v="MM"/>
                 <prop k="vertical_anchor_point" v="1"/>
               </layer>
             </symbol>
           </markerStyle>
-          <annotationFontProperties description="Carlito,9,-1,5,50,0,0,0,0,0" style=""/>
         </ComposerMapGrid>
         <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
         <ComposerItem pagey="37.7042" page="1" id="" lastValidViewScaleFactor="1.08477" positionMode="0" positionLock="false" x="12.958" y="37.7042" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="184.084" outlineWidth="0.3" excludeFromExports="0" uuid="{8a44d0ca-29fc-4379-89de-551927976b28}" height="241.238" itemRotation="0" frame="true" pagex="12.958">
           <FrameColor alpha="255" red="0" blue="0" green="0"/>
           <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
-          <customproperties/>
         </ComposerItem>
       </ComposerMap>
-      <customproperties/>
     </Composition>
   </Composer>
   <projectlayers layercount="9">
@@ -1530,6 +1479,9 @@
         <edittype widgetv2type="TextEdit" name="roof:material">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="roof:shape">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="roof:structure">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -1542,16 +1494,25 @@
         <edittype widgetv2type="TextEdit" name="tourism">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="website">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="wikidata">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="wikipedia">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
       </edittypes>
-      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol">
+      <renderer-v2 symbollevels="0" type="singleSymbol">
         <symbols>
-          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+          <symbol alpha="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
-              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="border_width_map_unit_scale" v="0,0"/>
               <prop k="color" v="37,162,83,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MM"/>
               <prop k="outline_color" v="0,0,0,255"/>
               <prop k="outline_style" v="no"/>
@@ -1564,7 +1525,6 @@
         <rotation/>
         <sizescale scalemethod="diameter"/>
       </renderer-v2>
-      <labeling type="simple"/>
       <customproperties>
         <property key="labeling" value="pal"/>
         <property key="labeling/addDirectionSymbol" value="false"/>
@@ -1738,13 +1698,6 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <SingleCategoryDiagramRenderer diagramType="Pie">
-        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="0">
-          <fontProperties description="Ubuntu,9,-1,5,50,0,0,0,0,0" style=""/>
-          <attribute field="" color="#000000" label=""/>
-        </DiagramCategory>
-      </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" showAll="1"/>
       <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
@@ -1753,10 +1706,6 @@
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <conditionalstyles>
-        <rowstyles/>
-        <fieldstyles/>
-      </conditionalstyles>
       <edittypes>
         <edittype widgetv2type="TextEdit" name="id">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
@@ -1836,6 +1785,9 @@
         <edittype widgetv2type="TextEdit" name="roof:material">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="roof:shape">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="roof:structure">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -1846,6 +1798,15 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="tourism">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="website">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="wikidata">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="wikipedia">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -1957,6 +1918,9 @@
         <edittype widgetv2type="TextEdit" name="roof:material">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="roof:shape">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="roof:structure">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -1969,16 +1933,25 @@
         <edittype widgetv2type="TextEdit" name="tourism">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="website">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="wikidata">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="wikipedia">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
       </edittypes>
-      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol">
+      <renderer-v2 symbollevels="0" type="singleSymbol">
         <symbols>
-          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+          <symbol alpha="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
-              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="border_width_map_unit_scale" v="0,0"/>
               <prop k="color" v="248,12,59,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0"/>
               <prop k="offset_unit" v="MM"/>
               <prop k="outline_color" v="0,0,0,255"/>
               <prop k="outline_style" v="no"/>
@@ -1991,7 +1964,6 @@
         <rotation/>
         <sizescale scalemethod="diameter"/>
       </renderer-v2>
-      <labeling type="simple"/>
       <customproperties>
         <property key="labeling" value="pal"/>
         <property key="labeling/addDirectionSymbol" value="false"/>
@@ -2165,13 +2137,6 @@
         <multilineenabled fieldname="" on=""/>
         <selectedonly on=""/>
       </labelattributes>
-      <SingleCategoryDiagramRenderer diagramType="Pie">
-        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" sizeType="MM" minScaleDenominator="-4.65661e-10">
-          <fontProperties description="Ubuntu,9,-1,5,50,0,0,0,0,0" style=""/>
-          <attribute field="" color="#000000" label=""/>
-        </DiagramCategory>
-      </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings yPosColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" showAll="1"/>
       <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
@@ -2180,10 +2145,6 @@
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
-      <conditionalstyles>
-        <rowstyles/>
-        <fieldstyles/>
-      </conditionalstyles>
       <edittypes>
         <edittype widgetv2type="TextEdit" name="id">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
@@ -2263,6 +2224,9 @@
         <edittype widgetv2type="TextEdit" name="roof:material">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="roof:shape">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="roof:structure">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -2275,88 +2239,79 @@
         <edittype widgetv2type="TextEdit" name="tourism">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="website">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="wikidata">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="wikipedia">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
       </edittypes>
     </maplayer>
   </projectlayers>
   <properties>
-    <Variables>
-      <variableNames type="QStringList"/>
-      <variableValues type="QStringList"/>
-    </Variables>
-    <WMSContactPerson type="QString"></WMSContactPerson>
-    <WMSOnlineResource type="QString"></WMSOnlineResource>
-    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
-    <WMSContactOrganization type="QString">Ministry of Lands Zanzibar</WMSContactOrganization>
+    <WMSUrl type="QString"></WMSUrl>
+    <SpatialRefSys>
+      <ProjectCRSProj4String type="QString">+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</ProjectCRSProj4String>
+      <ProjectCrs type="QString">EPSG:3857</ProjectCrs>
+      <ProjectCRSID type="int">3857</ProjectCRSID>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <Measurement>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+      <AreaUnits type="QString"></AreaUnits>
+    </Measurement>
     <WMSExtent type="QStringList">
       <value>4362173.78046659659594297</value>
       <value>-688349.68945777171757072</value>
       <value>4364686.37069415953010321</value>
       <value>-687009.80056265497114509</value>
     </WMSExtent>
-    <WMSKeywordList type="QStringList">
-      <value></value>
-    </WMSKeywordList>
-    <WFSUrl type="QString"></WFSUrl>
-    <Paths>
-      <Absolute type="bool">false</Absolute>
-    </Paths>
-    <WMSServiceTitle type="QString">Ng'ambo Historic Mapping</WMSServiceTitle>
-    <WFSLayers type="QStringList"/>
-    <WMSRestrictedLayers type="QStringList"/>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <DefaultStyles>
+      <Fill type="QString"></Fill>
+      <Line type="QString"></Line>
+      <Marker type="QString"></Marker>
+      <RandomColors type="bool">true</RandomColors>
+      <AlphaInt type="int">255</AlphaInt>
+      <ColorRamp type="QString"></ColorRamp>
+    </DefaultStyles>
+    <WMSAccessConstraints type="QString"></WMSAccessConstraints>
     <WMSContactMail type="QString"></WMSContactMail>
+    <WMSImageQuality type="int">90</WMSImageQuality>
     <WMSRestrictedComposers type="QStringList"/>
-    <PositionPrecision>
-      <DecimalPlaces type="int">2</DecimalPlaces>
-      <Automatic type="bool">true</Automatic>
-      <DegreeFormat type="QString">D</DegreeFormat>
-    </PositionPrecision>
-    <WCSUrl type="QString"></WCSUrl>
-    <qgis2web>
-      <Deleteunusedfields type="int">2</Deleteunusedfields>
-      <Maxzoomlevel type="int">27</Maxzoomlevel>
-      <Addmeasuretool type="int">0</Addmeasuretool>
-      <Showpopupsonhover type="int">2</Showpopupsonhover>
-      <Exportfolder type="QString">/home/reinier/Documents/MountbattenNL/Clients/Worldbank/Zanzibar/Deliverables/Web</Exportfolder>
-      <mapFormat type="QString">OpenLayers 3</mapFormat>
-      <Precision type="int">5</Precision>
-      <Baselayer type="QString">Base layer</Baselayer>
-      <Addlayerslist type="int">2</Addlayerslist>
-      <MatchprojectCRS type="int">0</MatchprojectCRS>
-      <Highlightfeatures type="int">2</Highlightfeatures>
-      <Addaddresssearch type="int">0</Addaddresssearch>
-      <Minzoomlevel type="int">14</Minzoomlevel>
-      <Geolocateuser type="int">0</Geolocateuser>
-      <MinifyGeoJSONfiles type="int">2</MinifyGeoJSONfiles>
-      <Extent type="int">0</Extent>
-      <Restricttoextent type="int">2</Restricttoextent>
-      <Template type="QString">Template</Template>
-      <Addscalebar type="int">2</Addscalebar>
-    </qgis2web>
-    <WMSServiceCapabilities type="bool">true</WMSServiceCapabilities>
+    <WMSServiceTitle type="QString">Ng'ambo Historic Mapping</WMSServiceTitle>
     <WMSContactPhone type="QString"></WMSContactPhone>
-    <WMSServiceAbstract type="QString">The Ngambo Mapping project</WMSServiceAbstract>
-    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
-    <Measure>
-      <Ellipsoid type="QString">WGS84</Ellipsoid>
-    </Measure>
-    <WMSPrecision type="QString">8</WMSPrecision>
-    <WMSCrsList type="QStringList">
-      <value>EPSG:4326</value>
-    </WMSCrsList>
     <WFSTLayers>
       <Insert type="QStringList"/>
       <Update type="QStringList"/>
       <Delete type="QStringList"/>
     </WFSTLayers>
-    <Gui>
-      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
-      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
-      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
-      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
-      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
-      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
-      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
-    </Gui>
+    <WCSLayers type="QStringList">
+      <value>1892_bnw_modified20160125144035373</value>
+      <value>1927_bnw_modified20160122173534216</value>
+      <value>1960_bnw_modified20160112131901836</value>
+      <value>1987_bnw_modified20160125151948280</value>
+      <value>Baumann_1897_modified20160105131027383</value>
+      <value>ZNA_Post_Revolution_developments_1973_modified20160113142504650</value>
+      <value>ZNZ_1846_Guillain_modified20160113173059465</value>
+    </WCSLayers>
+    <WMSRestrictedLayers type="QStringList"/>
+    <WMSFees type="QString"></WMSFees>
+    <Macros>
+      <pythonCode type="QString"></pythonCode>
+    </Macros>
+    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+    <WCSUrl type="QString"></WCSUrl>
+    <WMSOnlineResource type="QString"></WMSOnlineResource>
+    <WMSPrecision type="QString">8</WMSPrecision>
+    <WMSCrsList type="QStringList">
+      <value>EPSG:4326</value>
+    </WMSCrsList>
     <Digitizing>
       <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
       <LayerSnappingList type="QStringList">
@@ -2387,50 +2342,60 @@
     <Identify>
       <disabledLayers type="QStringList"/>
     </Identify>
-    <Macros>
-      <pythonCode type="QString"></pythonCode>
-    </Macros>
-    <WMSAccessConstraints type="QString"></WMSAccessConstraints>
-    <WCSLayers type="QStringList">
-      <value>1892_bnw_modified20160125144035373</value>
-      <value>1927_bnw_modified20160122173534216</value>
-      <value>1960_bnw_modified20160112131901836</value>
-      <value>1987_bnw_modified20160125151948280</value>
-      <value>Baumann_1897_modified20160105131027383</value>
-      <value>ZNA_Post_Revolution_developments_1973_modified20160113142504650</value>
-      <value>ZNZ_1846_Guillain_modified20160113173059465</value>
-    </WCSLayers>
-    <Legend>
-      <filterByMap type="bool">false</filterByMap>
-    </Legend>
-    <SpatialRefSys>
-      <ProjectCRSProj4String type="QString">+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</ProjectCRSProj4String>
-      <ProjectCrs type="QString">EPSG:3857</ProjectCrs>
-      <ProjectCRSID type="int">3857</ProjectCRSID>
-      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
-    </SpatialRefSys>
-    <DefaultStyles>
-      <Fill type="QString"></Fill>
-      <Line type="QString"></Line>
-      <Marker type="QString"></Marker>
-      <RandomColors type="bool">true</RandomColors>
-      <AlphaInt type="int">255</AlphaInt>
-      <ColorRamp type="QString"></ColorRamp>
-    </DefaultStyles>
-    <WMSFees type="QString"></WMSFees>
-    <WMSImageQuality type="int">90</WMSImageQuality>
-    <WMSUrl type="QString"></WMSUrl>
+    <WMSContactPerson type="QString"></WMSContactPerson>
+    <WMSContactOrganization type="QString">Ministry of Lands Zanzibar</WMSContactOrganization>
+    <WMSKeywordList type="QStringList">
+      <value></value>
+    </WMSKeywordList>
+    <qgis2web>
+      <Deleteunusedfields type="int">2</Deleteunusedfields>
+      <Maxzoomlevel type="int">27</Maxzoomlevel>
+      <Addmeasuretool type="int">0</Addmeasuretool>
+      <Showpopupsonhover type="int">2</Showpopupsonhover>
+      <Exportfolder type="QString">/home/reinier/Documents/MountbattenNL/Clients/Worldbank/Zanzibar/Deliverables/Web</Exportfolder>
+      <mapFormat type="QString">OpenLayers 3</mapFormat>
+      <Precision type="int">5</Precision>
+      <Baselayer type="QString">Base layer</Baselayer>
+      <Addlayerslist type="int">2</Addlayerslist>
+      <MatchprojectCRS type="int">0</MatchprojectCRS>
+      <Highlightfeatures type="int">2</Highlightfeatures>
+      <Addaddresssearch type="int">0</Addaddresssearch>
+      <Minzoomlevel type="int">14</Minzoomlevel>
+      <Geolocateuser type="int">0</Geolocateuser>
+      <MinifyGeoJSONfiles type="int">2</MinifyGeoJSONfiles>
+      <Extent type="int">0</Extent>
+      <Restricttoextent type="int">2</Restricttoextent>
+      <Template type="QString">Template</Template>
+      <Addscalebar type="int">2</Addscalebar>
+    </qgis2web>
+    <Variables>
+      <variableNames type="QStringList"/>
+      <variableValues type="QStringList"/>
+    </Variables>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+      <DegreeFormat type="QString">D</DegreeFormat>
+    </PositionPrecision>
+    <Gui>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+    </Gui>
+    <WFSLayers type="QStringList"/>
+    <WMSServiceAbstract type="QString">The Ngambo Mapping project</WMSServiceAbstract>
+    <Measure>
+      <Ellipsoid type="QString">WGS84</Ellipsoid>
+    </Measure>
+    <WFSUrl type="QString"></WFSUrl>
+    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
+    <WMSServiceCapabilities type="bool">true</WMSServiceCapabilities>
   </properties>
-  <visibility-presets>
-    <visibility-preset name="Black and White Print"/>
-    <visibility-preset name="Users"/>
-    <visibility-preset name="Web (Default)">
-      <layer style="Web" id="1987_bnw_modified20160125151948280"/>
-    </visibility-preset>
-    <visibility-preset name="Web Coloured">
-      <layer style="" id="buildings20160114163633170"/>
-      <layer style="" id="buildings20160114163613877"/>
-      <layer style="Coloured Web" id="ZNZ_1846_Guillain_modified20160113173059465"/>
-    </visibility-preset>
-  </visibility-presets>
 </qgis>
