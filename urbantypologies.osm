@@ -870,7 +870,7 @@
     <nd ref='3610862628' />
     <nd ref='3847010570' />
   </way>
-  <way id='385113652' timestamp='2016-05-17T14:33:33Z' uid='109852' user='Reinier Battenberg' visible='true' version='2' changeset='39377659'>
+  <way id='385113652' action='modify' timestamp='2016-05-17T14:33:33Z' uid='109852' user='Reinier Battenberg' visible='true' version='2' changeset='39377659'>
     <nd ref='3884660220' />
     <nd ref='3884660219' />
     <nd ref='3884660218' />
@@ -1514,6 +1514,11 @@
     <nd ref='3847010550' />
     <tag k='highway' v='footway' />
   </way>
+  <relation id='-753' action='modify' visible='true'>
+    <member type='way' ref='385113652' role='outer' />
+    <tag k='type' v='multipolygon' />
+    <tag k='urban:typology' v='grid_swahili_urban' />
+  </relation>
   <relation id='6228916' timestamp='2016-05-17T14:33:30Z' uid='109852' user='Reinier Battenberg' visible='true' version='1' changeset='39377659'>
     <member type='way' ref='418984028' role='outer' />
     <member type='way' ref='418984021' role='outer' />
